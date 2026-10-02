@@ -57,12 +57,24 @@ select, input { font: inherit; color: var(--ink); background: var(--surface); bo
 .tablewrap { max-height: 480px; overflow: auto; border-top: 1px solid var(--grid); margin-top: 12px; }
 table { width: 100%; border-collapse: collapse; font-size: 14px; }
 th, td { padding: 6px 8px; text-align: right; border-bottom: 1px solid var(--grid); white-space: nowrap; }
-th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align: left; }
+th:first-child, td:first-child, #tbl th:nth-child(2), #tbl td:nth-child(2) { text-align: left; }
 td { font-variant-numeric: tabular-nums; }
-td:nth-child(2) { color: var(--muted); }
+#tbl td:nth-child(2) { color: var(--muted); }
 th { position: sticky; top: 0; background: var(--surface); color: var(--ink-2); font-weight: 600; cursor: pointer; user-select: none; }
 tr.on td { background: color-mix(in srgb, var(--accent) 12%, transparent); }
 tbody tr { cursor: pointer; }
+textarea { font: inherit; color: var(--ink); background: var(--page); border: 1px solid var(--axis); border-radius: 8px;
+  padding: 10px 12px; width: 100%; min-height: 110px; resize: vertical; }
+.num { width: 9ch; text-align: right; padding: 4px 6px; font-variant-numeric: tabular-nums; }
+button { font: inherit; font-size: 13px; color: var(--accent); background: none; border: 1px solid var(--axis);
+  border-radius: 8px; padding: 3px 10px; cursor: pointer; }
+button:hover { border-color: var(--accent); }
+.best td:first-child::after { content: " · fewest"; color: var(--muted); font-size: 12px; }
+#pieces { margin-top: 10px; line-height: 1.9; white-space: pre-wrap; word-break: break-word; font-size: 15px; }
+#pieces span { border-radius: 3px; padding: 1px 0; }
+#pieces span:nth-child(odd) { background: color-mix(in srgb, var(--accent) 18%, transparent); }
+#pieces span:nth-child(even) { background: color-mix(in srgb, var(--ink) 10%, transparent); }
+.note { color: var(--muted); font-size: 13px; margin-top: 8px; }
 footer { color: var(--muted); font-size: 14px; margin-top: 32px; }
 footer p { margin-bottom: 8px; }
 a { color: var(--accent); }
@@ -73,7 +85,38 @@ code { font-size: 13px; }
 <main>
   <h1>Tokenizer Tax</h1>
   <p class="lede">LLMs charge per token, and the same sentence takes more tokens in some languages than others.
-    Here is how much more, for 222 languages on the tokenizers behind today's models.</p>
+    Paste your own text to see what it costs on each model, or look up how much more your language pays than English.</p>
+
+  <section class="card" aria-labelledby="play-h">
+    <h2 id="play-h">Paste your text</h2>
+    <p class="sub">Tokenized in your browser; nothing is sent anywhere.</p>
+    <div class="row" style="margin-bottom:8px">
+      <label for="sample">Or try</label>
+      <select id="sample"><option value="">a sample (UDHR Article 1)</option></select>
+    </div>
+    <textarea id="text" aria-label="Text to tokenize" placeholder="Paste a prompt, a support message, a document..."></textarea>
+    <div class="tablewrap" style="max-height:none">
+      <table id="ptbl">
+        <thead><tr><th>Tokenizer</th><th>Tokens</th><th>Chars / token</th><th>vs fewest</th>
+          <th>$ / 1M tokens</th><th>Per month</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <div class="row" style="margin-top:12px">
+      <label for="permonth">Messages per month</label>
+      <input id="permonth" class="num" type="number" min="0" step="1000" value="100000">
+      <button id="loadall" type="button">Load all tokenizers</button>
+    </div>
+    <p class="note">Enter each model's input price (it changes too often to hard-code) to get a monthly cost.
+      Large tokenizers load on demand; their files come straight from Hugging Face.</p>
+    <div class="row" style="margin-top:16px">
+      <label for="show">Show tokens for</label>
+      <select id="show"></select>
+    </div>
+    <div id="pieces" aria-live="polite"></div>
+    <p class="note">Each shaded block is one token. A � is a fragment of a character: the tokenizer has never learned
+      that character, so it spends several tokens on its raw bytes. That is where the biggest taxes come from.</p>
+  </section>
 
   <section class="card" aria-labelledby="pick-h">
     <div class="row">
@@ -113,6 +156,9 @@ code { font-size: 13px; }
       Prior work: Petrov et al., <a href="https://arxiv.org/abs/2305.15425">Language Model Tokenizers Introduce Unfairness Between Languages</a> (NeurIPS 2023);
       Ahia et al., <a href="https://arxiv.org/abs/2305.13707">Do All Languages Cost the Same?</a> (EMNLP 2023).</p>
     <p id="src"></p>
+    <p>Samples: Universal Declaration of Human Rights, Article 1 (UN OHCHR translations via the Unicode UDHR project).
+      In-browser tokenizers: <a href="https://github.com/dqbd/tiktoken">js-tiktoken</a> and
+      <a href="https://github.com/huggingface/tokenizers.js">tokenizers.js</a>.</p>
   </footer>
 </main>
 <div class="tip" id="tip" role="tooltip"></div>
@@ -232,6 +278,97 @@ fetch("tax.json").then((r) => r.json()).then((D) => {
   addEventListener("resize", sky);
   render();
 });
+</script>
+
+<script type="module">
+// Playground: tokenize pasted text with every model's real tokenizer, in the browser.
+import { Tiktoken } from "https://cdn.jsdelivr.net/npm/js-tiktoken@1.0.21/lite/+esm";
+import { Tokenizer } from "https://cdn.jsdelivr.net/npm/@huggingface/tokenizers@0.2.0/+esm";
+
+const $ = (id) => document.getElementById(id);
+const AUTO_MB = 10;  // tokenizers smaller than this load straight away; bigger ones wait for a click
+const hub = (repo, file) => `https://huggingface.co/${repo}/resolve/main/${file}`;
+
+const [data, samples] = await Promise.all([fetch("tax.json").then((r) => r.json()), fetch("samples.json").then((r) => r.json())]);
+const models = Object.entries(data.tokenizers).map(([label, [backend, id]]) => ({ label, backend, id, enc: null, state: "idle", mb: null }));
+
+for (const s of samples.samples) $("sample").append(new Option(s.name, s.text));
+$("sample").addEventListener("change", (e) => { if (e.target.value) { $("text").value = e.target.value; update(); } });
+$("text").value = samples.samples.find((s) => s.name === "isiZulu").text;
+
+async function load(m) {
+  if (m.state !== "idle" && m.state !== "failed") return;
+  m.state = "loading"; update();
+  try {
+    if (m.backend === "tiktoken") {
+      const ranks = (await import(`https://cdn.jsdelivr.net/npm/js-tiktoken@1.0.21/ranks/${m.id}/+esm`)).default;
+      const t = new Tiktoken(ranks);
+      m.enc = { ids: (s) => t.encode(s, [], []), piece: (id) => t.decode([id]) };  // special-token text counts as plain text, as in the Python CLI
+    } else {
+      const [json, cfg] = await Promise.all([fetch(hub(m.id, "tokenizer.json")).then((r) => r.json()),
+                                            fetch(hub(m.id, "tokenizer_config.json")).then((r) => r.json())]);
+      const t = new Tokenizer(json, cfg);
+      m.enc = { ids: (s) => t.encode(s, { add_special_tokens: false }).ids, piece: (id) => t.decode([id]) };
+    }
+    m.state = "ready";
+  } catch (err) {
+    console.error(m.label, err); m.state = "failed";
+  }
+  update();
+}
+
+// learn each tokenizer's download size (Content-Length is CORS-safe), then auto-load the small ones
+await Promise.all(models.map(async (m) => {
+  const url = m.backend === "tiktoken" ? `https://cdn.jsdelivr.net/npm/js-tiktoken@1.0.21/ranks/${m.id}/+esm` : hub(m.id, "tokenizer.json");
+  try { m.mb = +(await fetch(url, { method: "HEAD" })).headers.get("content-length") / 1e6 || null; } catch { /* size stays unknown */ }
+}));
+for (const m of models) if (m.backend === "tiktoken" || m.mb < AUTO_MB) load(m);  // CDN may hide tiktoken sizes; they are ~1-2 MB
+$("loadall").addEventListener("click", () => models.forEach(load));
+
+const money = (x) => x >= 100 ? "$" + Math.round(x).toLocaleString() : "$" + x.toFixed(2);
+const prices = {};
+
+function update() {
+  const text = $("text").value, perMonth = +$("permonth").value || 0;
+  const counts = Object.fromEntries(models.filter((m) => m.state === "ready").map((m) => [m.label, m.enc.ids(text).length]));
+  const fewest = Math.min(...Object.values(counts));
+  const rows = models.map((m) => {
+    const tr = document.createElement("tr"), n = counts[m.label];
+    const cell = (v) => { const td = document.createElement("td"); if (v instanceof Node) td.append(v); else td.textContent = v; tr.append(td); };
+    cell(m.label);
+    if (n === undefined) {
+      const b = document.createElement("button"); b.type = "button";
+      b.textContent = m.state === "loading" ? "loading..." : m.state === "failed" ? "retry" : `load${m.mb ? ` (${Math.round(m.mb)} MB)` : ""}`;
+      b.disabled = m.state === "loading"; b.addEventListener("click", () => load(m));
+      cell(b); cell(""); cell(""); cell(""); cell("");
+      return tr;
+    }
+    if (text && n === fewest) tr.className = "best";
+    cell(n.toLocaleString()); cell(n ? (text.length / n).toFixed(2) : "-"); cell(n && fewest ? (n / fewest).toFixed(2) + "×" : "-");
+    const inp = document.createElement("input"); inp.type = "number"; inp.min = "0"; inp.step = "0.01"; inp.className = "num";
+    inp.placeholder = "price"; inp.value = prices[m.label] ?? ""; inp.setAttribute("aria-label", `${m.label} input price per million tokens`);
+    inp.addEventListener("input", () => { prices[m.label] = inp.value; month.textContent = cost(); });
+    const month = document.createElement("span");
+    const cost = () => prices[m.label] ? money(n * perMonth * prices[m.label] / 1e6) : "-";
+    month.textContent = cost(); cell(inp); cell(month);
+    return tr;
+  });
+  $("ptbl").tBodies[0].replaceChildren(...rows);
+
+  // token view for one tokenizer
+  const ready = models.filter((m) => m.state === "ready"), show = $("show"), was = show.value;
+  show.replaceChildren(...ready.map((m) => new Option(m.label, m.label)));
+  if (ready.some((m) => m.label === was)) show.value = was;
+  const m = ready.find((x) => x.label === show.value);
+  $("pieces").replaceChildren(...(m ? m.enc.ids(text).slice(0, 2000).map((id) => {
+    const s = document.createElement("span"); s.textContent = m.enc.piece(id); return s;
+  }) : []));
+}
+
+$("text").addEventListener("input", update);
+$("permonth").addEventListener("input", update);
+$("show").addEventListener("change", update);
+update();
 </script>
 </body>
 </html>

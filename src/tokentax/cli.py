@@ -10,13 +10,16 @@ import os
 import statistics
 import sys
 
-# label -> (backend, id). Open tokenizers only; models whose tokenizer is gated or API-only come later.
+# label -> (backend, id). Open tokenizers of current flagship models, as of October 2026.
+# Claude and Gemini only expose token counts through their APIs; Llama is gated and Kimi ships no tokenizer.json.
 TOKENIZERS = {
-    "GPT-5 / GPT-4o / o3": ("tiktoken", "o200k_base"),
-    "GPT-4": ("tiktoken", "cl100k_base"),
-    "Qwen3": ("hf", "Qwen/Qwen3-0.6B"),
-    "DeepSeek-V3.1": ("hf", "deepseek-ai/DeepSeek-V3.1"),
-    "GLM-4.6": ("hf", "zai-org/GLM-4.6"),
+    "GPT-5 / GPT-4o": ("tiktoken", "o200k_base"),
+    "GPT-4 (2023)": ("tiktoken", "cl100k_base"),
+    "Qwen3.8": ("hf", "Qwen/Qwen3.8-27B-FP8"),
+    "DeepSeek-V4.1": ("hf", "deepseek-ai/DeepSeek-V4.1-Flash"),
+    "GLM-5.3": ("hf", "zai-org/GLM-5.3"),
+    "Mistral Medium 3.5": ("hf", "mistralai/Mistral-Medium-3.5-128B"),
+    "Gemma 4": ("hf", "google/gemma-4-12b-it"),
 }
 
 
