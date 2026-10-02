@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tokenizer Tax</title>
+<meta name="description" content="How many more tokens, and dollars, the same text costs in your language across LLM tokenizers. 222 languages, measured on FLORES+.">
+<style>
+:root {
+  color-scheme: light;
+  --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
+  --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,.10);
+  --accent: #2a78d6; --rest: #c9c8c1; --rest-hover: #9e9d97;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) {
+    color-scheme: dark;
+    --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+    --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10);
+    --accent: #3987e5; --rest: #4a4946; --rest-hover: #6d6c68;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
+  --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10);
+  --accent: #3987e5; --rest: #4a4946; --rest-hover: #6d6c68;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink);
+  font: 16px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif; }
+main { max-width: 960px; margin: 0 auto; padding: 40px 16px 64px; }
+h1 { font-size: 28px; margin: 0 0 4px; letter-spacing: -.01em; }
+h2 { font-size: 18px; margin: 0 0 4px; }
+p { margin: 0 0 12px; }
+.lede { color: var(--ink-2); max-width: 640px; }
+.card { background: var(--surface); border: 1px solid var(--ring); border-radius: 12px; padding: 20px; margin-top: 20px; }
+.sub { color: var(--muted); font-size: 14px; margin-bottom: 16px; }
+label { font-size: 14px; color: var(--ink-2); }
+select, input { font: inherit; color: var(--ink); background: var(--surface); border: 1px solid var(--axis);
+  border-radius: 8px; padding: 6px 10px; max-width: 100%; }
+.row { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.hero { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.2fr); gap: 24px; align-items: center; }
+@media (max-width: 640px) { .hero { grid-template-columns: 1fr; } }
+.big { font-size: 64px; font-weight: 650; line-height: 1; letter-spacing: -.02em; }
+.says { color: var(--ink-2); margin-top: 8px; }
+.bars { display: grid; grid-template-columns: auto 1fr; gap: 6px 12px; align-items: center; font-size: 14px; }
+.bars .name { color: var(--ink-2); white-space: nowrap; }
+.track { display: flex; align-items: center; gap: 8px; }
+.fill { height: 14px; background: var(--accent); border-radius: 0 4px 4px 0; min-width: 2px; }
+.val { font-variant-numeric: tabular-nums; color: var(--ink); }
+#sky { width: 100%; height: 280px; display: block; touch-action: pan-y; }
+.tip { position: fixed; pointer-events: none; background: var(--surface); color: var(--ink);
+  border: 1px solid var(--ring); border-radius: 8px; padding: 6px 10px; font-size: 13px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12); display: none; z-index: 9; }
+.tip b { font-size: 15px; }
+.tablewrap { max-height: 480px; overflow: auto; border-top: 1px solid var(--grid); margin-top: 12px; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { padding: 6px 8px; text-align: right; border-bottom: 1px solid var(--grid); white-space: nowrap; }
+th:first-child, td:first-child, th:nth-child(2), td:nth-child(2) { text-align: left; }
+td { font-variant-numeric: tabular-nums; }
+td:nth-child(2) { color: var(--muted); }
+th { position: sticky; top: 0; background: var(--surface); color: var(--ink-2); font-weight: 600; cursor: pointer; user-select: none; }
+tr.on td { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+tbody tr { cursor: pointer; }
+footer { color: var(--muted); font-size: 14px; margin-top: 32px; }
+footer p { margin-bottom: 8px; }
+a { color: var(--accent); }
+code { font-size: 13px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Tokenizer Tax</h1>
+  <p class="lede">LLMs charge per token, and the same sentence takes more tokens in some languages than others.
+    Here is how much more, for 222 languages on the tokenizers behind today's models.</p>
+
+  <section class="card" aria-labelledby="pick-h">
+    <div class="row">
+      <label for="lang" id="pick-h">Your language</label>
+      <select id="lang"></select>
+    </div>
+    <div class="hero" style="margin-top:16px">
+      <div>
+        <div class="big" id="big">-</div>
+        <p class="says" id="says"></p>
+      </div>
+      <div class="bars" id="bars" aria-label="Tax on each tokenizer"></div>
+    </div>
+  </section>
+
+  <section class="card" aria-labelledby="sky-h">
+    <h2 id="sky-h">Every language, ranked</h2>
+    <p class="sub">Tokens needed relative to English for the same 1,012 sentences. Log scale; English is 1×.</p>
+    <div class="row" style="margin-bottom:8px">
+      <label for="tok">Tokenizer</label>
+      <select id="tok"></select>
+    </div>
+    <svg id="sky" role="img" aria-label="Ranked chart of the token tax for every language"></svg>
+  </section>
+
+  <section class="card" aria-labelledby="tbl-h">
+    <h2 id="tbl-h">All languages</h2>
+    <div class="row"><input id="q" type="search" placeholder="Filter, e.g. Zulu or Arab" aria-label="Filter languages"></div>
+    <div class="tablewrap"><table id="tbl"><thead></thead><tbody></tbody></table></div>
+  </section>
+
+  <footer>
+    <p><b>How it's measured.</b> Each language's tax is the number of tokens its tokenizer needs for the
+      1,012 FLORES+ devtest sentences, divided by the tokens the same tokenizer needs for the English versions
+      of those sentences. Every language says the same thing, so the difference is the tokenizer. Lower is fairer.</p>
+    <p>Text: <a href="https://huggingface.co/datasets/openlanguagedata/flores_plus">FLORES+</a> (OLDI, CC BY-SA 4.0); only counts are published here.
+      Prior work: Petrov et al., <a href="https://arxiv.org/abs/2305.15425">Language Model Tokenizers Introduce Unfairness Between Languages</a> (NeurIPS 2023);
+      Ahia et al., <a href="https://arxiv.org/abs/2305.13707">Do All Languages Cost the Same?</a> (EMNLP 2023).</p>
+    <p id="src"></p>
+  </footer>
+</main>
+<div class="tip" id="tip" role="tooltip"></div>
+
+<script>
+const $ = (id) => document.getElementById(id);
+const fmt = (x) => x.toFixed(2) + "×";
+const params = new URLSearchParams(location.hash.slice(1));
+
+fetch("tax.json").then((r) => r.json()).then((D) => {
+  const toks = Object.keys(D.tokenizers);
+  const langs = D.languages.slice().sort((a, b) => a.name.localeCompare(b.name));
+  const byCode = Object.fromEntries(langs.map((l) => [l.code, l]));
+  let sel = byCode[params.get("lang")] ? params.get("lang") : "zul_Latn";
+  let tok = toks.includes(params.get("tok")) ? params.get("tok") : toks[0];
+  $("src").textContent = "Data: " + D.source + ".";
+
+  for (const l of langs) $("lang").append(new Option(`${l.name} (${l.script})`, l.code));
+  for (const t of toks) $("tok").append(new Option(t, t));
+
+  function setHash() { history.replaceState(null, "", `#lang=${sel}&tok=${encodeURIComponent(tok)}`); }
+
+  // --- hero: one number, then the five tokenizers
+  function hero() {
+    const l = byCode[sel], x = l.tax[tok];
+    $("lang").value = sel;
+    $("big").textContent = fmt(x);
+    const pct = Math.round(Math.abs(x - 1) * 100);
+    $("says").textContent = sel === D.reference ? "English is the baseline everything is compared to."
+      : `Writing in ${l.name} takes ${pct}% ${x >= 1 ? "more" : "fewer"} tokens than the same text in English on ${tok}, so it costs ${pct}% ${x >= 1 ? "more" : "less"} at the same per-token price.`;
+    const max = Math.max(2, ...toks.map((t) => l.tax[t]));
+    $("bars").replaceChildren(...toks.flatMap((t) => {
+      const n = document.createElement("div"); n.className = "name"; n.textContent = t;
+      const tr = document.createElement("div"); tr.className = "track";
+      const f = document.createElement("div"); f.className = "fill"; f.style.width = (l.tax[t] / max * 85) + "%";
+      if (t !== tok) f.style.opacity = ".45";
+      const v = document.createElement("span"); v.className = "val"; v.textContent = fmt(l.tax[t]);
+      tr.append(f, v);
+      return [n, tr];
+    }));
+  }
+
+  // --- skyline: all languages sorted, log scale from 1x
+  const NS = "http://www.w3.org/2000/svg";
+  const el = (name, attrs) => { const e = document.createElementNS(NS, name); for (const k in attrs) e.setAttribute(k, attrs[k]); return e; };
+  function sky() {
+    const svg = $("sky"), W = svg.clientWidth, H = svg.clientHeight, L = 34, R = 8, T = 26, B = 8;
+    const rows = D.languages.slice().sort((a, b) => b.tax[tok] - a.tax[tok]);
+    const top = Math.max(16, ...rows.map((r) => r.tax[tok]));
+    const y = (v) => T + (H - T - B) * (1 - Math.log2(Math.max(v, 1)) / Math.log2(top));
+    const step = (W - L - R) / rows.length, bw = Math.max(1, Math.min(24, step - 1));
+    svg.replaceChildren();
+    for (let v = 1; v <= top; v *= 2) {
+      svg.append(el("line", { x1: L, x2: W - R, y1: y(v), y2: y(v), stroke: "var(--grid)" }));
+      const t = el("text", { x: L - 6, y: y(v) + 4, "text-anchor": "end", "font-size": 11, fill: "var(--muted)" });
+      t.textContent = v + "×"; svg.append(t);
+    }
+    let selX = 0, selY = 0;
+    rows.forEach((r, i) => {
+      const x = L + i * step, on = r.code === sel;
+      const g = el("g", { tabindex: 0, "aria-label": `${r.name}: ${fmt(r.tax[tok])}` });
+      g.append(el("rect", { x, y: T, width: step, height: H - T - B, fill: "transparent" }));  // hit target
+      const h = Math.max(1, y(1) - y(r.tax[tok]));
+      g.append(el("rect", { x: x + (step - bw) / 2, y: y(1) - h, width: bw, height: h,
+        fill: on ? "var(--accent)" : "var(--rest)", rx: Math.min(2, bw / 2) }));
+      const show = (e) => {
+        const tip = $("tip"); tip.replaceChildren();
+        const v = document.createElement("b"); v.textContent = fmt(r.tax[tok]);
+        const n = document.createElement("div"); n.textContent = `${r.name} · ${r.script}`;
+        tip.append(v, n); tip.style.display = "block";
+        // pointer position on hover; the bar itself on keyboard focus
+        const b = g.lastChild.getBoundingClientRect();
+        const cx = e.clientX ?? b.left + b.width / 2, cy = e.clientY ?? b.top;
+        tip.style.left = Math.min(innerWidth - tip.offsetWidth - 8, Math.max(8, cx - tip.offsetWidth / 2)) + "px";
+        tip.style.top = Math.max(8, cy - tip.offsetHeight - 12) + "px"; };
+      g.addEventListener("pointermove", show); g.addEventListener("focus", show);
+      g.addEventListener("pointerleave", () => $("tip").style.display = "none");
+      g.addEventListener("blur", () => $("tip").style.display = "none");
+      g.addEventListener("click", () => { sel = r.code; render(); });
+      svg.append(g);
+      if (on) { selX = x + step / 2; selY = y(1) - h; }
+    });
+    // label only the selected language and the most taxed one
+    const label = (x, yy, text) => { const t = el("text", { x, y: yy - 8, "font-size": 12, fill: "var(--ink)",
+      "text-anchor": x > W - 140 ? "end" : x < L + 100 ? "start" : "middle" }); t.textContent = text; svg.append(t); };
+    label(L + step / 2 + 2, y(rows[0].tax[tok]) + 2, `${rows[0].name} ${fmt(rows[0].tax[tok])}`);
+    if (sel !== rows[0].code) label(selX, Math.min(selY, y(1) - 14), `${byCode[sel].name} ${fmt(byCode[sel].tax[tok])}`);
+  }
+
+  // --- table
+  let sortKey = toks[0], sortDir = -1;
+  function table() {
+    const q = $("q").value.trim().toLowerCase();
+    const head = document.createElement("tr");
+    for (const k of ["Language", "Script", ...toks]) {
+      const th = document.createElement("th"); th.textContent = k + (k === sortKey ? (sortDir < 0 ? " ↓" : " ↑") : "");
+      th.addEventListener("click", () => { sortDir = k === sortKey ? -sortDir : (k === "Language" || k === "Script" ? 1 : -1); sortKey = k; table(); });
+      head.append(th);
+    }
+    $("tbl").tHead.replaceChildren(head);
+    const key = (l) => sortKey === "Language" ? l.name : sortKey === "Script" ? l.script : l.tax[sortKey];
+    const rows = D.languages.filter((l) => !q || (l.name + " " + l.script + " " + l.code).toLowerCase().includes(q))
+      .sort((a, b) => (key(a) > key(b) ? 1 : key(a) < key(b) ? -1 : 0) * sortDir);
+    $("tbl").tBodies[0].replaceChildren(...rows.map((l) => {
+      const tr = document.createElement("tr"); if (l.code === sel) tr.className = "on";
+      for (const v of [l.name, l.script, ...toks.map((t) => fmt(l.tax[t]))]) { const td = document.createElement("td"); td.textContent = v; tr.append(td); }
+      tr.addEventListener("click", () => { sel = l.code; render(); scrollTo({ top: 0, behavior: "smooth" }); });
+      return tr;
+    }));
+  }
+
+  function render() { hero(); sky(); table(); setHash(); }
+  $("lang").addEventListener("change", (e) => { sel = e.target.value; render(); });
+  $("tok").addEventListener("change", (e) => { tok = e.target.value; render(); });
+  $("tok").value = tok;
+  $("q").addEventListener("input", table);
+  addEventListener("resize", sky);
+  render();
+});
+</script>
+</body>
+</html>

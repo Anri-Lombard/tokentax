@@ -1,4 +1,4 @@
-"""Measure the token tax of every FLORES+ language on every tokenizer -> data/tax.json.
+"""Measure the token tax of every FLORES+ language on every tokenizer -> docs/tax.json (served by the site).
 
     uv run --group data scripts/build_data.py
 
@@ -55,12 +55,12 @@ def main():
         out.append(entry)
         print(f"{code:22} {name[:28]:28} " + "  ".join(f"{entry['tax'][l]:5.2f}" for l in counters), flush=True)
 
-    os.makedirs("data", exist_ok=True)
-    with open("data/tax.json", "w", encoding="utf-8") as f:
+    os.makedirs("docs", exist_ok=True)
+    with open("docs/tax.json", "w", encoding="utf-8") as f:
         json.dump({"source": f"{REPO} ({SPLIT}, revision {revision[:12]})", "license": "CC BY-SA 4.0",
                    "reference": REF, "tokenizers": {l: list(s) for l, s in TOKENIZERS.items()},
                    "languages": out}, f, ensure_ascii=False, indent=1)
-    print(f"wrote data/tax.json: {len(out)} languages x {len(counters)} tokenizers")
+    print(f"wrote docs/tax.json: {len(out)} languages x {len(counters)} tokenizers")
 
 
 if __name__ == "__main__":
