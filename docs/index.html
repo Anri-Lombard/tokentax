@@ -74,6 +74,7 @@ button:hover { border-color: var(--accent); }
 #pieces span { border-radius: 3px; padding: 1px 0; }
 #pieces span:nth-child(odd) { background: color-mix(in srgb, var(--accent) 18%, transparent); }
 #pieces span:nth-child(even) { background: color-mix(in srgb, var(--ink) 10%, transparent); }
+#pieces span[data-n]::after { content: attr(data-n); font-size: 10px; vertical-align: super; color: var(--muted); margin-left: 1px; }
 .note { color: var(--muted); font-size: 13px; margin-top: 8px; }
 footer { color: var(--muted); font-size: 14px; margin-top: 32px; }
 footer p { margin-bottom: 8px; }
@@ -114,8 +115,8 @@ code { font-size: 13px; }
       <select id="show"></select>
     </div>
     <div id="pieces" aria-live="polite"></div>
-    <p class="note">Each shaded block is one token. A � is a fragment of a character: the tokenizer has never learned
-      that character, so it spends several tokens on its raw bytes. That is where the biggest taxes come from.</p>
+    <p class="note">Each shaded block is one token. A small number after a block means that text took several tokens:
+      the tokenizer never learned those characters, so it spells them out byte by byte. That is where the biggest taxes come from.</p>
   </section>
 
   <section class="card" aria-labelledby="pick-h">
@@ -303,12 +304,13 @@ async function load(m) {
     if (m.backend === "tiktoken") {
       const ranks = (await import(`https://cdn.jsdelivr.net/npm/js-tiktoken@1.0.21/ranks/${m.id}/+esm`)).default;
       const t = new Tiktoken(ranks);
-      m.enc = { ids: (s) => t.encode(s, [], []), piece: (id) => t.decode([id]) };  // special-token text counts as plain text, as in the Python CLI
+      m.enc = { ids: (s) => t.encode(s, [], []), piece: (id) => t.decode([id]), decode: (ids) => t.decode(ids) };  // special-token text counts as plain text, as in the Python CLI
     } else {
       const [json, cfg] = await Promise.all([fetch(hub(m.id, "tokenizer.json")).then((r) => r.json()),
                                             fetch(hub(m.id, "tokenizer_config.json")).then((r) => r.json())]);
       const t = new Tokenizer(json, cfg);
-      m.enc = { ids: (s) => t.encode(s, { add_special_tokens: false }).ids, piece: (id) => t.decode([id]) };
+      m.enc = { ids: (s) => t.encode(s, { add_special_tokens: false }).ids, piece: (id) => t.decode([id]),
+                decode: (ids) => t.decode(ids) };
     }
     m.state = "ready";
   } catch (err) {
@@ -360,9 +362,23 @@ function update() {
   show.replaceChildren(...ready.map((m) => new Option(m.label, m.label)));
   if (ready.some((m) => m.label === was)) show.value = was;
   const m = ready.find((x) => x.label === show.value);
-  $("pieces").replaceChildren(...(m ? m.enc.ids(text).slice(0, 2000).map((id) => {
-    const s = document.createElement("span"); s.textContent = m.enc.piece(id); return s;
-  }) : []));
+  $("pieces").replaceChildren(...(m ? pieces(m, m.enc.ids(text).slice(0, 2000)) : []));
+}
+
+// A character the tokenizer never learned is split into byte tokens that can't be shown one by one.
+// Group consecutive tokens until they decode to whole characters, and mark how many tokens each group cost.
+function pieces(m, ids) {
+  const out = [];
+  for (let i = 0; i < ids.length;) {
+    let j = i + 1, s = m.enc.piece(ids[i]);
+    while (s.includes("\uFFFD") && j < ids.length && j - i < 8) s = m.enc.decode(ids.slice(i, ++j));
+    const span = document.createElement("span");
+    span.textContent = s;
+    if (j - i > 1) { span.dataset.n = j - i; span.title = `${j - i} tokens for this text`; }
+    out.push(span);
+    i = j;
+  }
+  return out;
 }
 
 $("text").addEventListener("input", update);
