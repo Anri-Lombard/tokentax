@@ -31,19 +31,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 111621,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 70289,
-    "GPT-4": 102540,
-    "Qwen3": 73137,
-    "DeepSeek-V3.1": 73398,
-    "GLM-4.6": 81322
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.6156,
     "GPT-4": 3.7723,
     "Qwen3": 2.6479,
     "DeepSeek-V3.1": 2.7143,
     "GLM-4.6": 2.9914
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 70289,
+    "GPT-4": 102540,
+    "Qwen3": 73137,
+    "DeepSeek-V3.1": 73398,
+    "GLM-4.6": 81322
    }
   },
   {
@@ -52,19 +52,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 141933,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48767,
-    "GPT-4": 54194,
-    "Qwen3": 54249,
-    "DeepSeek-V3.1": 52747,
-    "GLM-4.6": 53513
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8147,
     "GPT-4": 1.9937,
     "Qwen3": 1.964,
     "DeepSeek-V3.1": 1.9506,
     "GLM-4.6": 1.9685
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48767,
+    "GPT-4": 54194,
+    "Qwen3": 54249,
+    "DeepSeek-V3.1": 52747,
+    "GLM-4.6": 53513
    }
   },
   {
@@ -73,19 +73,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 113573,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 37108,
-    "GPT-4": 80901,
-    "Qwen3": 44686,
-    "DeepSeek-V3.1": 43636,
-    "GLM-4.6": 47626
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3809,
     "GPT-4": 2.9763,
     "Qwen3": 1.6178,
     "DeepSeek-V3.1": 1.6137,
     "GLM-4.6": 1.7519
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 37108,
+    "GPT-4": 80901,
+    "Qwen3": 44686,
+    "DeepSeek-V3.1": 43636,
+    "GLM-4.6": 47626
    }
   },
   {
@@ -94,19 +94,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 115113,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 37342,
-    "GPT-4": 81621,
-    "Qwen3": 45015,
-    "DeepSeek-V3.1": 43823,
-    "GLM-4.6": 48059
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3896,
     "GPT-4": 3.0028,
     "Qwen3": 1.6297,
     "DeepSeek-V3.1": 1.6206,
     "GLM-4.6": 1.7678
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 37342,
+    "GPT-4": 81621,
+    "Qwen3": 45015,
+    "DeepSeek-V3.1": 43823,
+    "GLM-4.6": 48059
    }
   },
   {
@@ -115,19 +115,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 112077,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 38168,
-    "GPT-4": 79164,
-    "Qwen3": 45548,
-    "DeepSeek-V3.1": 44327,
-    "GLM-4.6": 47838
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4203,
     "GPT-4": 2.9124,
     "Qwen3": 1.649,
     "DeepSeek-V3.1": 1.6393,
     "GLM-4.6": 1.7597
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 38168,
+    "GPT-4": 79164,
+    "Qwen3": 45548,
+    "DeepSeek-V3.1": 44327,
+    "GLM-4.6": 47838
    }
   },
   {
@@ -136,19 +136,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 139690,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 38361,
-    "GPT-4": 45896,
-    "Qwen3": 46305,
-    "DeepSeek-V3.1": 44134,
-    "GLM-4.6": 44625
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4275,
     "GPT-4": 1.6885,
     "Qwen3": 1.6764,
     "DeepSeek-V3.1": 1.6321,
     "GLM-4.6": 1.6415
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 38361,
+    "GPT-4": 45896,
+    "Qwen3": 46305,
+    "DeepSeek-V3.1": 44134,
+    "GLM-4.6": 44625
    }
   },
   {
@@ -157,19 +157,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 147064,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49201,
-    "GPT-4": 61050,
-    "Qwen3": 61457,
-    "DeepSeek-V3.1": 62111,
-    "GLM-4.6": 59995
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8309,
     "GPT-4": 2.246,
     "Qwen3": 2.225,
     "DeepSeek-V3.1": 2.2969,
     "GLM-4.6": 2.2069
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49201,
+    "GPT-4": 61050,
+    "Qwen3": 61457,
+    "DeepSeek-V3.1": 62111,
+    "GLM-4.6": 59995
    }
   },
   {
@@ -178,19 +178,19 @@
    "script": "Ethiopic (Geʻez)",
    "sentences": 1012,
    "chars": 87132,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 155290,
-    "GPT-4": 206404,
-    "Qwen3": 111737,
-    "DeepSeek-V3.1": 161525,
-    "GLM-4.6": 206224
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 5.7787,
     "GPT-4": 7.5934,
     "Qwen3": 4.0454,
     "DeepSeek-V3.1": 5.9733,
     "GLM-4.6": 7.5859
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 155290,
+    "GPT-4": 206404,
+    "Qwen3": 111737,
+    "DeepSeek-V3.1": 161525,
+    "GLM-4.6": 206224
    }
   },
   {
@@ -199,19 +199,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 107981,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 36158,
-    "GPT-4": 76568,
-    "Qwen3": 43513,
-    "DeepSeek-V3.1": 42458,
-    "GLM-4.6": 45909
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3455,
     "GPT-4": 2.8169,
     "Qwen3": 1.5754,
     "DeepSeek-V3.1": 1.5701,
     "GLM-4.6": 1.6888
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 36158,
+    "GPT-4": 76568,
+    "Qwen3": 43513,
+    "DeepSeek-V3.1": 42458,
+    "GLM-4.6": 45909
    }
   },
   {
@@ -220,19 +220,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 109046,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 36006,
-    "GPT-4": 76972,
-    "Qwen3": 42758,
-    "DeepSeek-V3.1": 42090,
-    "GLM-4.6": 45670
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3399,
     "GPT-4": 2.8317,
     "Qwen3": 1.548,
     "DeepSeek-V3.1": 1.5565,
     "GLM-4.6": 1.68
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 36006,
+    "GPT-4": 76972,
+    "Qwen3": 42758,
+    "DeepSeek-V3.1": 42090,
+    "GLM-4.6": 45670
    }
   },
   {
@@ -241,19 +241,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 113320,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 38179,
-    "GPT-4": 78321,
-    "Qwen3": 45529,
-    "DeepSeek-V3.1": 43913,
-    "GLM-4.6": 47440
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4207,
     "GPT-4": 2.8814,
     "Qwen3": 1.6483,
     "DeepSeek-V3.1": 1.6239,
     "GLM-4.6": 1.7451
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 38179,
+    "GPT-4": 78321,
+    "Qwen3": 45529,
+    "DeepSeek-V3.1": 43913,
+    "GLM-4.6": 47440
    }
   },
   {
@@ -262,19 +262,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 116307,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 37105,
-    "GPT-4": 82276,
-    "Qwen3": 44978,
-    "DeepSeek-V3.1": 43700,
-    "GLM-4.6": 48030
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3808,
     "GPT-4": 3.0269,
     "Qwen3": 1.6284,
     "DeepSeek-V3.1": 1.6161,
     "GLM-4.6": 1.7668
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 37105,
+    "GPT-4": 82276,
+    "Qwen3": 44978,
+    "DeepSeek-V3.1": 43700,
+    "GLM-4.6": 48030
    }
   },
   {
@@ -283,19 +283,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 153758,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 60450,
-    "GPT-4": 66494,
-    "Qwen3": 66636,
-    "DeepSeek-V3.1": 65157,
-    "GLM-4.6": 65920
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.2495,
     "GPT-4": 2.4463,
     "Qwen3": 2.4125,
     "DeepSeek-V3.1": 2.4096,
     "GLM-4.6": 2.4249
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 60450,
+    "GPT-4": 66494,
+    "Qwen3": 66636,
+    "DeepSeek-V3.1": 65157,
+    "GLM-4.6": 65920
    }
   },
   {
@@ -304,19 +304,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 153318,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 41804,
-    "GPT-4": 46781,
-    "Qwen3": 47095,
-    "DeepSeek-V3.1": 45509,
-    "GLM-4.6": 45142
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5556,
     "GPT-4": 1.721,
     "Qwen3": 1.705,
     "DeepSeek-V3.1": 1.683,
     "GLM-4.6": 1.6605
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 41804,
+    "GPT-4": 46781,
+    "Qwen3": 47095,
+    "DeepSeek-V3.1": 45509,
+    "GLM-4.6": 45142
    }
   },
   {
@@ -325,19 +325,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 116428,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 37239,
-    "GPT-4": 82417,
-    "Qwen3": 45098,
-    "DeepSeek-V3.1": 43907,
-    "GLM-4.6": 48200
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3857,
     "GPT-4": 3.032,
     "Qwen3": 1.6327,
     "DeepSeek-V3.1": 1.6237,
     "GLM-4.6": 1.773
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 37239,
+    "GPT-4": 82417,
+    "Qwen3": 45098,
+    "DeepSeek-V3.1": 43907,
+    "GLM-4.6": 48200
    }
   },
   {
@@ -346,19 +346,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 113429,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 39793,
-    "GPT-4": 80294,
-    "Qwen3": 46740,
-    "DeepSeek-V3.1": 45729,
-    "GLM-4.6": 49119
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4808,
     "GPT-4": 2.9539,
     "Qwen3": 1.6922,
     "DeepSeek-V3.1": 1.6911,
     "GLM-4.6": 1.8068
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 39793,
+    "GPT-4": 80294,
+    "Qwen3": 46740,
+    "DeepSeek-V3.1": 45729,
+    "GLM-4.6": 49119
    }
   },
   {
@@ -367,19 +367,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 113770,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 37772,
-    "GPT-4": 80244,
-    "Qwen3": 45134,
-    "DeepSeek-V3.1": 43961,
-    "GLM-4.6": 47596
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4056,
     "GPT-4": 2.9521,
     "Qwen3": 1.634,
     "DeepSeek-V3.1": 1.6257,
     "GLM-4.6": 1.7508
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 37772,
+    "GPT-4": 80244,
+    "Qwen3": 45134,
+    "DeepSeek-V3.1": 43961,
+    "GLM-4.6": 47596
    }
   },
   {
@@ -388,19 +388,19 @@
    "script": "Bengali (Bangla)",
    "sentences": 1012,
    "chars": 125936,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 53433,
-    "GPT-4": 167217,
-    "Qwen3": 148763,
-    "DeepSeek-V3.1": 72837,
-    "GLM-4.6": 167233
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9884,
     "GPT-4": 6.1518,
     "Qwen3": 5.3859,
     "DeepSeek-V3.1": 2.6936,
     "GLM-4.6": 6.1517
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 53433,
+    "GPT-4": 167217,
+    "Qwen3": 148763,
+    "DeepSeek-V3.1": 72837,
+    "GLM-4.6": 167233
    }
   },
   {
@@ -409,19 +409,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 136373,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 38002,
-    "GPT-4": 42773,
-    "Qwen3": 42928,
-    "DeepSeek-V3.1": 41502,
-    "GLM-4.6": 40965
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4141,
     "GPT-4": 1.5736,
     "Qwen3": 1.5542,
     "DeepSeek-V3.1": 1.5348,
     "GLM-4.6": 1.5069
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 38002,
+    "GPT-4": 42773,
+    "Qwen3": 42928,
+    "DeepSeek-V3.1": 41502,
+    "GLM-4.6": 40965
    }
   },
   {
@@ -430,19 +430,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 128171,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45825,
-    "GPT-4": 128978,
-    "Qwen3": 118873,
-    "DeepSeek-V3.1": 78394,
-    "GLM-4.6": 129004
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7052,
     "GPT-4": 4.745,
     "Qwen3": 4.3037,
     "DeepSeek-V3.1": 2.8991,
     "GLM-4.6": 4.7454
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45825,
+    "GPT-4": 128978,
+    "Qwen3": 118873,
+    "DeepSeek-V3.1": 78394,
+    "GLM-4.6": 129004
    }
   },
   {
@@ -451,19 +451,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 138617,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 52120,
-    "GPT-4": 59163,
-    "Qwen3": 59448,
-    "DeepSeek-V3.1": 57928,
-    "GLM-4.6": 58525
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9395,
     "GPT-4": 2.1766,
     "Qwen3": 2.1523,
     "DeepSeek-V3.1": 2.1422,
     "GLM-4.6": 2.1528
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 52120,
+    "GPT-4": 59163,
+    "Qwen3": 59448,
+    "DeepSeek-V3.1": 57928,
+    "GLM-4.6": 58525
    }
   },
   {
@@ -472,19 +472,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 117061,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49876,
-    "GPT-4": 90217,
-    "Qwen3": 71857,
-    "DeepSeek-V3.1": 55323,
-    "GLM-4.6": 58511
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.856,
     "GPT-4": 3.319,
     "Qwen3": 2.6015,
     "DeepSeek-V3.1": 2.0459,
     "GLM-4.6": 2.1523
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49876,
+    "GPT-4": 90217,
+    "Qwen3": 71857,
+    "DeepSeek-V3.1": 55323,
+    "GLM-4.6": 58511
    }
   },
   {
@@ -493,19 +493,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 143739,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46043,
-    "GPT-4": 71695,
-    "Qwen3": 68811,
-    "DeepSeek-V3.1": 67174,
-    "GLM-4.6": 68137
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7134,
     "GPT-4": 2.6376,
     "Qwen3": 2.4913,
     "DeepSeek-V3.1": 2.4842,
     "GLM-4.6": 2.5064
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46043,
+    "GPT-4": 71695,
+    "Qwen3": 68811,
+    "DeepSeek-V3.1": 67174,
+    "GLM-4.6": 68137
    }
   },
   {
@@ -514,19 +514,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 133222,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46891,
-    "GPT-4": 115669,
-    "Qwen3": 86239,
-    "DeepSeek-V3.1": 79726,
-    "GLM-4.6": 100504
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7449,
     "GPT-4": 4.2554,
     "Qwen3": 3.1222,
     "DeepSeek-V3.1": 2.9483,
     "GLM-4.6": 3.697
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46891,
+    "GPT-4": 115669,
+    "Qwen3": 86239,
+    "DeepSeek-V3.1": 79726,
+    "GLM-4.6": 100504
    }
   },
   {
@@ -535,19 +535,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 126349,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 54646,
-    "GPT-4": 69421,
-    "Qwen3": 58726,
-    "DeepSeek-V3.1": 59092,
-    "GLM-4.6": 68256
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.0335,
     "GPT-4": 2.5539,
     "Qwen3": 2.1261,
     "DeepSeek-V3.1": 2.1853,
     "GLM-4.6": 2.5108
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 54646,
+    "GPT-4": 69421,
+    "Qwen3": 58726,
+    "DeepSeek-V3.1": 59092,
+    "GLM-4.6": 68256
    }
   },
   {
@@ -556,19 +556,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 145570,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 42175,
-    "GPT-4": 48610,
-    "Qwen3": 49015,
-    "DeepSeek-V3.1": 45805,
-    "GLM-4.6": 47868
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5694,
     "GPT-4": 1.7883,
     "Qwen3": 1.7746,
     "DeepSeek-V3.1": 1.6939,
     "GLM-4.6": 1.7608
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 42175,
+    "GPT-4": 48610,
+    "Qwen3": 49015,
+    "DeepSeek-V3.1": 45805,
+    "GLM-4.6": 47868
    }
   },
   {
@@ -577,19 +577,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 147991,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 53340,
-    "GPT-4": 95072,
-    "Qwen3": 82064,
-    "DeepSeek-V3.1": 70801,
-    "GLM-4.6": 71784
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9849,
     "GPT-4": 3.4976,
     "Qwen3": 2.9711,
     "DeepSeek-V3.1": 2.6183,
     "GLM-4.6": 2.6406
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 53340,
+    "GPT-4": 95072,
+    "Qwen3": 82064,
+    "DeepSeek-V3.1": 70801,
+    "GLM-4.6": 71784
    }
   },
   {
@@ -598,19 +598,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 160751,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 51982,
-    "GPT-4": 60165,
-    "Qwen3": 60413,
-    "DeepSeek-V3.1": 59738,
-    "GLM-4.6": 59483
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9344,
     "GPT-4": 2.2134,
     "Qwen3": 2.1872,
     "DeepSeek-V3.1": 2.2092,
     "GLM-4.6": 2.1881
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 51982,
+    "GPT-4": 60165,
+    "Qwen3": 60413,
+    "DeepSeek-V3.1": 59738,
+    "GLM-4.6": 59483
    }
   },
   {
@@ -619,19 +619,19 @@
    "script": "Bengali (Bangla)",
    "sentences": 1012,
    "chars": 129042,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45592,
-    "GPT-4": 157626,
-    "Qwen3": 138814,
-    "DeepSeek-V3.1": 54532,
-    "GLM-4.6": 157638
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6966,
     "GPT-4": 5.7989,
     "Qwen3": 5.0257,
     "DeepSeek-V3.1": 2.0166,
     "GLM-4.6": 5.7987
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45592,
+    "GPT-4": 157626,
+    "Qwen3": 138814,
+    "DeepSeek-V3.1": 54532,
+    "GLM-4.6": 157638
    }
   },
   {
@@ -640,19 +640,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 128611,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47630,
-    "GPT-4": 127234,
-    "Qwen3": 118787,
-    "DeepSeek-V3.1": 78647,
-    "GLM-4.6": 127259
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7724,
     "GPT-4": 4.6808,
     "Qwen3": 4.3006,
     "DeepSeek-V3.1": 2.9084,
     "GLM-4.6": 4.6812
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47630,
+    "GPT-4": 127234,
+    "Qwen3": 118787,
+    "DeepSeek-V3.1": 78647,
+    "GLM-4.6": 127259
    }
   },
   {
@@ -661,19 +661,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 122230,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 68254,
-    "GPT-4": 102623,
-    "Qwen3": 71848,
-    "DeepSeek-V3.1": 72373,
-    "GLM-4.6": 77931
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.5399,
     "GPT-4": 3.7754,
     "Qwen3": 2.6012,
     "DeepSeek-V3.1": 2.6764,
     "GLM-4.6": 2.8667
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 68254,
+    "GPT-4": 102623,
+    "Qwen3": 71848,
+    "DeepSeek-V3.1": 72373,
+    "GLM-4.6": 77931
    }
   },
   {
@@ -682,19 +682,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 138182,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 38896,
-    "GPT-4": 46462,
-    "Qwen3": 46902,
-    "DeepSeek-V3.1": 43062,
-    "GLM-4.6": 46126
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4474,
     "GPT-4": 1.7093,
     "Qwen3": 1.6981,
     "DeepSeek-V3.1": 1.5925,
     "GLM-4.6": 1.6967
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 38896,
+    "GPT-4": 46462,
+    "Qwen3": 46902,
+    "DeepSeek-V3.1": 43062,
+    "GLM-4.6": 46126
    }
   },
   {
@@ -703,19 +703,19 @@
    "script": "Tibetan",
    "sentences": 1012,
    "chars": 148172,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 217568,
-    "GPT-4": 303968,
-    "Qwen3": 199611,
-    "DeepSeek-V3.1": 165908,
-    "GLM-4.6": 303934
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 8.0962,
     "GPT-4": 11.1827,
     "Qwen3": 7.2268,
     "DeepSeek-V3.1": 6.1354,
     "GLM-4.6": 11.1802
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 217568,
+    "GPT-4": 303968,
+    "Qwen3": 199611,
+    "DeepSeek-V3.1": 165908,
+    "GLM-4.6": 303934
    }
   },
   {
@@ -724,19 +724,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 132187,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 40302,
-    "GPT-4": 50906,
-    "Qwen3": 51262,
-    "DeepSeek-V3.1": 49140,
-    "GLM-4.6": 49437
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4997,
     "GPT-4": 1.8728,
     "Qwen3": 1.8559,
     "DeepSeek-V3.1": 1.8172,
     "GLM-4.6": 1.8185
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 40302,
+    "GPT-4": 50906,
+    "Qwen3": 51262,
+    "DeepSeek-V3.1": 49140,
+    "GLM-4.6": 49437
    }
   },
   {
@@ -745,19 +745,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 139375,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46725,
-    "GPT-4": 53376,
-    "Qwen3": 53766,
-    "DeepSeek-V3.1": 51571,
-    "GLM-4.6": 52592
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7387,
     "GPT-4": 1.9637,
     "Qwen3": 1.9466,
     "DeepSeek-V3.1": 1.9071,
     "GLM-4.6": 1.9346
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46725,
+    "GPT-4": 53376,
+    "Qwen3": 53766,
+    "DeepSeek-V3.1": 51571,
+    "GLM-4.6": 52592
    }
   },
   {
@@ -766,19 +766,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 137824,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46036,
-    "GPT-4": 71507,
-    "Qwen3": 60892,
-    "DeepSeek-V3.1": 53399,
-    "GLM-4.6": 48085
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7131,
     "GPT-4": 2.6307,
     "Qwen3": 2.2046,
     "DeepSeek-V3.1": 1.9747,
     "GLM-4.6": 1.7688
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46036,
+    "GPT-4": 71507,
+    "Qwen3": 60892,
+    "DeepSeek-V3.1": 53399,
+    "GLM-4.6": 48085
    }
   },
   {
@@ -787,19 +787,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 145781,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 39834,
-    "GPT-4": 46467,
-    "Qwen3": 46595,
-    "DeepSeek-V3.1": 43783,
-    "GLM-4.6": 45377
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4823,
     "GPT-4": 1.7095,
     "Qwen3": 1.6869,
     "DeepSeek-V3.1": 1.6191,
     "GLM-4.6": 1.6692
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 39834,
+    "GPT-4": 46467,
+    "Qwen3": 46595,
+    "DeepSeek-V3.1": 43783,
+    "GLM-4.6": 45377
    }
   },
   {
@@ -808,19 +808,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 145701,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 39918,
-    "GPT-4": 46440,
-    "Qwen3": 46571,
-    "DeepSeek-V3.1": 43834,
-    "GLM-4.6": 45361
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4854,
     "GPT-4": 1.7085,
     "Qwen3": 1.6861,
     "DeepSeek-V3.1": 1.621,
     "GLM-4.6": 1.6686
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 39918,
+    "GPT-4": 46440,
+    "Qwen3": 46571,
+    "DeepSeek-V3.1": 43834,
+    "GLM-4.6": 45361
    }
   },
   {
@@ -829,19 +829,19 @@
    "script": "Chakma",
    "sentences": 1012,
    "chars": 132562,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 469805,
-    "GPT-4": 469832,
-    "Qwen3": 357316,
-    "DeepSeek-V3.1": 451954,
-    "GLM-4.6": 461255
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 17.4824,
     "GPT-4": 17.2847,
     "Qwen3": 12.9364,
     "DeepSeek-V3.1": 16.7137,
     "GLM-4.6": 16.9673
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 469805,
+    "GPT-4": 469832,
+    "Qwen3": 357316,
+    "DeepSeek-V3.1": 451954,
+    "GLM-4.6": 461255
    }
   },
   {
@@ -850,19 +850,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 158685,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45021,
-    "GPT-4": 52471,
-    "Qwen3": 52906,
-    "DeepSeek-V3.1": 49385,
-    "GLM-4.6": 51782
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6753,
     "GPT-4": 1.9304,
     "Qwen3": 1.9154,
     "DeepSeek-V3.1": 1.8263,
     "GLM-4.6": 1.9048
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45021,
+    "GPT-4": 52471,
+    "Qwen3": 52906,
+    "DeepSeek-V3.1": 49385,
+    "GLM-4.6": 51782
    }
   },
   {
@@ -871,19 +871,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 127257,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 42911,
-    "GPT-4": 57116,
-    "Qwen3": 57048,
-    "DeepSeek-V3.1": 45925,
-    "GLM-4.6": 47560
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5968,
     "GPT-4": 2.1012,
     "Qwen3": 2.0654,
     "DeepSeek-V3.1": 1.6983,
     "GLM-4.6": 1.7495
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 42911,
+    "GPT-4": 57116,
+    "Qwen3": 57048,
+    "DeepSeek-V3.1": 45925,
+    "GLM-4.6": 47560
    }
   },
   {
@@ -892,19 +892,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 129823,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 79340,
-    "GPT-4": 103904,
-    "Qwen3": 78462,
-    "DeepSeek-V3.1": 87006,
-    "GLM-4.6": 87496
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.9524,
     "GPT-4": 3.8225,
     "Qwen3": 2.8407,
     "DeepSeek-V3.1": 3.2176,
     "GLM-4.6": 3.2185
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 79340,
+    "GPT-4": 103904,
+    "Qwen3": 78462,
+    "DeepSeek-V3.1": 87006,
+    "GLM-4.6": 87496
    }
   },
   {
@@ -913,19 +913,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 139261,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46507,
-    "GPT-4": 53291,
-    "Qwen3": 53034,
-    "DeepSeek-V3.1": 51978,
-    "GLM-4.6": 52139
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7306,
     "GPT-4": 1.9605,
     "Qwen3": 1.9201,
     "DeepSeek-V3.1": 1.9222,
     "GLM-4.6": 1.9179
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46507,
+    "GPT-4": 53291,
+    "Qwen3": 53034,
+    "DeepSeek-V3.1": 51978,
+    "GLM-4.6": 52139
    }
   },
   {
@@ -934,19 +934,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 131871,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 76663,
-    "GPT-4": 133742,
-    "Qwen3": 98209,
-    "DeepSeek-V3.1": 86432,
-    "GLM-4.6": 112528
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.8528,
     "GPT-4": 4.9202,
     "Qwen3": 3.5556,
     "DeepSeek-V3.1": 3.1963,
     "GLM-4.6": 4.1393
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 76663,
+    "GPT-4": 133742,
+    "Qwen3": 98209,
+    "DeepSeek-V3.1": 86432,
+    "GLM-4.6": 112528
    }
   },
   {
@@ -955,19 +955,19 @@
    "script": "Han (Simplified variant)",
    "sentences": 1012,
    "chars": 43248,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 33552,
-    "GPT-4": 50808,
-    "Qwen3": 27701,
-    "DeepSeek-V3.1": 25393,
-    "GLM-4.6": 25720
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.2485,
     "GPT-4": 1.8692,
     "Qwen3": 1.0029,
     "DeepSeek-V3.1": 0.9391,
     "GLM-4.6": 0.9461
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 33552,
+    "GPT-4": 50808,
+    "Qwen3": 27701,
+    "DeepSeek-V3.1": 25393,
+    "GLM-4.6": 25720
    }
   },
   {
@@ -976,19 +976,19 @@
    "script": "Han (Traditional variant)",
    "sentences": 1012,
    "chars": 40695,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 38071,
-    "GPT-4": 58171,
-    "Qwen3": 31625,
-    "DeepSeek-V3.1": 28707,
-    "GLM-4.6": 36378
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4167,
     "GPT-4": 2.1401,
     "Qwen3": 1.145,
     "DeepSeek-V3.1": 1.0616,
     "GLM-4.6": 1.3382
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 38071,
+    "GPT-4": 58171,
+    "Qwen3": 31625,
+    "DeepSeek-V3.1": 28707,
+    "GLM-4.6": 36378
    }
   },
   {
@@ -997,19 +997,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 134038,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45999,
-    "GPT-4": 57060,
-    "Qwen3": 53447,
-    "DeepSeek-V3.1": 57911,
-    "GLM-4.6": 52246
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7117,
     "GPT-4": 2.0992,
     "Qwen3": 1.935,
     "DeepSeek-V3.1": 2.1416,
     "GLM-4.6": 1.9219
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45999,
+    "GPT-4": 57060,
+    "Qwen3": 53447,
+    "DeepSeek-V3.1": 57911,
+    "GLM-4.6": 52246
    }
   },
   {
@@ -1018,19 +1018,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 141257,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46723,
-    "GPT-4": 58014,
-    "Qwen3": 58265,
-    "DeepSeek-V3.1": 56775,
-    "GLM-4.6": 57428
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7387,
     "GPT-4": 2.1343,
     "Qwen3": 2.1094,
     "DeepSeek-V3.1": 2.0996,
     "GLM-4.6": 2.1125
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46723,
+    "GPT-4": 58014,
+    "Qwen3": 58265,
+    "DeepSeek-V3.1": 56775,
+    "GLM-4.6": 57428
    }
   },
   {
@@ -1039,19 +1039,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 135083,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 37169,
-    "GPT-4": 43927,
-    "Qwen3": 44340,
-    "DeepSeek-V3.1": 43738,
-    "GLM-4.6": 42177
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3831,
     "GPT-4": 1.616,
     "Qwen3": 1.6053,
     "DeepSeek-V3.1": 1.6175,
     "GLM-4.6": 1.5515
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 37169,
+    "GPT-4": 43927,
+    "Qwen3": 44340,
+    "DeepSeek-V3.1": 43738,
+    "GLM-4.6": 42177
    }
   },
   {
@@ -1060,19 +1060,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 153809,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 35224,
-    "GPT-4": 43103,
-    "Qwen3": 43058,
-    "DeepSeek-V3.1": 40957,
-    "GLM-4.6": 39410
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3108,
     "GPT-4": 1.5857,
     "Qwen3": 1.5589,
     "DeepSeek-V3.1": 1.5146,
     "GLM-4.6": 1.4497
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 35224,
+    "GPT-4": 43103,
+    "Qwen3": 43058,
+    "DeepSeek-V3.1": 40957,
+    "GLM-4.6": 39410
    }
   },
   {
@@ -1081,19 +1081,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 111789,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49821,
-    "GPT-4": 60746,
-    "Qwen3": 55344,
-    "DeepSeek-V3.1": 52588,
-    "GLM-4.6": 59972
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8539,
     "GPT-4": 2.2348,
     "Qwen3": 2.0037,
     "DeepSeek-V3.1": 1.9448,
     "GLM-4.6": 2.2061
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49821,
+    "GPT-4": 60746,
+    "Qwen3": 55344,
+    "DeepSeek-V3.1": 52588,
+    "GLM-4.6": 59972
    }
   },
   {
@@ -1102,19 +1102,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 132909,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49953,
-    "GPT-4": 56082,
-    "Qwen3": 54258,
-    "DeepSeek-V3.1": 55103,
-    "GLM-4.6": 54882
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8589,
     "GPT-4": 2.0632,
     "Qwen3": 1.9644,
     "DeepSeek-V3.1": 2.0378,
     "GLM-4.6": 2.0188
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49953,
+    "GPT-4": 56082,
+    "Qwen3": 54258,
+    "DeepSeek-V3.1": 55103,
+    "GLM-4.6": 54882
    }
   },
   {
@@ -1123,19 +1123,19 @@
    "script": "Tibetan",
    "sentences": 1012,
    "chars": 163358,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 241706,
-    "GPT-4": 329998,
-    "Qwen3": 221739,
-    "DeepSeek-V3.1": 184037,
-    "GLM-4.6": 329579
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 8.9944,
     "GPT-4": 12.1403,
     "Qwen3": 8.0279,
     "DeepSeek-V3.1": 6.8059,
     "GLM-4.6": 12.1236
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 241706,
+    "GPT-4": 329998,
+    "Qwen3": 221739,
+    "DeepSeek-V3.1": 184037,
+    "GLM-4.6": 329579
    }
   },
   {
@@ -1144,19 +1144,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 129459,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 40184,
-    "GPT-4": 50885,
-    "Qwen3": 51199,
-    "DeepSeek-V3.1": 50054,
-    "GLM-4.6": 49790
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4953,
     "GPT-4": 1.872,
     "Qwen3": 1.8536,
     "DeepSeek-V3.1": 1.851,
     "GLM-4.6": 1.8315
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 40184,
+    "GPT-4": 50885,
+    "Qwen3": 51199,
+    "DeepSeek-V3.1": 50054,
+    "GLM-4.6": 49790
    }
   },
   {
@@ -1165,19 +1165,19 @@
    "script": "Greek",
    "sentences": 1012,
    "chars": 157539,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 57277,
-    "GPT-4": 139207,
-    "Qwen3": 135300,
-    "DeepSeek-V3.1": 72486,
-    "GLM-4.6": 65034
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.1314,
     "GPT-4": 5.1213,
     "Qwen3": 4.8984,
     "DeepSeek-V3.1": 2.6806,
     "GLM-4.6": 2.3923
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 57277,
+    "GPT-4": 139207,
+    "Qwen3": 135300,
+    "DeepSeek-V3.1": 72486,
+    "GLM-4.6": 65034
    }
   },
   {
@@ -1186,19 +1186,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 131966,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 26873,
-    "GPT-4": 27182,
-    "Qwen3": 27621,
-    "DeepSeek-V3.1": 27041,
-    "GLM-4.6": 27185
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.0,
     "GPT-4": 1.0,
     "Qwen3": 1.0,
     "DeepSeek-V3.1": 1.0,
     "GLM-4.6": 1.0
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 26873,
+    "GPT-4": 27182,
+    "Qwen3": 27621,
+    "DeepSeek-V3.1": 27041,
+    "GLM-4.6": 27185
    }
   },
   {
@@ -1207,19 +1207,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 131292,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 41007,
-    "GPT-4": 50712,
-    "Qwen3": 49543,
-    "DeepSeek-V3.1": 47494,
-    "GLM-4.6": 49559
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.526,
     "GPT-4": 1.8656,
     "Qwen3": 1.7937,
     "DeepSeek-V3.1": 1.7564,
     "GLM-4.6": 1.823
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 41007,
+    "GPT-4": 50712,
+    "Qwen3": 49543,
+    "DeepSeek-V3.1": 47494,
+    "GLM-4.6": 49559
    }
   },
   {
@@ -1228,19 +1228,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 139822,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43077,
-    "GPT-4": 51122,
-    "Qwen3": 51534,
-    "DeepSeek-V3.1": 46950,
-    "GLM-4.6": 50000
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.603,
     "GPT-4": 1.8807,
     "Qwen3": 1.8658,
     "DeepSeek-V3.1": 1.7363,
     "GLM-4.6": 1.8392
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43077,
+    "GPT-4": 51122,
+    "Qwen3": 51534,
+    "DeepSeek-V3.1": 46950,
+    "GLM-4.6": 50000
    }
   },
   {
@@ -1249,19 +1249,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 127448,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 62863,
-    "GPT-4": 74302,
-    "Qwen3": 64709,
-    "DeepSeek-V3.1": 67200,
-    "GLM-4.6": 73434
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.3393,
     "GPT-4": 2.7335,
     "Qwen3": 2.3427,
     "DeepSeek-V3.1": 2.4851,
     "GLM-4.6": 2.7013
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 62863,
+    "GPT-4": 74302,
+    "Qwen3": 64709,
+    "DeepSeek-V3.1": 67200,
+    "GLM-4.6": 73434
    }
   },
   {
@@ -1270,19 +1270,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 134274,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44447,
-    "GPT-4": 56457,
-    "Qwen3": 56600,
-    "DeepSeek-V3.1": 55488,
-    "GLM-4.6": 55188
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.654,
     "GPT-4": 2.077,
     "Qwen3": 2.0492,
     "DeepSeek-V3.1": 2.052,
     "GLM-4.6": 2.0301
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44447,
+    "GPT-4": 56457,
+    "Qwen3": 56600,
+    "DeepSeek-V3.1": 55488,
+    "GLM-4.6": 55188
    }
   },
   {
@@ -1291,19 +1291,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 155177,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49776,
-    "GPT-4": 58777,
-    "Qwen3": 59136,
-    "DeepSeek-V3.1": 57456,
-    "GLM-4.6": 58135
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8523,
     "GPT-4": 2.1624,
     "Qwen3": 2.141,
     "DeepSeek-V3.1": 2.1248,
     "GLM-4.6": 2.1385
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49776,
+    "GPT-4": 58777,
+    "Qwen3": 59136,
+    "DeepSeek-V3.1": 57456,
+    "GLM-4.6": 58135
    }
   },
   {
@@ -1312,19 +1312,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 166169,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45239,
-    "GPT-4": 55718,
-    "Qwen3": 56156,
-    "DeepSeek-V3.1": 53973,
-    "GLM-4.6": 54855
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6834,
     "GPT-4": 2.0498,
     "Qwen3": 2.0331,
     "DeepSeek-V3.1": 1.996,
     "GLM-4.6": 2.0178
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45239,
+    "GPT-4": 55718,
+    "Qwen3": 56156,
+    "DeepSeek-V3.1": 53973,
+    "GLM-4.6": 54855
    }
   },
   {
@@ -1333,19 +1333,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 140128,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 41945,
-    "GPT-4": 54184,
-    "Qwen3": 54541,
-    "DeepSeek-V3.1": 50494,
-    "GLM-4.6": 49863
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5609,
     "GPT-4": 1.9934,
     "Qwen3": 1.9746,
     "DeepSeek-V3.1": 1.8673,
     "GLM-4.6": 1.8342
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 41945,
+    "GPT-4": 54184,
+    "Qwen3": 54541,
+    "DeepSeek-V3.1": 50494,
+    "GLM-4.6": 49863
    }
   },
   {
@@ -1354,19 +1354,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 135260,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 77528,
-    "GPT-4": 99519,
-    "Qwen3": 79153,
-    "DeepSeek-V3.1": 86068,
-    "GLM-4.6": 98625
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.885,
     "GPT-4": 3.6612,
     "Qwen3": 2.8657,
     "DeepSeek-V3.1": 3.1829,
     "GLM-4.6": 3.6279
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 77528,
+    "GPT-4": 99519,
+    "Qwen3": 79153,
+    "DeepSeek-V3.1": 86068,
+    "GLM-4.6": 98625
    }
   },
   {
@@ -1375,19 +1375,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 157638,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 36760,
-    "GPT-4": 43661,
-    "Qwen3": 43645,
-    "DeepSeek-V3.1": 41785,
-    "GLM-4.6": 41057
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3679,
     "GPT-4": 1.6062,
     "Qwen3": 1.5801,
     "DeepSeek-V3.1": 1.5452,
     "GLM-4.6": 1.5103
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 36760,
+    "GPT-4": 43661,
+    "Qwen3": 43645,
+    "DeepSeek-V3.1": 41785,
+    "GLM-4.6": 41057
    }
   },
   {
@@ -1396,19 +1396,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 144519,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46539,
-    "GPT-4": 50251,
-    "Qwen3": 50617,
-    "DeepSeek-V3.1": 49600,
-    "GLM-4.6": 49138
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7318,
     "GPT-4": 1.8487,
     "Qwen3": 1.8326,
     "DeepSeek-V3.1": 1.8343,
     "GLM-4.6": 1.8075
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46539,
+    "GPT-4": 50251,
+    "Qwen3": 50617,
+    "DeepSeek-V3.1": 49600,
+    "GLM-4.6": 49138
    }
   },
   {
@@ -1417,19 +1417,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 122162,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43017,
-    "GPT-4": 50364,
-    "Qwen3": 48352,
-    "DeepSeek-V3.1": 49663,
-    "GLM-4.6": 49600
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6008,
     "GPT-4": 1.8528,
     "Qwen3": 1.7506,
     "DeepSeek-V3.1": 1.8366,
     "GLM-4.6": 1.8245
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43017,
+    "GPT-4": 50364,
+    "Qwen3": 48352,
+    "DeepSeek-V3.1": 49663,
+    "GLM-4.6": 49600
    }
   },
   {
@@ -1438,19 +1438,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 156418,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 50501,
-    "GPT-4": 62907,
-    "Qwen3": 63310,
-    "DeepSeek-V3.1": 62774,
-    "GLM-4.6": 61806
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8792,
     "GPT-4": 2.3143,
     "Qwen3": 2.2921,
     "DeepSeek-V3.1": 2.3214,
     "GLM-4.6": 2.2735
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 50501,
+    "GPT-4": 62907,
+    "Qwen3": 63310,
+    "DeepSeek-V3.1": 62774,
+    "GLM-4.6": 61806
    }
   },
   {
@@ -1459,19 +1459,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 162661,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 53444,
-    "GPT-4": 65556,
-    "Qwen3": 65664,
-    "DeepSeek-V3.1": 65523,
-    "GLM-4.6": 64978
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9888,
     "GPT-4": 2.4117,
     "Qwen3": 2.3773,
     "DeepSeek-V3.1": 2.4231,
     "GLM-4.6": 2.3902
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 53444,
+    "GPT-4": 65556,
+    "Qwen3": 65664,
+    "DeepSeek-V3.1": 65523,
+    "GLM-4.6": 64978
    }
   },
   {
@@ -1480,19 +1480,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 152481,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49671,
-    "GPT-4": 63170,
-    "Qwen3": 62982,
-    "DeepSeek-V3.1": 62353,
-    "GLM-4.6": 61518
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8484,
     "GPT-4": 2.324,
     "Qwen3": 2.2802,
     "DeepSeek-V3.1": 2.3059,
     "GLM-4.6": 2.2629
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49671,
+    "GPT-4": 63170,
+    "Qwen3": 62982,
+    "DeepSeek-V3.1": 62353,
+    "GLM-4.6": 61518
    }
   },
   {
@@ -1501,19 +1501,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 146143,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 35880,
-    "GPT-4": 42448,
-    "Qwen3": 42627,
-    "DeepSeek-V3.1": 41220,
-    "GLM-4.6": 40408
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3352,
     "GPT-4": 1.5616,
     "Qwen3": 1.5433,
     "DeepSeek-V3.1": 1.5244,
     "GLM-4.6": 1.4864
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 35880,
+    "GPT-4": 42448,
+    "Qwen3": 42627,
+    "DeepSeek-V3.1": 41220,
+    "GLM-4.6": 40408
    }
   },
   {
@@ -1522,19 +1522,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 132730,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47621,
-    "GPT-4": 58739,
-    "Qwen3": 57443,
-    "DeepSeek-V3.1": 55595,
-    "GLM-4.6": 55526
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7721,
     "GPT-4": 2.161,
     "Qwen3": 2.0797,
     "DeepSeek-V3.1": 2.056,
     "GLM-4.6": 2.0425
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47621,
+    "GPT-4": 58739,
+    "Qwen3": 57443,
+    "DeepSeek-V3.1": 55595,
+    "GLM-4.6": 55526
    }
   },
   {
@@ -1543,19 +1543,19 @@
    "script": "Gujarati",
    "sentences": 1012,
    "chars": 126428,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48135,
-    "GPT-4": 208278,
-    "Qwen3": 186119,
-    "DeepSeek-V3.1": 104419,
-    "GLM-4.6": 208302
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7912,
     "GPT-4": 7.6624,
     "Qwen3": 6.7383,
     "DeepSeek-V3.1": 3.8615,
     "GLM-4.6": 7.6624
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48135,
+    "GPT-4": 208278,
+    "Qwen3": 186119,
+    "DeepSeek-V3.1": 104419,
+    "GLM-4.6": 208302
    }
   },
   {
@@ -1564,19 +1564,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 121216,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 37931,
-    "GPT-4": 47223,
-    "Qwen3": 47454,
-    "DeepSeek-V3.1": 45511,
-    "GLM-4.6": 45706
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4115,
     "GPT-4": 1.7373,
     "Qwen3": 1.718,
     "DeepSeek-V3.1": 1.683,
     "GLM-4.6": 1.6813
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 37931,
+    "GPT-4": 47223,
+    "Qwen3": 47454,
+    "DeepSeek-V3.1": 45511,
+    "GLM-4.6": 45706
    }
   },
   {
@@ -1585,19 +1585,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 139967,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 41615,
-    "GPT-4": 54151,
-    "Qwen3": 53658,
-    "DeepSeek-V3.1": 52486,
-    "GLM-4.6": 53557
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5486,
     "GPT-4": 1.9922,
     "Qwen3": 1.9427,
     "DeepSeek-V3.1": 1.941,
     "GLM-4.6": 1.9701
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 41615,
+    "GPT-4": 54151,
+    "Qwen3": 53658,
+    "DeepSeek-V3.1": 52486,
+    "GLM-4.6": 53557
    }
   },
   {
@@ -1606,19 +1606,19 @@
    "script": "Hebrew",
    "sentences": 1012,
    "chars": 102054,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 39861,
-    "GPT-4": 99031,
-    "Qwen3": 40708,
-    "DeepSeek-V3.1": 47847,
-    "GLM-4.6": 99055
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4833,
     "GPT-4": 3.6433,
     "Qwen3": 1.4738,
     "DeepSeek-V3.1": 1.7694,
     "GLM-4.6": 3.6437
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 39861,
+    "GPT-4": 99031,
+    "Qwen3": 40708,
+    "DeepSeek-V3.1": 47847,
+    "GLM-4.6": 99055
    }
   },
   {
@@ -1627,19 +1627,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 131058,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 42276,
-    "GPT-4": 129348,
-    "Qwen3": 121957,
-    "DeepSeek-V3.1": 75573,
-    "GLM-4.6": 129371
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5732,
     "GPT-4": 4.7586,
     "Qwen3": 4.4154,
     "DeepSeek-V3.1": 2.7948,
     "GLM-4.6": 4.7589
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 42276,
+    "GPT-4": 129348,
+    "Qwen3": 121957,
+    "DeepSeek-V3.1": 75573,
+    "GLM-4.6": 129371
    }
   },
   {
@@ -1648,19 +1648,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 126950,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46477,
-    "GPT-4": 126907,
-    "Qwen3": 116350,
-    "DeepSeek-V3.1": 78686,
-    "GLM-4.6": 126859
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7295,
     "GPT-4": 4.6688,
     "Qwen3": 4.2124,
     "DeepSeek-V3.1": 2.9099,
     "GLM-4.6": 4.6665
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46477,
+    "GPT-4": 126907,
+    "Qwen3": 116350,
+    "DeepSeek-V3.1": 78686,
+    "GLM-4.6": 126859
    }
   },
   {
@@ -1669,19 +1669,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 128727,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 39643,
-    "GPT-4": 49907,
-    "Qwen3": 50281,
-    "DeepSeek-V3.1": 48224,
-    "GLM-4.6": 48467
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4752,
     "GPT-4": 1.836,
     "Qwen3": 1.8204,
     "DeepSeek-V3.1": 1.7834,
     "GLM-4.6": 1.7829
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 39643,
+    "GPT-4": 49907,
+    "Qwen3": 50281,
+    "DeepSeek-V3.1": 48224,
+    "GLM-4.6": 48467
    }
   },
   {
@@ -1690,19 +1690,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 138629,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48205,
-    "GPT-4": 58408,
-    "Qwen3": 58579,
-    "DeepSeek-V3.1": 53746,
-    "GLM-4.6": 51286
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7938,
     "GPT-4": 2.1488,
     "Qwen3": 2.1208,
     "DeepSeek-V3.1": 1.9876,
     "GLM-4.6": 1.8866
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48205,
+    "GPT-4": 58408,
+    "Qwen3": 58579,
+    "DeepSeek-V3.1": 53746,
+    "GLM-4.6": 51286
    }
   },
   {
@@ -1711,19 +1711,19 @@
    "script": "Armenian",
    "sentences": 1012,
    "chars": 145956,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48032,
-    "GPT-4": 268572,
-    "Qwen3": 145665,
-    "DeepSeek-V3.1": 81475,
-    "GLM-4.6": 268576
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7874,
     "GPT-4": 9.8805,
     "Qwen3": 5.2737,
     "DeepSeek-V3.1": 3.013,
     "GLM-4.6": 9.8796
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48032,
+    "GPT-4": 268572,
+    "Qwen3": 145665,
+    "DeepSeek-V3.1": 81475,
+    "GLM-4.6": 268576
    }
   },
   {
@@ -1732,19 +1732,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 134560,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44757,
-    "GPT-4": 66987,
-    "Qwen3": 65847,
-    "DeepSeek-V3.1": 65434,
-    "GLM-4.6": 65511
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6655,
     "GPT-4": 2.4644,
     "Qwen3": 2.3839,
     "DeepSeek-V3.1": 2.4198,
     "GLM-4.6": 2.4098
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44757,
+    "GPT-4": 66987,
+    "Qwen3": 65847,
+    "DeepSeek-V3.1": 65434,
+    "GLM-4.6": 65511
    }
   },
   {
@@ -1753,19 +1753,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 159680,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49533,
-    "GPT-4": 55701,
-    "Qwen3": 56130,
-    "DeepSeek-V3.1": 54892,
-    "GLM-4.6": 53552
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8432,
     "GPT-4": 2.0492,
     "Qwen3": 2.0321,
     "DeepSeek-V3.1": 2.03,
     "GLM-4.6": 1.9699
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49533,
+    "GPT-4": 55701,
+    "Qwen3": 56130,
+    "DeepSeek-V3.1": 54892,
+    "GLM-4.6": 53552
    }
   },
   {
@@ -1774,19 +1774,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 142318,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 33486,
-    "GPT-4": 42078,
-    "Qwen3": 42520,
-    "DeepSeek-V3.1": 36385,
-    "GLM-4.6": 41758
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.2461,
     "GPT-4": 1.548,
     "Qwen3": 1.5394,
     "DeepSeek-V3.1": 1.3455,
     "GLM-4.6": 1.5361
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 33486,
+    "GPT-4": 42078,
+    "Qwen3": 42520,
+    "DeepSeek-V3.1": 36385,
+    "GLM-4.6": 41758
    }
   },
   {
@@ -1795,19 +1795,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 129783,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43225,
-    "GPT-4": 58145,
-    "Qwen3": 57917,
-    "DeepSeek-V3.1": 56875,
-    "GLM-4.6": 56690
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6085,
     "GPT-4": 2.1391,
     "Qwen3": 2.0968,
     "DeepSeek-V3.1": 2.1033,
     "GLM-4.6": 2.0853
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43225,
+    "GPT-4": 58145,
+    "Qwen3": 57917,
+    "DeepSeek-V3.1": 56875,
+    "GLM-4.6": 56690
    }
   },
   {
@@ -1816,19 +1816,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 156138,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 39479,
-    "GPT-4": 44594,
-    "Qwen3": 44905,
-    "DeepSeek-V3.1": 41740,
-    "GLM-4.6": 41586
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4691,
     "GPT-4": 1.6406,
     "Qwen3": 1.6258,
     "DeepSeek-V3.1": 1.5436,
     "GLM-4.6": 1.5297
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 39479,
+    "GPT-4": 44594,
+    "Qwen3": 44905,
+    "DeepSeek-V3.1": 41740,
+    "GLM-4.6": 41586
    }
   },
   {
@@ -1837,19 +1837,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 136928,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 36826,
-    "GPT-4": 46981,
-    "Qwen3": 47414,
-    "DeepSeek-V3.1": 45030,
-    "GLM-4.6": 46440
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3704,
     "GPT-4": 1.7284,
     "Qwen3": 1.7166,
     "DeepSeek-V3.1": 1.6652,
     "GLM-4.6": 1.7083
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 36826,
+    "GPT-4": 46981,
+    "Qwen3": 47414,
+    "DeepSeek-V3.1": 45030,
+    "GLM-4.6": 46440
    }
   },
   {
@@ -1858,19 +1858,19 @@
    "script": "Japanese (alias for Han + Hiragana + Katakana)",
    "sentences": 1012,
    "chars": 56943,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44559,
-    "GPT-4": 61583,
-    "Qwen3": 38743,
-    "DeepSeek-V3.1": 38441,
-    "GLM-4.6": 40692
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6581,
     "GPT-4": 2.2656,
     "Qwen3": 1.4027,
     "DeepSeek-V3.1": 1.4216,
     "GLM-4.6": 1.4969
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44559,
+    "GPT-4": 61583,
+    "Qwen3": 38743,
+    "DeepSeek-V3.1": 38441,
+    "GLM-4.6": 40692
    }
   },
   {
@@ -1879,19 +1879,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 141580,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 55707,
-    "GPT-4": 64378,
-    "Qwen3": 61667,
-    "DeepSeek-V3.1": 63596,
-    "GLM-4.6": 61324
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.073,
     "GPT-4": 2.3684,
     "Qwen3": 2.2326,
     "DeepSeek-V3.1": 2.3518,
     "GLM-4.6": 2.2558
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 55707,
+    "GPT-4": 64378,
+    "Qwen3": 61667,
+    "DeepSeek-V3.1": 63596,
+    "GLM-4.6": 61324
    }
   },
   {
@@ -1900,19 +1900,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 130554,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 57463,
-    "GPT-4": 66954,
-    "Qwen3": 58893,
-    "DeepSeek-V3.1": 58175,
-    "GLM-4.6": 65911
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.1383,
     "GPT-4": 2.4632,
     "Qwen3": 2.1322,
     "DeepSeek-V3.1": 2.1514,
     "GLM-4.6": 2.4245
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 57463,
+    "GPT-4": 66954,
+    "Qwen3": 58893,
+    "DeepSeek-V3.1": 58175,
+    "GLM-4.6": 65911
    }
   },
   {
@@ -1921,19 +1921,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 169397,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 56929,
-    "GPT-4": 64155,
-    "Qwen3": 64418,
-    "DeepSeek-V3.1": 63837,
-    "GLM-4.6": 63128
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.1184,
     "GPT-4": 2.3602,
     "Qwen3": 2.3322,
     "DeepSeek-V3.1": 2.3607,
     "GLM-4.6": 2.3222
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 56929,
+    "GPT-4": 64155,
+    "Qwen3": 64418,
+    "DeepSeek-V3.1": 63837,
+    "GLM-4.6": 63128
    }
   },
   {
@@ -1942,19 +1942,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 128414,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48944,
-    "GPT-4": 59068,
-    "Qwen3": 54843,
-    "DeepSeek-V3.1": 54628,
-    "GLM-4.6": 54191
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8213,
     "GPT-4": 2.1731,
     "Qwen3": 1.9856,
     "DeepSeek-V3.1": 2.0202,
     "GLM-4.6": 1.9934
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48944,
+    "GPT-4": 59068,
+    "Qwen3": 54843,
+    "DeepSeek-V3.1": 54628,
+    "GLM-4.6": 54191
    }
   },
   {
@@ -1963,19 +1963,19 @@
    "script": "Kannada",
    "sentences": 1012,
    "chars": 138040,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 52904,
-    "GPT-4": 240742,
-    "Qwen3": 191127,
-    "DeepSeek-V3.1": 99649,
-    "GLM-4.6": 240698
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9687,
     "GPT-4": 8.8567,
     "Qwen3": 6.9196,
     "DeepSeek-V3.1": 3.6851,
     "GLM-4.6": 8.8541
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 52904,
+    "GPT-4": 240742,
+    "Qwen3": 191127,
+    "DeepSeek-V3.1": 99649,
+    "GLM-4.6": 240698
    }
   },
   {
@@ -1984,19 +1984,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 126105,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 70050,
-    "GPT-4": 125089,
-    "Qwen3": 95734,
-    "DeepSeek-V3.1": 82439,
-    "GLM-4.6": 98817
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.6067,
     "GPT-4": 4.6019,
     "Qwen3": 3.466,
     "DeepSeek-V3.1": 3.0487,
     "GLM-4.6": 3.635
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 70050,
+    "GPT-4": 125089,
+    "Qwen3": 95734,
+    "DeepSeek-V3.1": 82439,
+    "GLM-4.6": 98817
    }
   },
   {
@@ -2005,19 +2005,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 126401,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 59931,
-    "GPT-4": 126617,
-    "Qwen3": 120603,
-    "DeepSeek-V3.1": 86621,
-    "GLM-4.6": 126632
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.2302,
     "GPT-4": 4.6581,
     "Qwen3": 4.3664,
     "DeepSeek-V3.1": 3.2033,
     "GLM-4.6": 4.6582
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 59931,
+    "GPT-4": 126617,
+    "Qwen3": 120603,
+    "DeepSeek-V3.1": 86621,
+    "GLM-4.6": 126632
    }
   },
   {
@@ -2026,19 +2026,19 @@
    "script": "Georgian (Mkhedruli and Mtavruli)",
    "sentences": 1012,
    "chars": 143930,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47979,
-    "GPT-4": 265051,
-    "Qwen3": 143337,
-    "DeepSeek-V3.1": 105820,
-    "GLM-4.6": 265068
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7854,
     "GPT-4": 9.751,
     "Qwen3": 5.1894,
     "DeepSeek-V3.1": 3.9133,
     "GLM-4.6": 9.7505
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47979,
+    "GPT-4": 265051,
+    "Qwen3": 143337,
+    "DeepSeek-V3.1": 105820,
+    "GLM-4.6": 265068
    }
   },
   {
@@ -2047,19 +2047,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 135467,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 42606,
-    "GPT-4": 102835,
-    "Qwen3": 83174,
-    "DeepSeek-V3.1": 71814,
-    "GLM-4.6": 84258
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5855,
     "GPT-4": 3.7832,
     "Qwen3": 3.0113,
     "DeepSeek-V3.1": 2.6557,
     "GLM-4.6": 3.0994
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 42606,
+    "GPT-4": 102835,
+    "Qwen3": 83174,
+    "DeepSeek-V3.1": 71814,
+    "GLM-4.6": 84258
    }
   },
   {
@@ -2068,19 +2068,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 142957,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 104774,
-    "GPT-4": 127799,
-    "Qwen3": 91663,
-    "DeepSeek-V3.1": 108737,
-    "GLM-4.6": 127479
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 3.8989,
     "GPT-4": 4.7016,
     "Qwen3": 3.3186,
     "DeepSeek-V3.1": 4.0212,
     "GLM-4.6": 4.6893
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 104774,
+    "GPT-4": 127799,
+    "Qwen3": 91663,
+    "DeepSeek-V3.1": 108737,
+    "GLM-4.6": 127479
    }
   },
   {
@@ -2089,19 +2089,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 130800,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 41576,
-    "GPT-4": 46902,
-    "Qwen3": 47100,
-    "DeepSeek-V3.1": 44829,
-    "GLM-4.6": 44943
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5471,
     "GPT-4": 1.7255,
     "Qwen3": 1.7052,
     "DeepSeek-V3.1": 1.6578,
     "GLM-4.6": 1.6532
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 41576,
+    "GPT-4": 46902,
+    "Qwen3": 47100,
+    "DeepSeek-V3.1": 44829,
+    "GLM-4.6": 44943
    }
   },
   {
@@ -2110,19 +2110,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 137067,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 50792,
-    "GPT-4": 101862,
-    "Qwen3": 85073,
-    "DeepSeek-V3.1": 79464,
-    "GLM-4.6": 86026
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8901,
     "GPT-4": 3.7474,
     "Qwen3": 3.08,
     "DeepSeek-V3.1": 2.9386,
     "GLM-4.6": 3.1645
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 50792,
+    "GPT-4": 101862,
+    "Qwen3": 85073,
+    "DeepSeek-V3.1": 79464,
+    "GLM-4.6": 86026
    }
   },
   {
@@ -2131,19 +2131,19 @@
    "script": "Mongolian",
    "sentences": 1012,
    "chars": 165945,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 435456,
-    "GPT-4": 426467,
-    "Qwen3": 216438,
-    "DeepSeek-V3.1": 307765,
-    "GLM-4.6": 417450
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 16.2042,
     "GPT-4": 15.6893,
     "Qwen3": 7.836,
     "DeepSeek-V3.1": 11.3814,
     "GLM-4.6": 15.3559
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 435456,
+    "GPT-4": 426467,
+    "Qwen3": 216438,
+    "DeepSeek-V3.1": 307765,
+    "GLM-4.6": 417450
    }
   },
   {
@@ -2152,19 +2152,19 @@
    "script": "Khmer",
    "sentences": 1012,
    "chars": 153212,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 89641,
-    "GPT-4": 236893,
-    "Qwen3": 178695,
-    "DeepSeek-V3.1": 183599,
-    "GLM-4.6": 236901
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 3.3357,
     "GPT-4": 8.7151,
     "Qwen3": 6.4695,
     "DeepSeek-V3.1": 6.7897,
     "GLM-4.6": 8.7144
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 89641,
+    "GPT-4": 236893,
+    "Qwen3": 178695,
+    "DeepSeek-V3.1": 183599,
+    "GLM-4.6": 236901
    }
   },
   {
@@ -2173,19 +2173,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 153043,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 69560,
-    "GPT-4": 88270,
-    "Qwen3": 72432,
-    "DeepSeek-V3.1": 73031,
-    "GLM-4.6": 72852
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.5885,
     "GPT-4": 3.2474,
     "Qwen3": 2.6224,
     "DeepSeek-V3.1": 2.7008,
     "GLM-4.6": 2.6799
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 69560,
+    "GPT-4": 88270,
+    "Qwen3": 72432,
+    "DeepSeek-V3.1": 73031,
+    "GLM-4.6": 72852
    }
   },
   {
@@ -2194,19 +2194,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 145862,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46011,
-    "GPT-4": 57918,
-    "Qwen3": 58244,
-    "DeepSeek-V3.1": 57448,
-    "GLM-4.6": 57217
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7122,
     "GPT-4": 2.1307,
     "Qwen3": 2.1087,
     "DeepSeek-V3.1": 2.1245,
     "GLM-4.6": 2.1047
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46011,
+    "GPT-4": 57918,
+    "Qwen3": 58244,
+    "DeepSeek-V3.1": 57448,
+    "GLM-4.6": 57217
    }
   },
   {
@@ -2215,19 +2215,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 135532,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44957,
-    "GPT-4": 95257,
-    "Qwen3": 75994,
-    "DeepSeek-V3.1": 69823,
-    "GLM-4.6": 76683
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6729,
     "GPT-4": 3.5044,
     "Qwen3": 2.7513,
     "DeepSeek-V3.1": 2.5821,
     "GLM-4.6": 2.8208
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44957,
+    "GPT-4": 95257,
+    "Qwen3": 75994,
+    "DeepSeek-V3.1": 69823,
+    "GLM-4.6": 76683
    }
   },
   {
@@ -2236,19 +2236,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 140602,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 59989,
-    "GPT-4": 99612,
-    "Qwen3": 82389,
-    "DeepSeek-V3.1": 73745,
-    "GLM-4.6": 80005
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.2323,
     "GPT-4": 3.6646,
     "Qwen3": 2.9828,
     "DeepSeek-V3.1": 2.7272,
     "GLM-4.6": 2.943
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 59989,
+    "GPT-4": 99612,
+    "Qwen3": 82389,
+    "DeepSeek-V3.1": 73745,
+    "GLM-4.6": 80005
    }
   },
   {
@@ -2257,19 +2257,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 145762,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49272,
-    "GPT-4": 57992,
-    "Qwen3": 58249,
-    "DeepSeek-V3.1": 56604,
-    "GLM-4.6": 56961
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8335,
     "GPT-4": 2.1335,
     "Qwen3": 2.1089,
     "DeepSeek-V3.1": 2.0933,
     "GLM-4.6": 2.0953
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49272,
+    "GPT-4": 57992,
+    "Qwen3": 58249,
+    "DeepSeek-V3.1": 56604,
+    "GLM-4.6": 56961
    }
   },
   {
@@ -2278,19 +2278,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 130372,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 54197,
-    "GPT-4": 59845,
-    "Qwen3": 59687,
-    "DeepSeek-V3.1": 58560,
-    "GLM-4.6": 58246
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.0168,
     "GPT-4": 2.2016,
     "Qwen3": 2.1609,
     "DeepSeek-V3.1": 2.1656,
     "GLM-4.6": 2.1426
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 54197,
+    "GPT-4": 59845,
+    "Qwen3": 59687,
+    "DeepSeek-V3.1": 58560,
+    "GLM-4.6": 58246
    }
   },
   {
@@ -2299,19 +2299,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 116000,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 74221,
-    "GPT-4": 98482,
-    "Qwen3": 86958,
-    "DeepSeek-V3.1": 73160,
-    "GLM-4.6": 87332
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.7619,
     "GPT-4": 3.6231,
     "Qwen3": 3.1483,
     "DeepSeek-V3.1": 2.7055,
     "GLM-4.6": 3.2125
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 74221,
+    "GPT-4": 98482,
+    "Qwen3": 86958,
+    "DeepSeek-V3.1": 73160,
+    "GLM-4.6": 87332
    }
   },
   {
@@ -2320,19 +2320,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 138972,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 57092,
-    "GPT-4": 64821,
-    "Qwen3": 59718,
-    "DeepSeek-V3.1": 62391,
-    "GLM-4.6": 64089
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.1245,
     "GPT-4": 2.3847,
     "Qwen3": 2.1621,
     "DeepSeek-V3.1": 2.3073,
     "GLM-4.6": 2.3575
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 57092,
+    "GPT-4": 64821,
+    "Qwen3": 59718,
+    "DeepSeek-V3.1": 62391,
+    "GLM-4.6": 64089
    }
   },
   {
@@ -2341,19 +2341,19 @@
    "script": "Hangul (Hangŭl, Hangeul)",
    "sentences": 1012,
    "chars": 65965,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 39566,
-    "GPT-4": 64338,
-    "Qwen3": 45020,
-    "DeepSeek-V3.1": 44426,
-    "GLM-4.6": 52166
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4723,
     "GPT-4": 2.3669,
     "Qwen3": 1.6299,
     "DeepSeek-V3.1": 1.6429,
     "GLM-4.6": 1.9189
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 39566,
+    "GPT-4": 64338,
+    "Qwen3": 45020,
+    "DeepSeek-V3.1": 44426,
+    "GLM-4.6": 52166
    }
   },
   {
@@ -2362,19 +2362,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 149894,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47234,
-    "GPT-4": 54109,
-    "Qwen3": 54521,
-    "DeepSeek-V3.1": 54148,
-    "GLM-4.6": 53085
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7577,
     "GPT-4": 1.9906,
     "Qwen3": 1.9739,
     "DeepSeek-V3.1": 2.0024,
     "GLM-4.6": 1.9527
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47234,
+    "GPT-4": 54109,
+    "Qwen3": 54521,
+    "DeepSeek-V3.1": 54148,
+    "GLM-4.6": 53085
    }
   },
   {
@@ -2383,19 +2383,19 @@
    "script": "Lao",
    "sentences": 1012,
    "chars": 130060,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 221138,
-    "GPT-4": 259417,
-    "Qwen3": 157206,
-    "DeepSeek-V3.1": 215609,
-    "GLM-4.6": 259428
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 8.229,
     "GPT-4": 9.5437,
     "Qwen3": 5.6915,
     "DeepSeek-V3.1": 7.9734,
     "GLM-4.6": 9.5431
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 221138,
+    "GPT-4": 259417,
+    "Qwen3": 157206,
+    "DeepSeek-V3.1": 215609,
+    "GLM-4.6": 259428
    }
   },
   {
@@ -2404,19 +2404,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 145931,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48606,
-    "GPT-4": 53550,
-    "Qwen3": 53722,
-    "DeepSeek-V3.1": 53390,
-    "GLM-4.6": 52086
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8087,
     "GPT-4": 1.9701,
     "Qwen3": 1.945,
     "DeepSeek-V3.1": 1.9744,
     "GLM-4.6": 1.916
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48606,
+    "GPT-4": 53550,
+    "Qwen3": 53722,
+    "DeepSeek-V3.1": 53390,
+    "GLM-4.6": 52086
    }
   },
   {
@@ -2425,19 +2425,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 137686,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43122,
-    "GPT-4": 49221,
-    "Qwen3": 49568,
-    "DeepSeek-V3.1": 47978,
-    "GLM-4.6": 48028
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6047,
     "GPT-4": 1.8108,
     "Qwen3": 1.7946,
     "DeepSeek-V3.1": 1.7743,
     "GLM-4.6": 1.7667
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43122,
+    "GPT-4": 49221,
+    "Qwen3": 49568,
+    "DeepSeek-V3.1": 47978,
+    "GLM-4.6": 48028
    }
   },
   {
@@ -2446,19 +2446,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 142197,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43452,
-    "GPT-4": 50850,
-    "Qwen3": 51284,
-    "DeepSeek-V3.1": 50449,
-    "GLM-4.6": 50529
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6169,
     "GPT-4": 1.8707,
     "Qwen3": 1.8567,
     "DeepSeek-V3.1": 1.8656,
     "GLM-4.6": 1.8587
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43452,
+    "GPT-4": 50850,
+    "Qwen3": 51284,
+    "DeepSeek-V3.1": 50449,
+    "GLM-4.6": 50529
    }
   },
   {
@@ -2467,19 +2467,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 130271,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45014,
-    "GPT-4": 59475,
-    "Qwen3": 56364,
-    "DeepSeek-V3.1": 52930,
-    "GLM-4.6": 58127
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6751,
     "GPT-4": 2.188,
     "Qwen3": 2.0406,
     "DeepSeek-V3.1": 1.9574,
     "GLM-4.6": 2.1382
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45014,
+    "GPT-4": 59475,
+    "Qwen3": 56364,
+    "DeepSeek-V3.1": 52930,
+    "GLM-4.6": 58127
    }
   },
   {
@@ -2488,19 +2488,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 138219,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45886,
-    "GPT-4": 51102,
-    "Qwen3": 51138,
-    "DeepSeek-V3.1": 50129,
-    "GLM-4.6": 49718
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7075,
     "GPT-4": 1.88,
     "Qwen3": 1.8514,
     "DeepSeek-V3.1": 1.8538,
     "GLM-4.6": 1.8289
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45886,
+    "GPT-4": 51102,
+    "Qwen3": 51138,
+    "DeepSeek-V3.1": 50129,
+    "GLM-4.6": 49718
    }
   },
   {
@@ -2509,19 +2509,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 141746,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47298,
-    "GPT-4": 51940,
-    "Qwen3": 52274,
-    "DeepSeek-V3.1": 51279,
-    "GLM-4.6": 50715
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7601,
     "GPT-4": 1.9108,
     "Qwen3": 1.8925,
     "DeepSeek-V3.1": 1.8963,
     "GLM-4.6": 1.8656
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47298,
+    "GPT-4": 51940,
+    "Qwen3": 52274,
+    "DeepSeek-V3.1": 51279,
+    "GLM-4.6": 50715
    }
   },
   {
@@ -2530,19 +2530,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 141666,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49539,
-    "GPT-4": 55408,
-    "Qwen3": 55344,
-    "DeepSeek-V3.1": 54655,
-    "GLM-4.6": 54109
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8434,
     "GPT-4": 2.0384,
     "Qwen3": 2.0037,
     "DeepSeek-V3.1": 2.0212,
     "GLM-4.6": 1.9904
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49539,
+    "GPT-4": 55408,
+    "Qwen3": 55344,
+    "DeepSeek-V3.1": 54655,
+    "GLM-4.6": 54109
    }
   },
   {
@@ -2551,19 +2551,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 129848,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 50628,
-    "GPT-4": 59671,
-    "Qwen3": 59044,
-    "DeepSeek-V3.1": 57121,
-    "GLM-4.6": 58351
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.884,
     "GPT-4": 2.1952,
     "Qwen3": 2.1376,
     "DeepSeek-V3.1": 2.1124,
     "GLM-4.6": 2.1464
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 50628,
+    "GPT-4": 59671,
+    "Qwen3": 59044,
+    "DeepSeek-V3.1": 57121,
+    "GLM-4.6": 58351
    }
   },
   {
@@ -2572,19 +2572,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 147545,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44822,
-    "GPT-4": 53945,
-    "Qwen3": 54179,
-    "DeepSeek-V3.1": 52731,
-    "GLM-4.6": 52415
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6679,
     "GPT-4": 1.9846,
     "Qwen3": 1.9615,
     "DeepSeek-V3.1": 1.95,
     "GLM-4.6": 1.9281
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44822,
+    "GPT-4": 53945,
+    "Qwen3": 54179,
+    "DeepSeek-V3.1": 52731,
+    "GLM-4.6": 52415
    }
   },
   {
@@ -2593,19 +2593,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 143090,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45685,
-    "GPT-4": 53103,
-    "Qwen3": 53492,
-    "DeepSeek-V3.1": 51960,
-    "GLM-4.6": 52154
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7,
     "GPT-4": 1.9536,
     "Qwen3": 1.9366,
     "DeepSeek-V3.1": 1.9215,
     "GLM-4.6": 1.9185
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45685,
+    "GPT-4": 53103,
+    "Qwen3": 53492,
+    "DeepSeek-V3.1": 51960,
+    "GLM-4.6": 52154
    }
   },
   {
@@ -2614,19 +2614,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 135078,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44654,
-    "GPT-4": 53336,
-    "Qwen3": 53682,
-    "DeepSeek-V3.1": 52596,
-    "GLM-4.6": 52855
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6617,
     "GPT-4": 1.9622,
     "Qwen3": 1.9435,
     "DeepSeek-V3.1": 1.945,
     "GLM-4.6": 1.9443
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44654,
+    "GPT-4": 53336,
+    "Qwen3": 53682,
+    "DeepSeek-V3.1": 52596,
+    "GLM-4.6": 52855
    }
   },
   {
@@ -2635,19 +2635,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 137546,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45035,
-    "GPT-4": 49518,
-    "Qwen3": 49913,
-    "DeepSeek-V3.1": 49344,
-    "GLM-4.6": 49027
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6758,
     "GPT-4": 1.8217,
     "Qwen3": 1.8071,
     "DeepSeek-V3.1": 1.8248,
     "GLM-4.6": 1.8035
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45035,
+    "GPT-4": 49518,
+    "Qwen3": 49913,
+    "DeepSeek-V3.1": 49344,
+    "GLM-4.6": 49027
    }
   },
   {
@@ -2656,19 +2656,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 146255,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49040,
-    "GPT-4": 53942,
-    "Qwen3": 54255,
-    "DeepSeek-V3.1": 53213,
-    "GLM-4.6": 53065
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8249,
     "GPT-4": 1.9845,
     "Qwen3": 1.9643,
     "DeepSeek-V3.1": 1.9679,
     "GLM-4.6": 1.952
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49040,
+    "GPT-4": 53942,
+    "Qwen3": 54255,
+    "DeepSeek-V3.1": 53213,
+    "GLM-4.6": 53065
    }
   },
   {
@@ -2677,19 +2677,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 134157,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48725,
-    "GPT-4": 63683,
-    "Qwen3": 62914,
-    "DeepSeek-V3.1": 60128,
-    "GLM-4.6": 62410
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8132,
     "GPT-4": 2.3428,
     "Qwen3": 2.2778,
     "DeepSeek-V3.1": 2.2236,
     "GLM-4.6": 2.2958
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48725,
+    "GPT-4": 63683,
+    "Qwen3": 62914,
+    "DeepSeek-V3.1": 60128,
+    "GLM-4.6": 62410
    }
   },
   {
@@ -2698,19 +2698,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 126695,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46142,
-    "GPT-4": 127301,
-    "Qwen3": 115738,
-    "DeepSeek-V3.1": 77986,
-    "GLM-4.6": 127327
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.717,
     "GPT-4": 4.6833,
     "Qwen3": 4.1902,
     "DeepSeek-V3.1": 2.884,
     "GLM-4.6": 4.6837
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46142,
+    "GPT-4": 127301,
+    "Qwen3": 115738,
+    "DeepSeek-V3.1": 77986,
+    "GLM-4.6": 127327
    }
   },
   {
@@ -2719,19 +2719,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 129408,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47256,
-    "GPT-4": 132546,
-    "Qwen3": 121141,
-    "DeepSeek-V3.1": 84404,
-    "GLM-4.6": 132571
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7585,
     "GPT-4": 4.8762,
     "Qwen3": 4.3858,
     "DeepSeek-V3.1": 3.1213,
     "GLM-4.6": 4.8766
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47256,
+    "GPT-4": 132546,
+    "Qwen3": 121141,
+    "DeepSeek-V3.1": 84404,
+    "GLM-4.6": 132571
    }
   },
   {
@@ -2740,19 +2740,19 @@
    "script": "Malayalam",
    "sentences": 1012,
    "chars": 149336,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 52584,
-    "GPT-4": 242932,
-    "Qwen3": 199583,
-    "DeepSeek-V3.1": 119408,
-    "GLM-4.6": 242811
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9568,
     "GPT-4": 8.9372,
     "Qwen3": 7.2258,
     "DeepSeek-V3.1": 4.4158,
     "GLM-4.6": 8.9318
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 52584,
+    "GPT-4": 242932,
+    "Qwen3": 199583,
+    "DeepSeek-V3.1": 119408,
+    "GLM-4.6": 242811
    }
   },
   {
@@ -2761,19 +2761,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 133051,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48783,
-    "GPT-4": 137227,
-    "Qwen3": 127476,
-    "DeepSeek-V3.1": 80999,
-    "GLM-4.6": 137213
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8153,
     "GPT-4": 5.0485,
     "Qwen3": 4.6152,
     "DeepSeek-V3.1": 2.9954,
     "GLM-4.6": 5.0474
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48783,
+    "GPT-4": 137227,
+    "Qwen3": 127476,
+    "DeepSeek-V3.1": 80999,
+    "GLM-4.6": 137213
    }
   },
   {
@@ -2782,19 +2782,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 124555,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 36017,
-    "GPT-4": 42335,
-    "Qwen3": 42762,
-    "DeepSeek-V3.1": 41356,
-    "GLM-4.6": 41165
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3403,
     "GPT-4": 1.5575,
     "Qwen3": 1.5482,
     "DeepSeek-V3.1": 1.5294,
     "GLM-4.6": 1.5143
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 36017,
+    "GPT-4": 42335,
+    "Qwen3": 42762,
+    "DeepSeek-V3.1": 41356,
+    "GLM-4.6": 41165
    }
   },
   {
@@ -2803,19 +2803,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 134701,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 59231,
-    "GPT-4": 88300,
-    "Qwen3": 72394,
-    "DeepSeek-V3.1": 68599,
-    "GLM-4.6": 67789
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.2041,
     "GPT-4": 3.2485,
     "Qwen3": 2.621,
     "DeepSeek-V3.1": 2.5369,
     "GLM-4.6": 2.4936
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 59231,
+    "GPT-4": 88300,
+    "Qwen3": 72394,
+    "DeepSeek-V3.1": 68599,
+    "GLM-4.6": 67789
    }
   },
   {
@@ -2824,19 +2824,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 126443,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 71474,
-    "GPT-4": 107980,
-    "Qwen3": 76802,
-    "DeepSeek-V3.1": 76544,
-    "GLM-4.6": 83813
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.6597,
     "GPT-4": 3.9725,
     "Qwen3": 2.7806,
     "DeepSeek-V3.1": 2.8307,
     "GLM-4.6": 3.0831
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 71474,
+    "GPT-4": 107980,
+    "Qwen3": 76802,
+    "DeepSeek-V3.1": 76544,
+    "GLM-4.6": 83813
    }
   },
   {
@@ -2845,19 +2845,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 141200,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 41919,
-    "GPT-4": 48353,
-    "Qwen3": 48789,
-    "DeepSeek-V3.1": 45400,
-    "GLM-4.6": 47952
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5599,
     "GPT-4": 1.7789,
     "Qwen3": 1.7664,
     "DeepSeek-V3.1": 1.6789,
     "GLM-4.6": 1.7639
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 41919,
+    "GPT-4": 48353,
+    "Qwen3": 48789,
+    "DeepSeek-V3.1": 45400,
+    "GLM-4.6": 47952
    }
   },
   {
@@ -2866,19 +2866,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 137827,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47955,
-    "GPT-4": 75048,
-    "Qwen3": 62725,
-    "DeepSeek-V3.1": 54069,
-    "GLM-4.6": 56075
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7845,
     "GPT-4": 2.7609,
     "Qwen3": 2.2709,
     "DeepSeek-V3.1": 1.9995,
     "GLM-4.6": 2.0627
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47955,
+    "GPT-4": 75048,
+    "Qwen3": 62725,
+    "DeepSeek-V3.1": 54069,
+    "GLM-4.6": 56075
    }
   },
   {
@@ -2887,19 +2887,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 146288,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 50208,
-    "GPT-4": 65712,
-    "Qwen3": 61893,
-    "DeepSeek-V3.1": 62727,
-    "GLM-4.6": 64597
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8683,
     "GPT-4": 2.4175,
     "Qwen3": 2.2408,
     "DeepSeek-V3.1": 2.3197,
     "GLM-4.6": 2.3762
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 50208,
+    "GPT-4": 65712,
+    "Qwen3": 61893,
+    "DeepSeek-V3.1": 62727,
+    "GLM-4.6": 64597
    }
   },
   {
@@ -2908,19 +2908,19 @@
    "script": "Bengali (Bangla)",
    "sentences": 1012,
    "chars": 136782,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 82559,
-    "GPT-4": 182345,
-    "Qwen3": 154859,
-    "DeepSeek-V3.1": 88638,
-    "GLM-4.6": 182367
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 3.0722,
     "GPT-4": 6.7083,
     "Qwen3": 5.6066,
     "DeepSeek-V3.1": 3.2779,
     "GLM-4.6": 6.7084
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 82559,
+    "GPT-4": 182345,
+    "Qwen3": 154859,
+    "DeepSeek-V3.1": 88638,
+    "GLM-4.6": 182367
    }
   },
   {
@@ -2929,19 +2929,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 124657,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 54693,
-    "GPT-4": 62052,
-    "Qwen3": 56308,
-    "DeepSeek-V3.1": 58424,
-    "GLM-4.6": 58585
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.0352,
     "GPT-4": 2.2828,
     "Qwen3": 2.0386,
     "DeepSeek-V3.1": 2.1606,
     "GLM-4.6": 2.155
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 54693,
+    "GPT-4": 62052,
+    "Qwen3": 56308,
+    "DeepSeek-V3.1": 58424,
+    "GLM-4.6": 58585
    }
   },
   {
@@ -2950,19 +2950,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 146527,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49065,
-    "GPT-4": 64154,
-    "Qwen3": 64533,
-    "DeepSeek-V3.1": 61932,
-    "GLM-4.6": 62862
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8258,
     "GPT-4": 2.3602,
     "Qwen3": 2.3364,
     "DeepSeek-V3.1": 2.2903,
     "GLM-4.6": 2.3124
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49065,
+    "GPT-4": 64154,
+    "Qwen3": 64533,
+    "DeepSeek-V3.1": 61932,
+    "GLM-4.6": 62862
    }
   },
   {
@@ -2971,19 +2971,19 @@
    "script": "Myanmar (Burmese)",
    "sentences": 1012,
    "chars": 163169,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 85029,
-    "GPT-4": 315796,
-    "Qwen3": 246611,
-    "DeepSeek-V3.1": 143308,
-    "GLM-4.6": 315790
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 3.1641,
     "GPT-4": 11.6178,
     "Qwen3": 8.9284,
     "DeepSeek-V3.1": 5.2997,
     "GLM-4.6": 11.6163
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 85029,
+    "GPT-4": 315796,
+    "Qwen3": 246611,
+    "DeepSeek-V3.1": 143308,
+    "GLM-4.6": 315790
    }
   },
   {
@@ -2992,19 +2992,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 138359,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 56972,
-    "GPT-4": 80502,
-    "Qwen3": 69089,
-    "DeepSeek-V3.1": 65083,
-    "GLM-4.6": 60760
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.12,
     "GPT-4": 2.9616,
     "Qwen3": 2.5013,
     "DeepSeek-V3.1": 2.4068,
     "GLM-4.6": 2.2351
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 56972,
+    "GPT-4": 80502,
+    "Qwen3": 69089,
+    "DeepSeek-V3.1": 65083,
+    "GLM-4.6": 60760
    }
   },
   {
@@ -3013,19 +3013,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 147507,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 33495,
-    "GPT-4": 43564,
-    "Qwen3": 43918,
-    "DeepSeek-V3.1": 40458,
-    "GLM-4.6": 41215
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.2464,
     "GPT-4": 1.6027,
     "Qwen3": 1.59,
     "DeepSeek-V3.1": 1.4962,
     "GLM-4.6": 1.5161
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 33495,
+    "GPT-4": 43564,
+    "Qwen3": 43918,
+    "DeepSeek-V3.1": 40458,
+    "GLM-4.6": 41215
    }
   },
   {
@@ -3034,19 +3034,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 133432,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 37792,
-    "GPT-4": 44588,
-    "Qwen3": 45013,
-    "DeepSeek-V3.1": 43879,
-    "GLM-4.6": 43181
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4063,
     "GPT-4": 1.6404,
     "Qwen3": 1.6297,
     "DeepSeek-V3.1": 1.6227,
     "GLM-4.6": 1.5884
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 37792,
+    "GPT-4": 44588,
+    "Qwen3": 45013,
+    "DeepSeek-V3.1": 43879,
+    "GLM-4.6": 43181
    }
   },
   {
@@ -3055,19 +3055,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 130217,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 35746,
-    "GPT-4": 41920,
-    "Qwen3": 42352,
-    "DeepSeek-V3.1": 41403,
-    "GLM-4.6": 40538
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3302,
     "GPT-4": 1.5422,
     "Qwen3": 1.5333,
     "DeepSeek-V3.1": 1.5311,
     "GLM-4.6": 1.4912
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 35746,
+    "GPT-4": 41920,
+    "Qwen3": 42352,
+    "DeepSeek-V3.1": 41403,
+    "GLM-4.6": 40538
    }
   },
   {
@@ -3076,19 +3076,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 130017,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 36049,
-    "GPT-4": 42254,
-    "Qwen3": 42685,
-    "DeepSeek-V3.1": 41660,
-    "GLM-4.6": 40828
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3415,
     "GPT-4": 1.5545,
     "Qwen3": 1.5454,
     "DeepSeek-V3.1": 1.5406,
     "GLM-4.6": 1.5019
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 36049,
+    "GPT-4": 42254,
+    "Qwen3": 42685,
+    "DeepSeek-V3.1": 41660,
+    "GLM-4.6": 40828
    }
   },
   {
@@ -3097,19 +3097,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 126903,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43377,
-    "GPT-4": 129516,
-    "Qwen3": 121958,
-    "DeepSeek-V3.1": 80239,
-    "GLM-4.6": 129500
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6141,
     "GPT-4": 4.7648,
     "Qwen3": 4.4154,
     "DeepSeek-V3.1": 2.9673,
     "GLM-4.6": 4.7637
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43377,
+    "GPT-4": 129516,
+    "Qwen3": 121958,
+    "DeepSeek-V3.1": 80239,
+    "GLM-4.6": 129500
    }
   },
   {
@@ -3118,19 +3118,19 @@
    "script": "N’Ko",
    "sentences": 1012,
    "chars": 168122,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 304218,
-    "GPT-4": 304349,
-    "Qwen3": 209015,
-    "DeepSeek-V3.1": 304231,
-    "GLM-4.6": 304231
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 11.3206,
     "GPT-4": 11.1967,
     "Qwen3": 7.5672,
     "DeepSeek-V3.1": 11.2507,
     "GLM-4.6": 11.1911
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 304218,
+    "GPT-4": 304349,
+    "Qwen3": 209015,
+    "DeepSeek-V3.1": 304231,
+    "GLM-4.6": 304231
    }
   },
   {
@@ -3139,19 +3139,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 151316,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 50090,
-    "GPT-4": 59464,
-    "Qwen3": 59902,
-    "DeepSeek-V3.1": 57509,
-    "GLM-4.6": 58202
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.864,
     "GPT-4": 2.1876,
     "Qwen3": 2.1687,
     "DeepSeek-V3.1": 2.1267,
     "GLM-4.6": 2.141
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 50090,
+    "GPT-4": 59464,
+    "Qwen3": 59902,
+    "DeepSeek-V3.1": 57509,
+    "GLM-4.6": 58202
    }
   },
   {
@@ -3160,19 +3160,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 142340,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 87101,
-    "GPT-4": 108472,
-    "Qwen3": 93399,
-    "DeepSeek-V3.1": 92490,
-    "GLM-4.6": 107394
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 3.2412,
     "GPT-4": 3.9906,
     "Qwen3": 3.3814,
     "DeepSeek-V3.1": 3.4204,
     "GLM-4.6": 3.9505
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 87101,
+    "GPT-4": 108472,
+    "Qwen3": 93399,
+    "DeepSeek-V3.1": 92490,
+    "GLM-4.6": 107394
    }
   },
   {
@@ -3181,19 +3181,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 147172,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43300,
-    "GPT-4": 56560,
-    "Qwen3": 56970,
-    "DeepSeek-V3.1": 55909,
-    "GLM-4.6": 55846
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6113,
     "GPT-4": 2.0808,
     "Qwen3": 2.0626,
     "DeepSeek-V3.1": 2.0676,
     "GLM-4.6": 2.0543
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43300,
+    "GPT-4": 56560,
+    "Qwen3": 56970,
+    "DeepSeek-V3.1": 55909,
+    "GLM-4.6": 55846
    }
   },
   {
@@ -3202,19 +3202,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 150651,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43030,
-    "GPT-4": 49747,
-    "Qwen3": 50028,
-    "DeepSeek-V3.1": 48303,
-    "GLM-4.6": 48664
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6012,
     "GPT-4": 1.8301,
     "Qwen3": 1.8112,
     "DeepSeek-V3.1": 1.7863,
     "GLM-4.6": 1.7901
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43030,
+    "GPT-4": 49747,
+    "Qwen3": 50028,
+    "DeepSeek-V3.1": 48303,
+    "GLM-4.6": 48664
    }
   },
   {
@@ -3223,19 +3223,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 151001,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44185,
-    "GPT-4": 50924,
-    "Qwen3": 51011,
-    "DeepSeek-V3.1": 49975,
-    "GLM-4.6": 49796
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6442,
     "GPT-4": 1.8734,
     "Qwen3": 1.8468,
     "DeepSeek-V3.1": 1.8481,
     "GLM-4.6": 1.8317
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44185,
+    "GPT-4": 50924,
+    "Qwen3": 51011,
+    "DeepSeek-V3.1": 49975,
+    "GLM-4.6": 49796
    }
   },
   {
@@ -3244,19 +3244,19 @@
    "script": "Oriya (Odia)",
    "sentences": 1012,
    "chars": 134839,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 133961,
-    "GPT-4": 337072,
-    "Qwen3": 267893,
-    "DeepSeek-V3.1": 149957,
-    "GLM-4.6": 337022
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 4.985,
     "GPT-4": 12.4006,
     "Qwen3": 9.6989,
     "DeepSeek-V3.1": 5.5455,
     "GLM-4.6": 12.3974
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 133961,
+    "GPT-4": 337072,
+    "Qwen3": 267893,
+    "DeepSeek-V3.1": 149957,
+    "GLM-4.6": 337022
    }
   },
   {
@@ -3265,19 +3265,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 129899,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 38362,
-    "GPT-4": 42225,
-    "Qwen3": 42662,
-    "DeepSeek-V3.1": 41046,
-    "GLM-4.6": 41655
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4275,
     "GPT-4": 1.5534,
     "Qwen3": 1.5445,
     "DeepSeek-V3.1": 1.5179,
     "GLM-4.6": 1.5323
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 38362,
+    "GPT-4": 42225,
+    "Qwen3": 42662,
+    "DeepSeek-V3.1": 41046,
+    "GLM-4.6": 41655
    }
   },
   {
@@ -3286,19 +3286,19 @@
    "script": "Gurmukhi",
    "sentences": 1012,
    "chars": 133425,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 70345,
-    "GPT-4": 213407,
-    "Qwen3": 200987,
-    "DeepSeek-V3.1": 121018,
-    "GLM-4.6": 213427
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.6177,
     "GPT-4": 7.851,
     "Qwen3": 7.2766,
     "DeepSeek-V3.1": 4.4754,
     "GLM-4.6": 7.8509
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 70345,
+    "GPT-4": 213407,
+    "Qwen3": 200987,
+    "DeepSeek-V3.1": 121018,
+    "GLM-4.6": 213427
    }
   },
   {
@@ -3307,19 +3307,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 139154,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 42554,
-    "GPT-4": 47485,
-    "Qwen3": 47753,
-    "DeepSeek-V3.1": 46396,
-    "GLM-4.6": 46173
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5835,
     "GPT-4": 1.7469,
     "Qwen3": 1.7289,
     "DeepSeek-V3.1": 1.7158,
     "GLM-4.6": 1.6985
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 42554,
+    "GPT-4": 47485,
+    "Qwen3": 47753,
+    "DeepSeek-V3.1": 46396,
+    "GLM-4.6": 46173
    }
   },
   {
@@ -3328,19 +3328,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 122455,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46063,
-    "GPT-4": 102083,
-    "Qwen3": 77307,
-    "DeepSeek-V3.1": 68202,
-    "GLM-4.6": 76759
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7141,
     "GPT-4": 3.7555,
     "Qwen3": 2.7988,
     "DeepSeek-V3.1": 2.5222,
     "GLM-4.6": 2.8236
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46063,
+    "GPT-4": 102083,
+    "Qwen3": 77307,
+    "DeepSeek-V3.1": 68202,
+    "GLM-4.6": 76759
    }
   },
   {
@@ -3349,19 +3349,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 123827,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 41116,
-    "GPT-4": 88514,
-    "Qwen3": 71183,
-    "DeepSeek-V3.1": 48342,
-    "GLM-4.6": 49231
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.53,
     "GPT-4": 3.2563,
     "Qwen3": 2.5771,
     "DeepSeek-V3.1": 1.7877,
     "GLM-4.6": 1.811
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 41116,
+    "GPT-4": 88514,
+    "Qwen3": 71183,
+    "DeepSeek-V3.1": 48342,
+    "GLM-4.6": 49231
    }
   },
   {
@@ -3370,19 +3370,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 160996,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48172,
-    "GPT-4": 61139,
-    "Qwen3": 61500,
-    "DeepSeek-V3.1": 58772,
-    "GLM-4.6": 60621
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7926,
     "GPT-4": 2.2492,
     "Qwen3": 2.2266,
     "DeepSeek-V3.1": 2.1734,
     "GLM-4.6": 2.2299
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48172,
+    "GPT-4": 61139,
+    "Qwen3": 61500,
+    "DeepSeek-V3.1": 58772,
+    "GLM-4.6": 60621
    }
   },
   {
@@ -3391,19 +3391,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 139483,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44030,
-    "GPT-4": 52024,
-    "Qwen3": 48746,
-    "DeepSeek-V3.1": 45542,
-    "GLM-4.6": 45981
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6384,
     "GPT-4": 1.9139,
     "Qwen3": 1.7648,
     "DeepSeek-V3.1": 1.6842,
     "GLM-4.6": 1.6914
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44030,
+    "GPT-4": 52024,
+    "Qwen3": 48746,
+    "DeepSeek-V3.1": 45542,
+    "GLM-4.6": 45981
    }
   },
   {
@@ -3412,19 +3412,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 143418,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 32852,
-    "GPT-4": 40109,
-    "Qwen3": 40048,
-    "DeepSeek-V3.1": 38401,
-    "GLM-4.6": 38106
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.2225,
     "GPT-4": 1.4756,
     "Qwen3": 1.4499,
     "DeepSeek-V3.1": 1.4201,
     "GLM-4.6": 1.4017
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 32852,
+    "GPT-4": 40109,
+    "Qwen3": 40048,
+    "DeepSeek-V3.1": 38401,
+    "GLM-4.6": 38106
    }
   },
   {
@@ -3433,19 +3433,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 120643,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 39651,
-    "GPT-4": 85563,
-    "Qwen3": 68573,
-    "DeepSeek-V3.1": 43907,
-    "GLM-4.6": 46824
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4755,
     "GPT-4": 3.1478,
     "Qwen3": 2.4826,
     "DeepSeek-V3.1": 1.6237,
     "GLM-4.6": 1.7224
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 39651,
+    "GPT-4": 85563,
+    "Qwen3": 68573,
+    "DeepSeek-V3.1": 43907,
+    "GLM-4.6": 46824
    }
   },
   {
@@ -3454,19 +3454,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 141027,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49166,
-    "GPT-4": 56598,
-    "Qwen3": 56974,
-    "DeepSeek-V3.1": 55425,
-    "GLM-4.6": 55545
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8296,
     "GPT-4": 2.0822,
     "Qwen3": 2.0627,
     "DeepSeek-V3.1": 2.0497,
     "GLM-4.6": 2.0432
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49166,
+    "GPT-4": 56598,
+    "Qwen3": 56974,
+    "DeepSeek-V3.1": 55425,
+    "GLM-4.6": 55545
    }
   },
   {
@@ -3475,19 +3475,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 148571,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43832,
-    "GPT-4": 50979,
-    "Qwen3": 51355,
-    "DeepSeek-V3.1": 50292,
-    "GLM-4.6": 46897
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6311,
     "GPT-4": 1.8755,
     "Qwen3": 1.8593,
     "DeepSeek-V3.1": 1.8598,
     "GLM-4.6": 1.7251
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43832,
+    "GPT-4": 50979,
+    "Qwen3": 51355,
+    "DeepSeek-V3.1": 50292,
+    "GLM-4.6": 46897
    }
   },
   {
@@ -3496,19 +3496,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 147337,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47862,
-    "GPT-4": 58173,
-    "Qwen3": 58541,
-    "DeepSeek-V3.1": 57520,
-    "GLM-4.6": 57536
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.781,
     "GPT-4": 2.1401,
     "Qwen3": 2.1194,
     "DeepSeek-V3.1": 2.1271,
     "GLM-4.6": 2.1165
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47862,
+    "GPT-4": 58173,
+    "Qwen3": 58541,
+    "DeepSeek-V3.1": 57520,
+    "GLM-4.6": 57536
    }
   },
   {
@@ -3517,19 +3517,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 142096,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 38188,
-    "GPT-4": 66928,
-    "Qwen3": 48471,
-    "DeepSeek-V3.1": 42789,
-    "GLM-4.6": 38710
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4211,
     "GPT-4": 2.4622,
     "Qwen3": 1.7549,
     "DeepSeek-V3.1": 1.5824,
     "GLM-4.6": 1.4239
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 38188,
+    "GPT-4": 66928,
+    "Qwen3": 48471,
+    "DeepSeek-V3.1": 42789,
+    "GLM-4.6": 38710
    }
   },
   {
@@ -3538,19 +3538,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 142621,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48937,
-    "GPT-4": 56528,
-    "Qwen3": 56398,
-    "DeepSeek-V3.1": 55515,
-    "GLM-4.6": 54822
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.821,
     "GPT-4": 2.0796,
     "Qwen3": 2.0419,
     "DeepSeek-V3.1": 2.053,
     "GLM-4.6": 2.0166
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48937,
+    "GPT-4": 56528,
+    "Qwen3": 56398,
+    "DeepSeek-V3.1": 55515,
+    "GLM-4.6": 54822
    }
   },
   {
@@ -3559,19 +3559,19 @@
    "script": "Devanagari (Nagari)",
    "sentences": 1012,
    "chars": 128292,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 56042,
-    "GPT-4": 134260,
-    "Qwen3": 124510,
-    "DeepSeek-V3.1": 77244,
-    "GLM-4.6": 134284
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.0854,
     "GPT-4": 4.9393,
     "Qwen3": 4.5078,
     "DeepSeek-V3.1": 2.8566,
     "GLM-4.6": 4.9396
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 56042,
+    "GPT-4": 134260,
+    "Qwen3": 124510,
+    "DeepSeek-V3.1": 77244,
+    "GLM-4.6": 134284
    }
   },
   {
@@ -3580,19 +3580,19 @@
    "script": "Ol Chiki (Ol Cemet’, Ol, Santali)",
    "sentences": 1012,
    "chars": 139791,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 368158,
-    "GPT-4": 346245,
-    "Qwen3": 246373,
-    "DeepSeek-V3.1": 173564,
-    "GLM-4.6": 346245
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 13.6999,
     "GPT-4": 12.738,
     "Qwen3": 8.9198,
     "DeepSeek-V3.1": 6.4185,
     "GLM-4.6": 12.7366
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 368158,
+    "GPT-4": 346245,
+    "Qwen3": 246373,
+    "DeepSeek-V3.1": 173564,
+    "GLM-4.6": 346245
    }
   },
   {
@@ -3601,19 +3601,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 138571,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48721,
-    "GPT-4": 54380,
-    "Qwen3": 53809,
-    "DeepSeek-V3.1": 52453,
-    "GLM-4.6": 52566
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.813,
     "GPT-4": 2.0006,
     "Qwen3": 1.9481,
     "DeepSeek-V3.1": 1.9398,
     "GLM-4.6": 1.9336
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48721,
+    "GPT-4": 54380,
+    "Qwen3": 53809,
+    "DeepSeek-V3.1": 52453,
+    "GLM-4.6": 52566
    }
   },
   {
@@ -3622,19 +3622,19 @@
    "script": "Myanmar (Burmese)",
    "sentences": 1012,
    "chars": 188284,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 213080,
-    "GPT-4": 407164,
-    "Qwen3": 288136,
-    "DeepSeek-V3.1": 215445,
-    "GLM-4.6": 407169
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 7.9291,
     "GPT-4": 14.9792,
     "Qwen3": 10.4318,
     "DeepSeek-V3.1": 7.9673,
     "GLM-4.6": 14.9777
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 213080,
+    "GPT-4": 407164,
+    "Qwen3": 288136,
+    "DeepSeek-V3.1": 215445,
+    "GLM-4.6": 407169
    }
   },
   {
@@ -3643,19 +3643,19 @@
    "script": "Sinhala",
    "sentences": 1012,
    "chars": 131080,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 72432,
-    "GPT-4": 235883,
-    "Qwen3": 189956,
-    "DeepSeek-V3.1": 123646,
-    "GLM-4.6": 234528
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.6953,
     "GPT-4": 8.6779,
     "Qwen3": 6.8772,
     "DeepSeek-V3.1": 4.5725,
     "GLM-4.6": 8.6271
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 72432,
+    "GPT-4": 235883,
+    "Qwen3": 189956,
+    "DeepSeek-V3.1": 123646,
+    "GLM-4.6": 234528
    }
   },
   {
@@ -3664,19 +3664,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 131710,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45067,
-    "GPT-4": 57882,
-    "Qwen3": 57272,
-    "DeepSeek-V3.1": 51511,
-    "GLM-4.6": 52909
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.677,
     "GPT-4": 2.1294,
     "Qwen3": 2.0735,
     "DeepSeek-V3.1": 1.9049,
     "GLM-4.6": 1.9463
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45067,
+    "GPT-4": 57882,
+    "Qwen3": 57272,
+    "DeepSeek-V3.1": 51511,
+    "GLM-4.6": 52909
    }
   },
   {
@@ -3685,19 +3685,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 130855,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 40617,
-    "GPT-4": 51225,
-    "Qwen3": 51558,
-    "DeepSeek-V3.1": 49053,
-    "GLM-4.6": 49738
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5114,
     "GPT-4": 1.8845,
     "Qwen3": 1.8666,
     "DeepSeek-V3.1": 1.814,
     "GLM-4.6": 1.8296
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 40617,
+    "GPT-4": 51225,
+    "Qwen3": 51558,
+    "DeepSeek-V3.1": 49053,
+    "GLM-4.6": 49738
    }
   },
   {
@@ -3706,19 +3706,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 152778,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 51703,
-    "GPT-4": 61933,
-    "Qwen3": 62129,
-    "DeepSeek-V3.1": 61521,
-    "GLM-4.6": 60868
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.924,
     "GPT-4": 2.2785,
     "Qwen3": 2.2493,
     "DeepSeek-V3.1": 2.2751,
     "GLM-4.6": 2.239
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 51703,
+    "GPT-4": 61933,
+    "Qwen3": 62129,
+    "DeepSeek-V3.1": 61521,
+    "GLM-4.6": 60868
    }
   },
   {
@@ -3727,19 +3727,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 147603,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45686,
-    "GPT-4": 57996,
-    "Qwen3": 58354,
-    "DeepSeek-V3.1": 56442,
-    "GLM-4.6": 56623
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7001,
     "GPT-4": 2.1336,
     "Qwen3": 2.1127,
     "DeepSeek-V3.1": 2.0873,
     "GLM-4.6": 2.0829
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45686,
+    "GPT-4": 57996,
+    "Qwen3": 58354,
+    "DeepSeek-V3.1": 56442,
+    "GLM-4.6": 56623
    }
   },
   {
@@ -3748,19 +3748,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 119588,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 45957,
-    "GPT-4": 108231,
-    "Qwen3": 78582,
-    "DeepSeek-V3.1": 78131,
-    "GLM-4.6": 82253
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7102,
     "GPT-4": 3.9817,
     "Qwen3": 2.845,
     "DeepSeek-V3.1": 2.8894,
     "GLM-4.6": 3.0257
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 45957,
+    "GPT-4": 108231,
+    "Qwen3": 78582,
+    "DeepSeek-V3.1": 78131,
+    "GLM-4.6": 82253
    }
   },
   {
@@ -3769,19 +3769,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 151662,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46309,
-    "GPT-4": 60010,
-    "Qwen3": 60367,
-    "DeepSeek-V3.1": 60273,
-    "GLM-4.6": 59573
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7233,
     "GPT-4": 2.2077,
     "Qwen3": 2.1855,
     "DeepSeek-V3.1": 2.2289,
     "GLM-4.6": 2.1914
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46309,
+    "GPT-4": 60010,
+    "Qwen3": 60367,
+    "DeepSeek-V3.1": 60273,
+    "GLM-4.6": 59573
    }
   },
   {
@@ -3790,19 +3790,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 158732,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49316,
-    "GPT-4": 60141,
-    "Qwen3": 60580,
-    "DeepSeek-V3.1": 59263,
-    "GLM-4.6": 59287
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8352,
     "GPT-4": 2.2125,
     "Qwen3": 2.1933,
     "DeepSeek-V3.1": 2.1916,
     "GLM-4.6": 2.1809
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49316,
+    "GPT-4": 60141,
+    "Qwen3": 60580,
+    "DeepSeek-V3.1": 59263,
+    "GLM-4.6": 59287
    }
   },
   {
@@ -3811,19 +3811,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 156983,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 35379,
-    "GPT-4": 41939,
-    "Qwen3": 42017,
-    "DeepSeek-V3.1": 40400,
-    "GLM-4.6": 39155
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3165,
     "GPT-4": 1.5429,
     "Qwen3": 1.5212,
     "DeepSeek-V3.1": 1.494,
     "GLM-4.6": 1.4403
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 35379,
+    "GPT-4": 41939,
+    "Qwen3": 42017,
+    "DeepSeek-V3.1": 40400,
+    "GLM-4.6": 39155
    }
   },
   {
@@ -3832,19 +3832,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 153347,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47949,
-    "GPT-4": 54021,
-    "Qwen3": 54291,
-    "DeepSeek-V3.1": 52841,
-    "GLM-4.6": 52333
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7843,
     "GPT-4": 1.9874,
     "Qwen3": 1.9656,
     "DeepSeek-V3.1": 1.9541,
     "GLM-4.6": 1.9251
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47949,
+    "GPT-4": 54021,
+    "Qwen3": 54291,
+    "DeepSeek-V3.1": 52841,
+    "GLM-4.6": 52333
    }
   },
   {
@@ -3853,19 +3853,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 130780,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47818,
-    "GPT-4": 78856,
-    "Qwen3": 64424,
-    "DeepSeek-V3.1": 51317,
-    "GLM-4.6": 60468
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7794,
     "GPT-4": 2.901,
     "Qwen3": 2.3324,
     "DeepSeek-V3.1": 1.8977,
     "GLM-4.6": 2.2243
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47818,
+    "GPT-4": 78856,
+    "Qwen3": 64424,
+    "DeepSeek-V3.1": 51317,
+    "GLM-4.6": 60468
    }
   },
   {
@@ -3874,19 +3874,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 148726,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48534,
-    "GPT-4": 58877,
-    "Qwen3": 59251,
-    "DeepSeek-V3.1": 57339,
-    "GLM-4.6": 58074
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8061,
     "GPT-4": 2.166,
     "Qwen3": 2.1451,
     "DeepSeek-V3.1": 2.1204,
     "GLM-4.6": 2.1363
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48534,
+    "GPT-4": 58877,
+    "Qwen3": 59251,
+    "DeepSeek-V3.1": 57339,
+    "GLM-4.6": 58074
    }
   },
   {
@@ -3895,19 +3895,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 136846,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 37218,
-    "GPT-4": 49396,
-    "Qwen3": 49721,
-    "DeepSeek-V3.1": 46801,
-    "GLM-4.6": 48451
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.385,
     "GPT-4": 1.8172,
     "Qwen3": 1.8001,
     "DeepSeek-V3.1": 1.7307,
     "GLM-4.6": 1.7823
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 37218,
+    "GPT-4": 49396,
+    "Qwen3": 49721,
+    "DeepSeek-V3.1": 46801,
+    "GLM-4.6": 48451
    }
   },
   {
@@ -3916,19 +3916,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 132173,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 36287,
-    "GPT-4": 42861,
-    "Qwen3": 43240,
-    "DeepSeek-V3.1": 41930,
-    "GLM-4.6": 40659
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3503,
     "GPT-4": 1.5768,
     "Qwen3": 1.5655,
     "DeepSeek-V3.1": 1.5506,
     "GLM-4.6": 1.4956
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 36287,
+    "GPT-4": 42861,
+    "Qwen3": 43240,
+    "DeepSeek-V3.1": 41930,
+    "GLM-4.6": 40659
    }
   },
   {
@@ -3937,19 +3937,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 138104,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 39922,
-    "GPT-4": 53117,
-    "Qwen3": 53481,
-    "DeepSeek-V3.1": 52470,
-    "GLM-4.6": 52513
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4856,
     "GPT-4": 1.9541,
     "Qwen3": 1.9362,
     "DeepSeek-V3.1": 1.9404,
     "GLM-4.6": 1.9317
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 39922,
+    "GPT-4": 53117,
+    "Qwen3": 53481,
+    "DeepSeek-V3.1": 52470,
+    "GLM-4.6": 52513
    }
   },
   {
@@ -3958,19 +3958,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 137311,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 52752,
-    "GPT-4": 59369,
-    "Qwen3": 57788,
-    "DeepSeek-V3.1": 54772,
-    "GLM-4.6": 55188
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.963,
     "GPT-4": 2.1841,
     "Qwen3": 2.0922,
     "DeepSeek-V3.1": 2.0255,
     "GLM-4.6": 2.0301
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 52752,
+    "GPT-4": 59369,
+    "Qwen3": 57788,
+    "DeepSeek-V3.1": 54772,
+    "GLM-4.6": 55188
    }
   },
   {
@@ -3979,19 +3979,19 @@
    "script": "Tamil",
    "sentences": 1012,
    "chars": 154133,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 53199,
-    "GPT-4": 207772,
-    "Qwen3": 168828,
-    "DeepSeek-V3.1": 83021,
-    "GLM-4.6": 207796
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9796,
     "GPT-4": 7.6437,
     "Qwen3": 6.1123,
     "DeepSeek-V3.1": 3.0702,
     "GLM-4.6": 7.6438
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 53199,
+    "GPT-4": 207772,
+    "Qwen3": 168828,
+    "DeepSeek-V3.1": 83021,
+    "GLM-4.6": 207796
    }
   },
   {
@@ -4000,19 +4000,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 124417,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 55784,
-    "GPT-4": 60238,
-    "Qwen3": 54723,
-    "DeepSeek-V3.1": 56071,
-    "GLM-4.6": 59012
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.0758,
     "GPT-4": 2.2161,
     "Qwen3": 1.9812,
     "DeepSeek-V3.1": 2.0736,
     "GLM-4.6": 2.1708
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 55784,
+    "GPT-4": 60238,
+    "Qwen3": 54723,
+    "DeepSeek-V3.1": 56071,
+    "GLM-4.6": 59012
    }
   },
   {
@@ -4021,19 +4021,19 @@
    "script": "Tifinagh (Berber)",
    "sentences": 1012,
    "chars": 123904,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 274399,
-    "GPT-4": 274467,
-    "Qwen3": 145974,
-    "DeepSeek-V3.1": 274416,
-    "GLM-4.6": 274473
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 10.211,
     "GPT-4": 10.0974,
     "Qwen3": 5.2849,
     "DeepSeek-V3.1": 10.1481,
     "GLM-4.6": 10.0965
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 274399,
+    "GPT-4": 274467,
+    "Qwen3": 145974,
+    "DeepSeek-V3.1": 274416,
+    "GLM-4.6": 274473
    }
   },
   {
@@ -4042,19 +4042,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 133282,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46981,
-    "GPT-4": 101354,
-    "Qwen3": 79231,
-    "DeepSeek-V3.1": 67317,
-    "GLM-4.6": 83733
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7483,
     "GPT-4": 3.7287,
     "Qwen3": 2.8685,
     "DeepSeek-V3.1": 2.4894,
     "GLM-4.6": 3.0801
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46981,
+    "GPT-4": 101354,
+    "Qwen3": 79231,
+    "DeepSeek-V3.1": 67317,
+    "GLM-4.6": 83733
    }
   },
   {
@@ -4063,19 +4063,19 @@
    "script": "Telugu",
    "sentences": 1012,
    "chars": 132470,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 51849,
-    "GPT-4": 225263,
-    "Qwen3": 193169,
-    "DeepSeek-V3.1": 101180,
-    "GLM-4.6": 225285
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9294,
     "GPT-4": 8.2872,
     "Qwen3": 6.9936,
     "DeepSeek-V3.1": 3.7417,
     "GLM-4.6": 8.2871
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 51849,
+    "GPT-4": 225263,
+    "Qwen3": 193169,
+    "DeepSeek-V3.1": 101180,
+    "GLM-4.6": 225285
    }
   },
   {
@@ -4084,19 +4084,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 145915,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 50879,
-    "GPT-4": 98460,
-    "Qwen3": 80024,
-    "DeepSeek-V3.1": 75181,
-    "GLM-4.6": 78826
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8933,
     "GPT-4": 3.6223,
     "Qwen3": 2.8972,
     "DeepSeek-V3.1": 2.7803,
     "GLM-4.6": 2.8996
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 50879,
+    "GPT-4": 98460,
+    "Qwen3": 80024,
+    "DeepSeek-V3.1": 75181,
+    "GLM-4.6": 78826
    }
   },
   {
@@ -4105,19 +4105,19 @@
    "script": "Thai",
    "sentences": 1012,
    "chars": 126109,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 52528,
-    "GPT-4": 118044,
-    "Qwen3": 70202,
-    "DeepSeek-V3.1": 47862,
-    "GLM-4.6": 118067
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9547,
     "GPT-4": 4.3427,
     "Qwen3": 2.5416,
     "DeepSeek-V3.1": 1.77,
     "GLM-4.6": 4.3431
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 52528,
+    "GPT-4": 118044,
+    "Qwen3": 70202,
+    "DeepSeek-V3.1": 47862,
+    "GLM-4.6": 118067
    }
   },
   {
@@ -4126,19 +4126,19 @@
    "script": "Ethiopic (Geʻez)",
    "sentences": 1012,
    "chars": 90700,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 160329,
-    "GPT-4": 211419,
-    "Qwen3": 114713,
-    "DeepSeek-V3.1": 165487,
-    "GLM-4.6": 210910
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 5.9662,
     "GPT-4": 7.7779,
     "Qwen3": 4.1531,
     "DeepSeek-V3.1": 6.1199,
     "GLM-4.6": 7.7583
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 160329,
+    "GPT-4": 211419,
+    "Qwen3": 114713,
+    "DeepSeek-V3.1": 165487,
+    "GLM-4.6": 210910
    }
   },
   {
@@ -4147,19 +4147,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 169011,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48170,
-    "GPT-4": 55504,
-    "Qwen3": 55938,
-    "DeepSeek-V3.1": 55322,
-    "GLM-4.6": 55005
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7925,
     "GPT-4": 2.0419,
     "Qwen3": 2.0252,
     "DeepSeek-V3.1": 2.0459,
     "GLM-4.6": 2.0234
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48170,
+    "GPT-4": 55504,
+    "Qwen3": 55938,
+    "DeepSeek-V3.1": 55322,
+    "GLM-4.6": 55005
    }
   },
   {
@@ -4168,19 +4168,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 163035,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 51296,
-    "GPT-4": 61568,
-    "Qwen3": 61982,
-    "DeepSeek-V3.1": 60919,
-    "GLM-4.6": 61158
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.9088,
     "GPT-4": 2.265,
     "Qwen3": 2.244,
     "DeepSeek-V3.1": 2.2528,
     "GLM-4.6": 2.2497
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 51296,
+    "GPT-4": 61568,
+    "Qwen3": 61982,
+    "DeepSeek-V3.1": 60919,
+    "GLM-4.6": 61158
    }
   },
   {
@@ -4189,19 +4189,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 158594,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46982,
-    "GPT-4": 61524,
-    "Qwen3": 61917,
-    "DeepSeek-V3.1": 60070,
-    "GLM-4.6": 60948
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7483,
     "GPT-4": 2.2634,
     "Qwen3": 2.2417,
     "DeepSeek-V3.1": 2.2214,
     "GLM-4.6": 2.242
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46982,
+    "GPT-4": 61524,
+    "Qwen3": 61917,
+    "DeepSeek-V3.1": 60070,
+    "GLM-4.6": 60948
    }
   },
   {
@@ -4210,19 +4210,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 140262,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44819,
-    "GPT-4": 65442,
-    "Qwen3": 60697,
-    "DeepSeek-V3.1": 62958,
-    "GLM-4.6": 58994
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6678,
     "GPT-4": 2.4075,
     "Qwen3": 2.1975,
     "DeepSeek-V3.1": 2.3282,
     "GLM-4.6": 2.1701
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44819,
+    "GPT-4": 65442,
+    "Qwen3": 60697,
+    "DeepSeek-V3.1": 62958,
+    "GLM-4.6": 58994
    }
   },
   {
@@ -4231,19 +4231,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 172545,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 56600,
-    "GPT-4": 70036,
-    "Qwen3": 69458,
-    "DeepSeek-V3.1": 69118,
-    "GLM-4.6": 69185
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.1062,
     "GPT-4": 2.5766,
     "Qwen3": 2.5147,
     "DeepSeek-V3.1": 2.556,
     "GLM-4.6": 2.545
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 56600,
+    "GPT-4": 70036,
+    "Qwen3": 69458,
+    "DeepSeek-V3.1": 69118,
+    "GLM-4.6": 69185
    }
   },
   {
@@ -4252,19 +4252,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 135760,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 38441,
-    "GPT-4": 52205,
-    "Qwen3": 44845,
-    "DeepSeek-V3.1": 55167,
-    "GLM-4.6": 44714
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4305,
     "GPT-4": 1.9206,
     "Qwen3": 1.6236,
     "DeepSeek-V3.1": 2.0401,
     "GLM-4.6": 1.6448
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 38441,
+    "GPT-4": 52205,
+    "Qwen3": 44845,
+    "DeepSeek-V3.1": 55167,
+    "GLM-4.6": 44714
    }
   },
   {
@@ -4273,19 +4273,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 128597,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 49873,
-    "GPT-4": 67984,
-    "Qwen3": 59149,
-    "DeepSeek-V3.1": 58559,
-    "GLM-4.6": 67214
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.8559,
     "GPT-4": 2.5011,
     "Qwen3": 2.1415,
     "DeepSeek-V3.1": 2.1656,
     "GLM-4.6": 2.4725
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 49873,
+    "GPT-4": 67984,
+    "Qwen3": 59149,
+    "DeepSeek-V3.1": 58559,
+    "GLM-4.6": 67214
    }
   },
   {
@@ -4294,19 +4294,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 132650,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 56050,
-    "GPT-4": 73258,
-    "Qwen3": 63183,
-    "DeepSeek-V3.1": 63886,
-    "GLM-4.6": 72534
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.0857,
     "GPT-4": 2.6951,
     "Qwen3": 2.2875,
     "DeepSeek-V3.1": 2.3626,
     "GLM-4.6": 2.6682
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 56050,
+    "GPT-4": 73258,
+    "Qwen3": 63183,
+    "DeepSeek-V3.1": 63886,
+    "GLM-4.6": 72534
    }
   },
   {
@@ -4315,19 +4315,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 147127,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 57743,
-    "GPT-4": 99001,
-    "Qwen3": 81374,
-    "DeepSeek-V3.1": 74329,
-    "GLM-4.6": 79059
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.1487,
     "GPT-4": 3.6422,
     "Qwen3": 2.9461,
     "DeepSeek-V3.1": 2.7488,
     "GLM-4.6": 2.9082
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 57743,
+    "GPT-4": 99001,
+    "Qwen3": 81374,
+    "DeepSeek-V3.1": 74329,
+    "GLM-4.6": 79059
    }
   },
   {
@@ -4336,19 +4336,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 140562,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 67711,
-    "GPT-4": 140633,
-    "Qwen3": 102423,
-    "DeepSeek-V3.1": 101684,
-    "GLM-4.6": 123714
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.5197,
     "GPT-4": 5.1738,
     "Qwen3": 3.7082,
     "DeepSeek-V3.1": 3.7604,
     "GLM-4.6": 4.5508
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 67711,
+    "GPT-4": 140633,
+    "Qwen3": 102423,
+    "DeepSeek-V3.1": 101684,
+    "GLM-4.6": 123714
    }
   },
   {
@@ -4357,19 +4357,19 @@
    "script": "Cyrillic",
    "sentences": 1012,
    "chars": 134446,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46951,
-    "GPT-4": 80599,
-    "Qwen3": 68988,
-    "DeepSeek-V3.1": 58387,
-    "GLM-4.6": 49663
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7471,
     "GPT-4": 2.9652,
     "Qwen3": 2.4977,
     "DeepSeek-V3.1": 2.1592,
     "GLM-4.6": 1.8269
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46951,
+    "GPT-4": 80599,
+    "Qwen3": 68988,
+    "DeepSeek-V3.1": 58387,
+    "GLM-4.6": 49663
    }
   },
   {
@@ -4378,19 +4378,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 134747,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 48073,
-    "GPT-4": 55268,
-    "Qwen3": 55073,
-    "DeepSeek-V3.1": 54454,
-    "GLM-4.6": 54074
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7889,
     "GPT-4": 2.0333,
     "Qwen3": 1.9939,
     "DeepSeek-V3.1": 2.0138,
     "GLM-4.6": 1.9891
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 48073,
+    "GPT-4": 55268,
+    "Qwen3": 55073,
+    "DeepSeek-V3.1": 54454,
+    "GLM-4.6": 54074
    }
   },
   {
@@ -4399,19 +4399,19 @@
    "script": "Arabic",
    "sentences": 1012,
    "chars": 129919,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 44412,
-    "GPT-4": 117957,
-    "Qwen3": 86961,
-    "DeepSeek-V3.1": 63945,
-    "GLM-4.6": 89319
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6527,
     "GPT-4": 4.3395,
     "Qwen3": 3.1484,
     "DeepSeek-V3.1": 2.3647,
     "GLM-4.6": 3.2856
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 44412,
+    "GPT-4": 117957,
+    "Qwen3": 86961,
+    "DeepSeek-V3.1": 63945,
+    "GLM-4.6": 89319
    }
   },
   {
@@ -4420,19 +4420,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 149323,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 47712,
-    "GPT-4": 58932,
-    "Qwen3": 59272,
-    "DeepSeek-V3.1": 57584,
-    "GLM-4.6": 58054
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7755,
     "GPT-4": 2.1681,
     "Qwen3": 2.1459,
     "DeepSeek-V3.1": 2.1295,
     "GLM-4.6": 2.1355
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 47712,
+    "GPT-4": 58932,
+    "Qwen3": 59272,
+    "DeepSeek-V3.1": 57584,
+    "GLM-4.6": 58054
    }
   },
   {
@@ -4441,19 +4441,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 133237,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 41797,
-    "GPT-4": 46332,
-    "Qwen3": 46425,
-    "DeepSeek-V3.1": 45013,
-    "GLM-4.6": 44690
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5554,
     "GPT-4": 1.7045,
     "Qwen3": 1.6808,
     "DeepSeek-V3.1": 1.6646,
     "GLM-4.6": 1.6439
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 41797,
+    "GPT-4": 46332,
+    "Qwen3": 46425,
+    "DeepSeek-V3.1": 45013,
+    "GLM-4.6": 44690
    }
   },
   {
@@ -4462,19 +4462,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 138595,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 40030,
-    "GPT-4": 66427,
-    "Qwen3": 39643,
-    "DeepSeek-V3.1": 57285,
-    "GLM-4.6": 39704
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.4896,
     "GPT-4": 2.4438,
     "Qwen3": 1.4352,
     "DeepSeek-V3.1": 2.1184,
     "GLM-4.6": 1.4605
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 40030,
+    "GPT-4": 66427,
+    "Qwen3": 39643,
+    "DeepSeek-V3.1": 57285,
+    "GLM-4.6": 39704
    }
   },
   {
@@ -4483,19 +4483,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 166084,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 58895,
-    "GPT-4": 66228,
-    "Qwen3": 66510,
-    "DeepSeek-V3.1": 64843,
-    "GLM-4.6": 65774
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.1916,
     "GPT-4": 2.4365,
     "Qwen3": 2.408,
     "DeepSeek-V3.1": 2.398,
     "GLM-4.6": 2.4195
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 58895,
+    "GPT-4": 66228,
+    "Qwen3": 66510,
+    "DeepSeek-V3.1": 64843,
+    "GLM-4.6": 65774
    }
   },
   {
@@ -4504,19 +4504,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 164746,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46208,
-    "GPT-4": 53120,
-    "Qwen3": 53547,
-    "DeepSeek-V3.1": 50063,
-    "GLM-4.6": 52291
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7195,
     "GPT-4": 1.9542,
     "Qwen3": 1.9386,
     "DeepSeek-V3.1": 1.8514,
     "GLM-4.6": 1.9235
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46208,
+    "GPT-4": 53120,
+    "Qwen3": 53547,
+    "DeepSeek-V3.1": 50063,
+    "GLM-4.6": 52291
    }
   },
   {
@@ -4525,19 +4525,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 127173,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46548,
-    "GPT-4": 52513,
-    "Qwen3": 52687,
-    "DeepSeek-V3.1": 50896,
-    "GLM-4.6": 51833
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.7321,
     "GPT-4": 1.9319,
     "Qwen3": 1.9075,
     "DeepSeek-V3.1": 1.8822,
     "GLM-4.6": 1.9067
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46548,
+    "GPT-4": 52513,
+    "Qwen3": 52687,
+    "DeepSeek-V3.1": 50896,
+    "GLM-4.6": 51833
    }
   },
   {
@@ -4546,19 +4546,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 139123,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 43993,
-    "GPT-4": 55857,
-    "Qwen3": 56171,
-    "DeepSeek-V3.1": 55280,
-    "GLM-4.6": 55248
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.6371,
     "GPT-4": 2.0549,
     "Qwen3": 2.0336,
     "DeepSeek-V3.1": 2.0443,
     "GLM-4.6": 2.0323
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 43993,
+    "GPT-4": 55857,
+    "Qwen3": 56171,
+    "DeepSeek-V3.1": 55280,
+    "GLM-4.6": 55248
    }
   },
   {
@@ -4567,19 +4567,19 @@
    "script": "Hebrew",
    "sentences": 1012,
    "chars": 141658,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 54227,
-    "GPT-4": 150358,
-    "Qwen3": 75716,
-    "DeepSeek-V3.1": 91639,
-    "GLM-4.6": 150383
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.0179,
     "GPT-4": 5.5315,
     "Qwen3": 2.7412,
     "DeepSeek-V3.1": 3.3889,
     "GLM-4.6": 5.5318
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 54227,
+    "GPT-4": 150358,
+    "Qwen3": 75716,
+    "DeepSeek-V3.1": 91639,
+    "GLM-4.6": 150383
    }
   },
   {
@@ -4588,19 +4588,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 126844,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 58238,
-    "GPT-4": 80247,
-    "Qwen3": 74226,
-    "DeepSeek-V3.1": 76526,
-    "GLM-4.6": 74124
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 2.1672,
     "GPT-4": 2.9522,
     "Qwen3": 2.6873,
     "DeepSeek-V3.1": 2.83,
     "GLM-4.6": 2.7267
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 58238,
+    "GPT-4": 80247,
+    "Qwen3": 74226,
+    "DeepSeek-V3.1": 76526,
+    "GLM-4.6": 74124
    }
   },
   {
@@ -4609,19 +4609,19 @@
    "script": "Han (Traditional variant)",
    "sentences": 1012,
    "chars": 40251,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 41288,
-    "GPT-4": 61860,
-    "Qwen3": 35304,
-    "DeepSeek-V3.1": 31603,
-    "GLM-4.6": 40182
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.5364,
     "GPT-4": 2.2758,
     "Qwen3": 1.2782,
     "DeepSeek-V3.1": 1.1687,
     "GLM-4.6": 1.4781
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 41288,
+    "GPT-4": 61860,
+    "Qwen3": 35304,
+    "DeepSeek-V3.1": 31603,
+    "GLM-4.6": 40182
    }
   },
   {
@@ -4630,19 +4630,19 @@
    "script": "Tifinagh (Berber)",
    "sentences": 1012,
    "chars": 118169,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 273025,
-    "GPT-4": 273030,
-    "Qwen3": 138969,
-    "DeepSeek-V3.1": 273028,
-    "GLM-4.6": 272980
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 10.1598,
     "GPT-4": 10.0445,
     "Qwen3": 5.0313,
     "DeepSeek-V3.1": 10.0968,
     "GLM-4.6": 10.0416
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 273025,
+    "GPT-4": 273030,
+    "Qwen3": 138969,
+    "DeepSeek-V3.1": 273028,
+    "GLM-4.6": 272980
    }
   },
   {
@@ -4651,19 +4651,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 146201,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 34943,
-    "GPT-4": 43962,
-    "Qwen3": 44400,
-    "DeepSeek-V3.1": 38018,
-    "GLM-4.6": 43602
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.3003,
     "GPT-4": 1.6173,
     "Qwen3": 1.6075,
     "DeepSeek-V3.1": 1.4059,
     "GLM-4.6": 1.6039
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 34943,
+    "GPT-4": 43962,
+    "Qwen3": 44400,
+    "DeepSeek-V3.1": 38018,
+    "GLM-4.6": 43602
    }
   },
   {
@@ -4672,19 +4672,19 @@
    "script": "Latin",
    "sentences": 1012,
    "chars": 147949,
-   "tokens": {
-    "GPT-5 / GPT-4o / o3": 46007,
-    "GPT-4": 59844,
-    "Qwen3": 60135,
-    "DeepSeek-V3.1": 58914,
-    "GLM-4.6": 58956
-   },
    "tax": {
     "GPT-5 / GPT-4o / o3": 1.712,
     "GPT-4": 2.2016,
     "Qwen3": 2.1771,
     "DeepSeek-V3.1": 2.1787,
     "GLM-4.6": 2.1687
+   },
+   "tokens": {
+    "GPT-5 / GPT-4o / o3": 46007,
+    "GPT-4": 59844,
+    "Qwen3": 60135,
+    "DeepSeek-V3.1": 58914,
+    "GLM-4.6": 58956
    }
   }
  ]

@@ -598,27 +598,25 @@ name = "tokentax"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
+    { name = "huggingface-hub" },
     { name = "tiktoken" },
     { name = "tokenizers" },
 ]
 
 [package.dev-dependencies]
 data = [
-    { name = "huggingface-hub" },
     { name = "pycountry" },
 ]
 
 [package.metadata]
 requires-dist = [
+    { name = "huggingface-hub", specifier = ">=1.33.0" },
     { name = "tiktoken", specifier = ">=0.14.0" },
     { name = "tokenizers", specifier = ">=0.23.2" },
 ]
 
 [package.metadata.requires-dev]
-data = [
-    { name = "huggingface-hub", specifier = ">=1.33.0" },
-    { name = "pycountry", specifier = ">=26.2.16" },
-]
+data = [{ name = "pycountry", specifier = ">=26.2.16" }]
 
 [[package]]
 name = "tqdm"
