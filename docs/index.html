@@ -5,6 +5,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Tokenizer Tax</title>
 <meta name="description" content="How many more tokens, and dollars, the same text costs in your language across LLM tokenizers. 222 languages, measured on FLORES+.">
+<meta property="og:title" content="Tokenizer Tax">
+<meta property="og:description" content="The same sentence costs more tokens in some languages. Check yours across 7 LLM tokenizers, 222 languages.">
+<meta property="og:image" content="https://anri-lombard.github.io/tokentax/og.png">
+<meta property="og:url" content="https://anri-lombard.github.io/tokentax/">
+<meta name="twitter:card" content="summary_large_image">
 <style>
 :root {
   color-scheme: light;
@@ -157,6 +162,7 @@ code { font-size: 13px; }
       Prior work: Petrov et al., <a href="https://arxiv.org/abs/2305.15425">Language Model Tokenizers Introduce Unfairness Between Languages</a> (NeurIPS 2023);
       Ahia et al., <a href="https://arxiv.org/abs/2305.13707">Do All Languages Cost the Same?</a> (EMNLP 2023).</p>
     <p id="src"></p>
+    <p>Code, CLI and <code>tokentax eval</code> for your own tokenizer: <a href="https://github.com/Anri-Lombard/tokentax">github.com/Anri-Lombard/tokentax</a>.</p>
     <p>Samples: Universal Declaration of Human Rights, Article 1 (UN OHCHR translations via the Unicode UDHR project).
       In-browser tokenizers: <a href="https://github.com/dqbd/tiktoken">js-tiktoken</a> and
       <a href="https://github.com/huggingface/tokenizers.js">tokenizers.js</a>.</p>
@@ -329,6 +335,7 @@ $("loadall").addEventListener("click", () => models.forEach(load));
 
 const money = (x) => x >= 100 ? "$" + Math.round(x).toLocaleString() : "$" + x.toFixed(2);
 const prices = {};
+let chosen = null;  // tokenizer picked in "Show tokens for", once the user picks one
 
 function update() {
   const text = $("text").value, perMonth = +$("permonth").value || 0;
@@ -358,9 +365,9 @@ function update() {
   $("ptbl").tBodies[0].replaceChildren(...rows);
 
   // token view for one tokenizer
-  const ready = models.filter((m) => m.state === "ready"), show = $("show"), was = show.value;
+  const ready = models.filter((m) => m.state === "ready"), show = $("show");
   show.replaceChildren(...ready.map((m) => new Option(m.label, m.label)));
-  if (ready.some((m) => m.label === was)) show.value = was;
+  if (ready.some((m) => m.label === chosen)) show.value = chosen;  // else the first tokenizer in the list
   const m = ready.find((x) => x.label === show.value);
   $("pieces").replaceChildren(...(m ? pieces(m, m.enc.ids(text).slice(0, 2000)) : []));
 }
@@ -383,7 +390,7 @@ function pieces(m, ids) {
 
 $("text").addEventListener("input", update);
 $("permonth").addEventListener("input", update);
-$("show").addEventListener("change", update);
+$("show").addEventListener("change", (e) => { chosen = e.target.value; update(); });
 update();
 </script>
 </body>

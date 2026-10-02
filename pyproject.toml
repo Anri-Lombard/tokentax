@@ -3,6 +3,7 @@ name = "tokentax"
 version = "0.1.0"
 description = "How many more tokens (and dollars) the same text costs in your language, across LLM tokenizers."
 readme = "README.md"
+license = "MIT"
 authors = [
     { name = "Anri Lombard", email = "anri.m.lombard@gmail.com" }
 ]
@@ -12,6 +13,10 @@ dependencies = [
     "tiktoken>=0.14.0",
     "tokenizers>=0.23.2",
 ]
+
+[project.urls]
+Homepage = "https://anri-lombard.github.io/tokentax"
+Repository = "https://github.com/Anri-Lombard/tokentax"
 
 [project.scripts]
 tokentax = "tokentax.cli:main"
