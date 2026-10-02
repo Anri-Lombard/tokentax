@@ -10,21 +10,21 @@
   color-scheme: light;
   --page: #f9f9f7; --surface: #fcfcfb; --ink: #0b0b0b; --ink-2: #52514e; --muted: #898781;
   --grid: #e1e0d9; --axis: #c3c2b7; --ring: rgba(11,11,11,.10);
-  --accent: #2a78d6; --rest: #c9c8c1; --rest-hover: #9e9d97;
+  --accent: #2a78d6; --rest: #c9c8c1; --rest-hover: #9e9d97; --tok-b: #eb6834;
 }
 @media (prefers-color-scheme: dark) {
   :root:where(:not([data-theme="light"])) {
     color-scheme: dark;
     --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
     --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10);
-    --accent: #3987e5; --rest: #4a4946; --rest-hover: #6d6c68;
+    --accent: #3987e5; --rest: #4a4946; --rest-hover: #6d6c68; --tok-b: #d95926;
   }
 }
 :root[data-theme="dark"] {
   color-scheme: dark;
   --page: #0d0d0d; --surface: #1a1a19; --ink: #ffffff; --ink-2: #c3c2b7; --muted: #898781;
   --grid: #2c2c2a; --axis: #383835; --ring: rgba(255,255,255,.10);
-  --accent: #3987e5; --rest: #4a4946; --rest-hover: #6d6c68;
+  --accent: #3987e5; --rest: #4a4946; --rest-hover: #6d6c68; --tok-b: #d95926;
 }
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--page); color: var(--ink);
@@ -71,9 +71,9 @@ button { font: inherit; font-size: 13px; color: var(--accent); background: none;
 button:hover { border-color: var(--accent); }
 .best td:first-child::after { content: " · fewest"; color: var(--muted); font-size: 12px; }
 #pieces { margin-top: 10px; line-height: 1.9; white-space: pre-wrap; word-break: break-word; font-size: 15px; }
-#pieces span { border-radius: 3px; padding: 1px 0; }
-#pieces span:nth-child(odd) { background: color-mix(in srgb, var(--accent) 18%, transparent); }
-#pieces span:nth-child(even) { background: color-mix(in srgb, var(--ink) 10%, transparent); }
+#pieces span { border-radius: 3px; padding: 2px 1px; margin-right: 1px; }
+#pieces span:nth-child(odd) { background: color-mix(in srgb, var(--accent) 32%, transparent); }
+#pieces span:nth-child(even) { background: color-mix(in srgb, var(--tok-b) 32%, transparent); }
 #pieces span[data-n]::after { content: attr(data-n); font-size: 10px; vertical-align: super; color: var(--muted); margin-left: 1px; }
 .note { color: var(--muted); font-size: 13px; margin-top: 8px; }
 footer { color: var(--muted); font-size: 14px; margin-top: 32px; }
