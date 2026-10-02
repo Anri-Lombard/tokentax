@@ -1,0 +1,20 @@
+[project]
+name = "tokentax"
+version = "0.1.0"
+description = "How many more tokens (and dollars) the same text costs in your language, across LLM tokenizers."
+readme = "README.md"
+authors = [
+    { name = "Anri Lombard", email = "anri.m.lombard@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "tiktoken>=0.14.0",
+    "tokenizers>=0.23.2",
+]
+
+[project.scripts]
+tokentax = "tokentax.cli:main"
+
+[build-system]
+requires = ["uv_build>=0.11.28,<0.12.0"]
+build-backend = "uv_build"
