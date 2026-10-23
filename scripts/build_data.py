@@ -3,6 +3,7 @@
     uv run --group data scripts/build_data.py
 
 FLORES+ is gated: accept its terms on Hugging Face and log in (`hf auth login`) first.
+Run scripts/claude_counts.py first for the Claude columns.
 Only token and character counts are written out, never the FLORES+ text itself.
 """
 import json
@@ -13,6 +14,7 @@ import pycountry
 
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 from tokentax.cli import FLORES, REF, SPLIT, TOKENIZERS, counter, flores, tax  # noqa: E402
+import claude_counts  # noqa: E402
 
 def label(rows):
     r = rows[0]
@@ -26,6 +28,8 @@ def label(rows):
 def main():
     revision, langs = flores()
     measured = {lab: tax(counter(*spec), langs) for lab, spec in TOKENIZERS.items()}
+    measured |= {lab: tax(claude_counts.counter(model, langs), langs) for lab, model in claude_counts.CLAUDE.items()}
+    specs = {l: list(s) for l, s in TOKENIZERS.items()} | {l: ["anthropic", m] for l, m in claude_counts.CLAUDE.items()}
     ref_ids = {r["id"] for r in langs[REF]}
     out = []
     for code, rows in langs.items():
@@ -36,7 +40,7 @@ def main():
                     "tax": {lab: round(t[code], 4) for lab, (t, _) in measured.items()},
                     "tokens": {lab: n[code] for lab, (_, n) in measured.items()}})
     data = {"source": f"{FLORES} ({SPLIT}, revision {revision[:12]})", "license": "CC BY-SA 4.0",
-            "reference": REF, "tokenizers": {l: list(s) for l, s in TOKENIZERS.items()}, "languages": out}
+            "reference": REF, "tokenizers": specs, "api_measured": claude_counts.measured_on(), "languages": out}
     for path in ("docs/tax.json", "src/tokentax/tax.json"):  # the site's copy and the one `tokentax eval` ships with
         with open(path, "w", encoding="utf-8") as f:
             json.dump(data, f, ensure_ascii=False, indent=1)

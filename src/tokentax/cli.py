@@ -11,7 +11,8 @@ import statistics
 import sys
 
 # label -> (backend, id). Open tokenizers of current flagship models, as of October 2026.
-# Claude and Gemini only expose token counts through their APIs; Llama is gated and Kimi ships no tokenizer.json.
+# Claude and Gemini only expose token counts through their APIs (scripts/claude_counts.py adds Claude to the data);
+# Llama is gated and Kimi ships no tokenizer.json.
 TOKENIZERS = {
     "GPT-5 / GPT-4o": ("tiktoken", "o200k_base"),
     "GPT-4 (2023)": ("tiktoken", "cl100k_base"),

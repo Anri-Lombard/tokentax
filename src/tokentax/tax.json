@@ -30,8 +30,17 @@
   "Gemma 4": [
    "hf",
    "google/gemma-4-12b-it"
+  ],
+  "Claude Opus 5.5": [
+   "anthropic",
+   "claude-opus-5-5"
+  ],
+  "Claude Haiku 4.5": [
+   "anthropic",
+   "claude-haiku-4-5"
   ]
  },
+ "api_measured": "2026-10-23",
  "languages": [
   {
    "code": "ace_Arab",
@@ -46,7 +55,9 @@
     "DeepSeek-V4.1": 2.7143,
     "GLM-5.3": 2.6276,
     "Mistral Medium 3.5": 2.4788,
-    "Gemma 4": 2.2441
+    "Gemma 4": 2.2441,
+    "Claude Opus 5.5": 2.4237,
+    "Claude Haiku 4.5": 3.5151
    },
    "tokens": {
     "GPT-5 / GPT-4o": 70289,
@@ -55,7 +66,9 @@
     "DeepSeek-V4.1": 73398,
     "GLM-5.3": 71432,
     "Mistral Medium 3.5": 68978,
-    "Gemma 4": 60846
+    "Gemma 4": 60846,
+    "Claude Opus 5.5": 101593,
+    "Claude Haiku 4.5": 101533
    }
   },
   {
@@ -71,7 +84,9 @@
     "DeepSeek-V4.1": 1.9506,
     "GLM-5.3": 1.9645,
     "Mistral Medium 3.5": 1.8621,
-    "Gemma 4": 1.8123
+    "Gemma 4": 1.8123,
+    "Claude Opus 5.5": 1.7905,
+    "Claude Haiku 4.5": 2.024
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48767,
@@ -80,7 +95,9 @@
     "DeepSeek-V4.1": 52747,
     "GLM-5.3": 53404,
     "Mistral Medium 3.5": 51817,
-    "Gemma 4": 49139
+    "Gemma 4": 49139,
+    "Claude Opus 5.5": 75051,
+    "Claude Haiku 4.5": 58462
    }
   },
   {
@@ -96,7 +113,9 @@
     "DeepSeek-V4.1": 1.6137,
     "GLM-5.3": 1.7507,
     "Mistral Medium 3.5": 1.2545,
-    "Gemma 4": 1.4599
+    "Gemma 4": 1.4599,
+    "Claude Opus 5.5": 1.799,
+    "Claude Haiku 4.5": 2.6088
    },
    "tokens": {
     "GPT-5 / GPT-4o": 37108,
@@ -105,7 +124,9 @@
     "DeepSeek-V4.1": 43636,
     "GLM-5.3": 47593,
     "Mistral Medium 3.5": 34908,
-    "Gemma 4": 39583
+    "Gemma 4": 39583,
+    "Claude Opus 5.5": 75406,
+    "Claude Haiku 4.5": 75354
    }
   },
   {
@@ -121,7 +142,9 @@
     "DeepSeek-V4.1": 1.6206,
     "GLM-5.3": 1.7667,
     "Mistral Medium 3.5": 1.2545,
-    "Gemma 4": 1.4663
+    "Gemma 4": 1.4663,
+    "Claude Opus 5.5": 1.8234,
+    "Claude Haiku 4.5": 2.6442
    },
    "tokens": {
     "GPT-5 / GPT-4o": 37342,
@@ -130,7 +153,9 @@
     "DeepSeek-V4.1": 43823,
     "GLM-5.3": 48027,
     "Mistral Medium 3.5": 34909,
-    "Gemma 4": 39758
+    "Gemma 4": 39758,
+    "Claude Opus 5.5": 76429,
+    "Claude Haiku 4.5": 76378
    }
   },
   {
@@ -146,7 +171,9 @@
     "DeepSeek-V4.1": 1.6393,
     "GLM-5.3": 1.7596,
     "Mistral Medium 3.5": 1.2983,
-    "Gemma 4": 1.4814
+    "Gemma 4": 1.4814,
+    "Claude Opus 5.5": 1.7575,
+    "Claude Haiku 4.5": 2.5487
    },
    "tokens": {
     "GPT-5 / GPT-4o": 38168,
@@ -155,7 +182,9 @@
     "DeepSeek-V4.1": 44327,
     "GLM-5.3": 47835,
     "Mistral Medium 3.5": 36127,
-    "Gemma 4": 40167
+    "Gemma 4": 40167,
+    "Claude Opus 5.5": 73667,
+    "Claude Haiku 4.5": 73618
    }
   },
   {
@@ -171,7 +200,9 @@
     "DeepSeek-V4.1": 1.6321,
     "GLM-5.3": 1.6415,
     "Mistral Medium 3.5": 1.5187,
-    "Gemma 4": 1.5203
+    "Gemma 4": 1.5203,
+    "Claude Opus 5.5": 1.5299,
+    "Claude Haiku 4.5": 1.6709
    },
    "tokens": {
     "GPT-5 / GPT-4o": 38361,
@@ -180,7 +211,9 @@
     "DeepSeek-V4.1": 44134,
     "GLM-5.3": 44625,
     "Mistral Medium 3.5": 42260,
-    "Gemma 4": 41222
+    "Gemma 4": 41222,
+    "Claude Opus 5.5": 64129,
+    "Claude Haiku 4.5": 48265
    }
   },
   {
@@ -196,7 +229,9 @@
     "DeepSeek-V4.1": 2.2969,
     "GLM-5.3": 2.2069,
     "Mistral Medium 3.5": 1.8685,
-    "Gemma 4": 1.9501
+    "Gemma 4": 1.9501,
+    "Claude Opus 5.5": 1.7734,
+    "Claude Haiku 4.5": 2.0486
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49201,
@@ -205,7 +240,9 @@
     "DeepSeek-V4.1": 62111,
     "GLM-5.3": 59995,
     "Mistral Medium 3.5": 51994,
-    "Gemma 4": 52876
+    "Gemma 4": 52876,
+    "Claude Opus 5.5": 74334,
+    "Claude Haiku 4.5": 59174
    }
   },
   {
@@ -221,7 +258,9 @@
     "DeepSeek-V4.1": 5.9733,
     "GLM-5.3": 7.5859,
     "Mistral Medium 3.5": 7.4273,
-    "Gemma 4": 1.9382
+    "Gemma 4": 1.9382,
+    "Claude Opus 5.5": 2.6846,
+    "Claude Haiku 4.5": 3.893
    },
    "tokens": {
     "GPT-5 / GPT-4o": 155290,
@@ -230,7 +269,9 @@
     "DeepSeek-V4.1": 161525,
     "GLM-5.3": 206224,
     "Mistral Medium 3.5": 206679,
-    "Gemma 4": 52552
+    "Gemma 4": 52552,
+    "Claude Opus 5.5": 112528,
+    "Claude Haiku 4.5": 112449
    }
   },
   {
@@ -246,7 +287,9 @@
     "DeepSeek-V4.1": 1.5701,
     "GLM-5.3": 1.6887,
     "Mistral Medium 3.5": 1.2284,
-    "Gemma 4": 1.4127
+    "Gemma 4": 1.4127,
+    "Claude Opus 5.5": 1.7135,
+    "Claude Haiku 4.5": 2.4814
    },
    "tokens": {
     "GPT-5 / GPT-4o": 36158,
@@ -255,7 +298,9 @@
     "DeepSeek-V4.1": 42458,
     "GLM-5.3": 45908,
     "Mistral Medium 3.5": 34182,
-    "Gemma 4": 38305
+    "Gemma 4": 38305,
+    "Claude Opus 5.5": 71824,
+    "Claude Haiku 4.5": 71674
    }
   },
   {
@@ -271,7 +316,9 @@
     "DeepSeek-V4.1": 1.5565,
     "GLM-5.3": 1.6792,
     "Mistral Medium 3.5": 1.2247,
-    "Gemma 4": 1.3918
+    "Gemma 4": 1.3918,
+    "Claude Opus 5.5": 1.7197,
+    "Claude Haiku 4.5": 2.4883
    },
    "tokens": {
     "GPT-5 / GPT-4o": 36006,
@@ -280,7 +327,9 @@
     "DeepSeek-V4.1": 42090,
     "GLM-5.3": 45650,
     "Mistral Medium 3.5": 34079,
-    "Gemma 4": 37737
+    "Gemma 4": 37737,
+    "Claude Opus 5.5": 72082,
+    "Claude Haiku 4.5": 71874
    }
   },
   {
@@ -296,7 +345,9 @@
     "DeepSeek-V4.1": 1.6239,
     "GLM-5.3": 1.7442,
     "Mistral Medium 3.5": 1.3206,
-    "Gemma 4": 1.4482
+    "Gemma 4": 1.4482,
+    "Claude Opus 5.5": 1.7316,
+    "Claude Haiku 4.5": 2.51
    },
    "tokens": {
     "GPT-5 / GPT-4o": 38179,
@@ -305,7 +356,9 @@
     "DeepSeek-V4.1": 43913,
     "GLM-5.3": 47416,
     "Mistral Medium 3.5": 36747,
-    "Gemma 4": 39266
+    "Gemma 4": 39266,
+    "Claude Opus 5.5": 72582,
+    "Claude Haiku 4.5": 72502
    }
   },
   {
@@ -321,7 +374,9 @@
     "DeepSeek-V4.1": 1.6161,
     "GLM-5.3": 1.7656,
     "Mistral Medium 3.5": 1.2416,
-    "Gemma 4": 1.4706
+    "Gemma 4": 1.4706,
+    "Claude Opus 5.5": 1.832,
+    "Claude Haiku 4.5": 2.6565
    },
    "tokens": {
     "GPT-5 / GPT-4o": 37105,
@@ -330,7 +385,9 @@
     "DeepSeek-V4.1": 43700,
     "GLM-5.3": 47997,
     "Mistral Medium 3.5": 34551,
-    "Gemma 4": 39874
+    "Gemma 4": 39874,
+    "Claude Opus 5.5": 76789,
+    "Claude Haiku 4.5": 76733
    }
   },
   {
@@ -346,7 +403,9 @@
     "DeepSeek-V4.1": 2.4096,
     "GLM-5.3": 2.4249,
     "Mistral Medium 3.5": 2.324,
-    "Gemma 4": 2.3081
+    "Gemma 4": 2.3081,
+    "Claude Opus 5.5": 2.1201,
+    "Claude Haiku 4.5": 2.4735
    },
    "tokens": {
     "GPT-5 / GPT-4o": 60450,
@@ -355,7 +414,9 @@
     "DeepSeek-V4.1": 65157,
     "GLM-5.3": 65920,
     "Mistral Medium 3.5": 64671,
-    "Gemma 4": 62582
+    "Gemma 4": 62582,
+    "Claude Opus 5.5": 88867,
+    "Claude Haiku 4.5": 71448
    }
   },
   {
@@ -371,7 +432,9 @@
     "DeepSeek-V4.1": 1.683,
     "GLM-5.3": 1.6605,
     "Mistral Medium 3.5": 1.5315,
-    "Gemma 4": 1.582
+    "Gemma 4": 1.582,
+    "Claude Opus 5.5": 1.5617,
+    "Claude Haiku 4.5": 1.7106
    },
    "tokens": {
     "GPT-5 / GPT-4o": 41804,
@@ -380,7 +443,9 @@
     "DeepSeek-V4.1": 45509,
     "GLM-5.3": 45142,
     "Mistral Medium 3.5": 42617,
-    "Gemma 4": 42894
+    "Gemma 4": 42894,
+    "Claude Opus 5.5": 65462,
+    "Claude Haiku 4.5": 49410
    }
   },
   {
@@ -396,7 +461,9 @@
     "DeepSeek-V4.1": 1.6237,
     "GLM-5.3": 1.7726,
     "Mistral Medium 3.5": 1.2465,
-    "Gemma 4": 1.4758
+    "Gemma 4": 1.4758,
+    "Claude Opus 5.5": 1.836,
+    "Claude Haiku 4.5": 2.6629
    },
    "tokens": {
     "GPT-5 / GPT-4o": 37239,
@@ -405,7 +472,9 @@
     "DeepSeek-V4.1": 43907,
     "GLM-5.3": 48188,
     "Mistral Medium 3.5": 34687,
-    "Gemma 4": 40015
+    "Gemma 4": 40015,
+    "Claude Opus 5.5": 76957,
+    "Claude Haiku 4.5": 76919
    }
   },
   {
@@ -421,7 +490,9 @@
     "DeepSeek-V4.1": 1.6911,
     "GLM-5.3": 1.8068,
     "Mistral Medium 3.5": 1.3673,
-    "Gemma 4": 1.521
+    "Gemma 4": 1.521,
+    "Claude Opus 5.5": 1.8019,
+    "Claude Haiku 4.5": 2.6118
    },
    "tokens": {
     "GPT-5 / GPT-4o": 39793,
@@ -430,7 +501,9 @@
     "DeepSeek-V4.1": 45729,
     "GLM-5.3": 49119,
     "Mistral Medium 3.5": 38047,
-    "Gemma 4": 41240
+    "Gemma 4": 41240,
+    "Claude Opus 5.5": 75527,
+    "Claude Haiku 4.5": 75441
    }
   },
   {
@@ -446,7 +519,9 @@
     "DeepSeek-V4.1": 1.6257,
     "GLM-5.3": 1.7493,
     "Mistral Medium 3.5": 1.2826,
-    "Gemma 4": 1.438
+    "Gemma 4": 1.438,
+    "Claude Opus 5.5": 1.7829,
+    "Claude Haiku 4.5": 2.5859
    },
    "tokens": {
     "GPT-5 / GPT-4o": 37772,
@@ -455,7 +530,9 @@
     "DeepSeek-V4.1": 43961,
     "GLM-5.3": 47556,
     "Mistral Medium 3.5": 35690,
-    "Gemma 4": 38989
+    "Gemma 4": 38989,
+    "Claude Opus 5.5": 74731,
+    "Claude Haiku 4.5": 74693
    }
   },
   {
@@ -471,7 +548,9 @@
     "DeepSeek-V4.1": 2.6936,
     "GLM-5.3": 4.5984,
     "Mistral Medium 3.5": 3.2813,
-    "Gemma 4": 2.0053
+    "Gemma 4": 2.0053,
+    "Claude Opus 5.5": 3.2353,
+    "Claude Haiku 4.5": 4.6874
    },
    "tokens": {
     "GPT-5 / GPT-4o": 53433,
@@ -480,7 +559,9 @@
     "DeepSeek-V4.1": 72837,
     "GLM-5.3": 125007,
     "Mistral Medium 3.5": 91309,
-    "Gemma 4": 54371
+    "Gemma 4": 54371,
+    "Claude Opus 5.5": 135610,
+    "Claude Haiku 4.5": 135396
    }
   },
   {
@@ -496,7 +577,9 @@
     "DeepSeek-V4.1": 1.5348,
     "GLM-5.3": 1.5069,
     "Mistral Medium 3.5": 1.3981,
-    "Gemma 4": 1.4238
+    "Gemma 4": 1.4238,
+    "Claude Opus 5.5": 1.4014,
+    "Claude Haiku 4.5": 1.5652
    },
    "tokens": {
     "GPT-5 / GPT-4o": 38002,
@@ -505,7 +588,9 @@
     "DeepSeek-V4.1": 41502,
     "GLM-5.3": 40965,
     "Mistral Medium 3.5": 38904,
-    "Gemma 4": 38604
+    "Gemma 4": 38604,
+    "Claude Opus 5.5": 58739,
+    "Claude Haiku 4.5": 45210
    }
   },
   {
@@ -521,7 +606,9 @@
     "DeepSeek-V4.1": 2.8991,
     "GLM-5.3": 4.2264,
     "Mistral Medium 3.5": 2.0328,
-    "Gemma 4": 1.4678
+    "Gemma 4": 1.4678,
+    "Claude Opus 5.5": 2.2387,
+    "Claude Haiku 4.5": 3.2483
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45825,
@@ -530,7 +617,9 @@
     "DeepSeek-V4.1": 78394,
     "GLM-5.3": 114896,
     "Mistral Medium 3.5": 56567,
-    "Gemma 4": 39799
+    "Gemma 4": 39799,
+    "Claude Opus 5.5": 93839,
+    "Claude Haiku 4.5": 93826
    }
   },
   {
@@ -546,7 +635,9 @@
     "DeepSeek-V4.1": 2.1422,
     "GLM-5.3": 2.1528,
     "Mistral Medium 3.5": 2.0262,
-    "Gemma 4": 1.9945
+    "Gemma 4": 1.9945,
+    "Claude Opus 5.5": 1.891,
+    "Claude Haiku 4.5": 2.1712
    },
    "tokens": {
     "GPT-5 / GPT-4o": 52120,
@@ -555,7 +646,9 @@
     "DeepSeek-V4.1": 57928,
     "GLM-5.3": 58525,
     "Mistral Medium 3.5": 56383,
-    "Gemma 4": 54079
+    "Gemma 4": 54079,
+    "Claude Opus 5.5": 79265,
+    "Claude Haiku 4.5": 62715
    }
   },
   {
@@ -571,7 +664,9 @@
     "DeepSeek-V4.1": 2.0459,
     "GLM-5.3": 2.1523,
     "Mistral Medium 3.5": 1.767,
-    "Gemma 4": 1.7716
+    "Gemma 4": 1.7716,
+    "Claude Opus 5.5": 1.9826,
+    "Claude Haiku 4.5": 2.8768
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49876,
@@ -580,7 +675,9 @@
     "DeepSeek-V4.1": 55323,
     "GLM-5.3": 58510,
     "Mistral Medium 3.5": 49171,
-    "Gemma 4": 48035
+    "Gemma 4": 48035,
+    "Claude Opus 5.5": 83104,
+    "Claude Haiku 4.5": 83096
    }
   },
   {
@@ -596,7 +693,9 @@
     "DeepSeek-V4.1": 2.4842,
     "GLM-5.3": 2.5043,
     "Mistral Medium 3.5": 1.8074,
-    "Gemma 4": 2.0245
+    "Gemma 4": 2.0245,
+    "Claude Opus 5.5": 1.9363,
+    "Claude Haiku 4.5": 2.3719
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46043,
@@ -605,7 +704,9 @@
     "DeepSeek-V4.1": 67174,
     "GLM-5.3": 68079,
     "Mistral Medium 3.5": 50294,
-    "Gemma 4": 54891
+    "Gemma 4": 54891,
+    "Claude Opus 5.5": 81164,
+    "Claude Haiku 4.5": 68512
    }
   },
   {
@@ -621,7 +722,9 @@
     "DeepSeek-V4.1": 2.9483,
     "GLM-5.3": 2.9314,
     "Mistral Medium 3.5": 2.5731,
-    "Gemma 4": 2.3142
+    "Gemma 4": 2.3142,
+    "Claude Opus 5.5": 2.04,
+    "Claude Haiku 4.5": 2.9543
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46891,
@@ -630,7 +733,9 @@
     "DeepSeek-V4.1": 79726,
     "GLM-5.3": 79691,
     "Mistral Medium 3.5": 71601,
-    "Gemma 4": 62747
+    "Gemma 4": 62747,
+    "Claude Opus 5.5": 85507,
+    "Claude Haiku 4.5": 85336
    }
   },
   {
@@ -646,7 +751,9 @@
     "DeepSeek-V4.1": 2.1853,
     "GLM-5.3": 2.1329,
     "Mistral Medium 3.5": 2.4338,
-    "Gemma 4": 2.0792
+    "Gemma 4": 2.0792,
+    "Claude Opus 5.5": 2.1142,
+    "Claude Haiku 4.5": 2.6097
    },
    "tokens": {
     "GPT-5 / GPT-4o": 54646,
@@ -655,7 +762,9 @@
     "DeepSeek-V4.1": 59092,
     "GLM-5.3": 57982,
     "Mistral Medium 3.5": 67725,
-    "Gemma 4": 56375
+    "Gemma 4": 56375,
+    "Claude Opus 5.5": 88617,
+    "Claude Haiku 4.5": 75382
    }
   },
   {
@@ -671,7 +780,9 @@
     "DeepSeek-V4.1": 1.6939,
     "GLM-5.3": 1.7608,
     "Mistral Medium 3.5": 1.6543,
-    "Gemma 4": 1.557
+    "Gemma 4": 1.557,
+    "Claude Opus 5.5": 1.6416,
+    "Claude Haiku 4.5": 1.8021
    },
    "tokens": {
     "GPT-5 / GPT-4o": 42175,
@@ -680,7 +791,9 @@
     "DeepSeek-V4.1": 45805,
     "GLM-5.3": 47868,
     "Mistral Medium 3.5": 46035,
-    "Gemma 4": 42217
+    "Gemma 4": 42217,
+    "Claude Opus 5.5": 68811,
+    "Claude Haiku 4.5": 52054
    }
   },
   {
@@ -696,7 +809,9 @@
     "DeepSeek-V4.1": 2.6183,
     "GLM-5.3": 2.5792,
     "Mistral Medium 3.5": 2.1529,
-    "Gemma 4": 2.1644
+    "Gemma 4": 2.1644,
+    "Claude Opus 5.5": 1.8879,
+    "Claude Haiku 4.5": 2.7371
    },
    "tokens": {
     "GPT-5 / GPT-4o": 53340,
@@ -705,7 +820,9 @@
     "DeepSeek-V4.1": 70801,
     "GLM-5.3": 70115,
     "Mistral Medium 3.5": 59909,
-    "Gemma 4": 58686
+    "Gemma 4": 58686,
+    "Claude Opus 5.5": 79132,
+    "Claude Haiku 4.5": 79061
    }
   },
   {
@@ -721,7 +838,9 @@
     "DeepSeek-V4.1": 2.2092,
     "GLM-5.3": 2.1881,
     "Mistral Medium 3.5": 2.1013,
-    "Gemma 4": 2.0236
+    "Gemma 4": 2.0236,
+    "Claude Opus 5.5": 2.0596,
+    "Claude Haiku 4.5": 2.1734
    },
    "tokens": {
     "GPT-5 / GPT-4o": 51982,
@@ -730,7 +849,9 @@
     "DeepSeek-V4.1": 59738,
     "GLM-5.3": 59483,
     "Mistral Medium 3.5": 58473,
-    "Gemma 4": 54868
+    "Gemma 4": 54868,
+    "Claude Opus 5.5": 86329,
+    "Claude Haiku 4.5": 62779
    }
   },
   {
@@ -746,7 +867,9 @@
     "DeepSeek-V4.1": 2.0166,
     "GLM-5.3": 4.7133,
     "Mistral Medium 3.5": 2.0516,
-    "Gemma 4": 1.211
+    "Gemma 4": 1.211,
+    "Claude Opus 5.5": 2.7142,
+    "Claude Haiku 4.5": 3.9338
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45592,
@@ -755,7 +878,9 @@
     "DeepSeek-V4.1": 54532,
     "GLM-5.3": 128131,
     "Mistral Medium 3.5": 57089,
-    "Gemma 4": 32836
+    "Gemma 4": 32836,
+    "Claude Opus 5.5": 113767,
+    "Claude Haiku 4.5": 113629
    }
   },
   {
@@ -771,7 +896,9 @@
     "DeepSeek-V4.1": 2.9084,
     "GLM-5.3": 4.2656,
     "Mistral Medium 3.5": 2.0833,
-    "Gemma 4": 1.5753
+    "Gemma 4": 1.5753,
+    "Claude Opus 5.5": 2.2171,
+    "Claude Haiku 4.5": 3.2141
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47630,
@@ -780,7 +907,9 @@
     "DeepSeek-V4.1": 78647,
     "GLM-5.3": 115960,
     "Mistral Medium 3.5": 57971,
-    "Gemma 4": 42714
+    "Gemma 4": 42714,
+    "Claude Opus 5.5": 92934,
+    "Claude Haiku 4.5": 92840
    }
   },
   {
@@ -796,7 +925,9 @@
     "DeepSeek-V4.1": 2.6764,
     "GLM-5.3": 2.5676,
     "Mistral Medium 3.5": 2.4239,
-    "Gemma 4": 2.2463
+    "Gemma 4": 2.2463,
+    "Claude Opus 5.5": 2.3956,
+    "Claude Haiku 4.5": 3.475
    },
    "tokens": {
     "GPT-5 / GPT-4o": 68254,
@@ -805,7 +936,9 @@
     "DeepSeek-V4.1": 72373,
     "GLM-5.3": 69800,
     "Mistral Medium 3.5": 67449,
-    "Gemma 4": 60907
+    "Gemma 4": 60907,
+    "Claude Opus 5.5": 100415,
+    "Claude Haiku 4.5": 100375
    }
   },
   {
@@ -821,7 +954,9 @@
     "DeepSeek-V4.1": 1.5925,
     "GLM-5.3": 1.6967,
     "Mistral Medium 3.5": 1.5531,
-    "Gemma 4": 1.4123
+    "Gemma 4": 1.4123,
+    "Claude Opus 5.5": 1.6203,
+    "Claude Haiku 4.5": 1.7517
    },
    "tokens": {
     "GPT-5 / GPT-4o": 38896,
@@ -830,7 +965,9 @@
     "DeepSeek-V4.1": 43062,
     "GLM-5.3": 46126,
     "Mistral Medium 3.5": 43218,
-    "Gemma 4": 38293
+    "Gemma 4": 38293,
+    "Claude Opus 5.5": 67915,
+    "Claude Haiku 4.5": 50598
    }
   },
   {
@@ -846,7 +983,9 @@
     "DeepSeek-V4.1": 6.1354,
     "GLM-5.3": 5.4511,
     "Mistral Medium 3.5": 12.2872,
-    "Gemma 4": 3.6745
+    "Gemma 4": 3.6745,
+    "Claude Opus 5.5": 4.7081,
+    "Claude Haiku 4.5": 6.8255
    },
    "tokens": {
     "GPT-5 / GPT-4o": 217568,
@@ -855,7 +994,9 @@
     "DeepSeek-V4.1": 165908,
     "GLM-5.3": 148187,
     "Mistral Medium 3.5": 341917,
-    "Gemma 4": 99630
+    "Gemma 4": 99630,
+    "Claude Opus 5.5": 197345,
+    "Claude Haiku 4.5": 197155
    }
   },
   {
@@ -871,7 +1012,9 @@
     "DeepSeek-V4.1": 1.8172,
     "GLM-5.3": 1.8183,
     "Mistral Medium 3.5": 1.5213,
-    "Gemma 4": 1.4878
+    "Gemma 4": 1.4878,
+    "Claude Opus 5.5": 1.4836,
+    "Claude Haiku 4.5": 1.5522
    },
    "tokens": {
     "GPT-5 / GPT-4o": 40302,
@@ -880,7 +1023,9 @@
     "DeepSeek-V4.1": 49140,
     "GLM-5.3": 49431,
     "Mistral Medium 3.5": 42333,
-    "Gemma 4": 40339
+    "Gemma 4": 40339,
+    "Claude Opus 5.5": 62186,
+    "Claude Haiku 4.5": 44836
    }
   },
   {
@@ -896,7 +1041,9 @@
     "DeepSeek-V4.1": 1.9071,
     "GLM-5.3": 1.9346,
     "Mistral Medium 3.5": 1.7991,
-    "Gemma 4": 1.7575
+    "Gemma 4": 1.7575,
+    "Claude Opus 5.5": 1.7064,
+    "Claude Haiku 4.5": 1.9418
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46725,
@@ -905,7 +1052,9 @@
     "DeepSeek-V4.1": 51571,
     "GLM-5.3": 52591,
     "Mistral Medium 3.5": 50063,
-    "Gemma 4": 47652
+    "Gemma 4": 47652,
+    "Claude Opus 5.5": 71524,
+    "Claude Haiku 4.5": 56090
    }
   },
   {
@@ -921,7 +1070,9 @@
     "DeepSeek-V4.1": 1.9747,
     "GLM-5.3": 1.7688,
     "Mistral Medium 3.5": 1.6426,
-    "Gemma 4": 1.6199
+    "Gemma 4": 1.6199,
+    "Claude Opus 5.5": 1.2762,
+    "Claude Haiku 4.5": 1.8395
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46036,
@@ -930,7 +1081,9 @@
     "DeepSeek-V4.1": 53399,
     "GLM-5.3": 48085,
     "Mistral Medium 3.5": 45708,
-    "Gemma 4": 43921
+    "Gemma 4": 43921,
+    "Claude Opus 5.5": 53495,
+    "Claude Haiku 4.5": 53135
    }
   },
   {
@@ -946,7 +1099,9 @@
     "DeepSeek-V4.1": 1.6191,
     "GLM-5.3": 1.6692,
     "Mistral Medium 3.5": 1.4391,
-    "Gemma 4": 1.5433
+    "Gemma 4": 1.5433,
+    "Claude Opus 5.5": 1.4076,
+    "Claude Haiku 4.5": 1.5572
    },
    "tokens": {
     "GPT-5 / GPT-4o": 39834,
@@ -955,7 +1110,9 @@
     "DeepSeek-V4.1": 43783,
     "GLM-5.3": 45377,
     "Mistral Medium 3.5": 40047,
-    "Gemma 4": 41846
+    "Gemma 4": 41846,
+    "Claude Opus 5.5": 59002,
+    "Claude Haiku 4.5": 44979
    }
   },
   {
@@ -971,7 +1128,9 @@
     "DeepSeek-V4.1": 1.621,
     "GLM-5.3": 1.6686,
     "Mistral Medium 3.5": 1.443,
-    "Gemma 4": 1.5448
+    "Gemma 4": 1.5448,
+    "Claude Opus 5.5": 1.4076,
+    "Claude Haiku 4.5": 1.5591
    },
    "tokens": {
     "GPT-5 / GPT-4o": 39918,
@@ -980,7 +1139,9 @@
     "DeepSeek-V4.1": 43834,
     "GLM-5.3": 45361,
     "Mistral Medium 3.5": 40154,
-    "Gemma 4": 41886
+    "Gemma 4": 41886,
+    "Claude Opus 5.5": 59000,
+    "Claude Haiku 4.5": 45034
    }
   },
   {
@@ -996,7 +1157,9 @@
     "DeepSeek-V4.1": 16.7137,
     "GLM-5.3": 16.9669,
     "Mistral Medium 3.5": 16.1092,
-    "Gemma 4": 17.3272
+    "Gemma 4": 17.3272,
+    "Claude Opus 5.5": 11.2155,
+    "Claude Haiku 4.5": 16.3068
    },
    "tokens": {
     "GPT-5 / GPT-4o": 469805,
@@ -1005,7 +1168,9 @@
     "DeepSeek-V4.1": 451954,
     "GLM-5.3": 461244,
     "Mistral Medium 3.5": 448270,
-    "Gemma 4": 469810
+    "Gemma 4": 469810,
+    "Claude Opus 5.5": 470110,
+    "Claude Haiku 4.5": 471021
    }
   },
   {
@@ -1021,7 +1186,9 @@
     "DeepSeek-V4.1": 1.8263,
     "GLM-5.3": 1.9048,
     "Mistral Medium 3.5": 1.8385,
-    "Gemma 4": 1.7696
+    "Gemma 4": 1.7696,
+    "Claude Opus 5.5": 1.9266,
+    "Claude Haiku 4.5": 1.9511
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45021,
@@ -1030,7 +1197,9 @@
     "DeepSeek-V4.1": 49385,
     "GLM-5.3": 51782,
     "Mistral Medium 3.5": 51160,
-    "Gemma 4": 47981
+    "Gemma 4": 47981,
+    "Claude Opus 5.5": 80756,
+    "Claude Haiku 4.5": 56357
    }
   },
   {
@@ -1046,7 +1215,9 @@
     "DeepSeek-V4.1": 1.6983,
     "GLM-5.3": 1.7491,
     "Mistral Medium 3.5": 1.5455,
-    "Gemma 4": 1.5254
+    "Gemma 4": 1.5254,
+    "Claude Opus 5.5": 1.4207,
+    "Claude Haiku 4.5": 1.6354
    },
    "tokens": {
     "GPT-5 / GPT-4o": 42911,
@@ -1055,7 +1226,9 @@
     "DeepSeek-V4.1": 45925,
     "GLM-5.3": 47550,
     "Mistral Medium 3.5": 43007,
-    "Gemma 4": 41359
+    "Gemma 4": 41359,
+    "Claude Opus 5.5": 59550,
+    "Claude Haiku 4.5": 47239
    }
   },
   {
@@ -1071,7 +1244,9 @@
     "DeepSeek-V4.1": 3.2176,
     "GLM-5.3": 2.6643,
     "Mistral Medium 3.5": 3.0355,
-    "Gemma 4": 2.5452
+    "Gemma 4": 2.5452,
+    "Claude Opus 5.5": 2.3259,
+    "Claude Haiku 4.5": 3.3717
    },
    "tokens": {
     "GPT-5 / GPT-4o": 79340,
@@ -1080,7 +1255,9 @@
     "DeepSeek-V4.1": 87006,
     "GLM-5.3": 72428,
     "Mistral Medium 3.5": 84469,
-    "Gemma 4": 69010
+    "Gemma 4": 69010,
+    "Claude Opus 5.5": 97493,
+    "Claude Haiku 4.5": 97392
    }
   },
   {
@@ -1096,7 +1273,9 @@
     "DeepSeek-V4.1": 1.9222,
     "GLM-5.3": 1.9179,
     "Mistral Medium 3.5": 1.8722,
-    "Gemma 4": 1.7699
+    "Gemma 4": 1.7699,
+    "Claude Opus 5.5": 1.7832,
+    "Claude Haiku 4.5": 1.9107
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46507,
@@ -1105,7 +1284,9 @@
     "DeepSeek-V4.1": 51978,
     "GLM-5.3": 52139,
     "Mistral Medium 3.5": 52097,
-    "Gemma 4": 47988
+    "Gemma 4": 47988,
+    "Claude Opus 5.5": 74744,
+    "Claude Haiku 4.5": 55191
    }
   },
   {
@@ -1121,7 +1302,9 @@
     "DeepSeek-V4.1": 3.1963,
     "GLM-5.3": 3.2084,
     "Mistral Medium 3.5": 3.8636,
-    "Gemma 4": 2.3236
+    "Gemma 4": 2.3236,
+    "Claude Opus 5.5": 2.6279,
+    "Claude Haiku 4.5": 3.8111
    },
    "tokens": {
     "GPT-5 / GPT-4o": 76663,
@@ -1130,7 +1313,9 @@
     "DeepSeek-V4.1": 86432,
     "GLM-5.3": 87220,
     "Mistral Medium 3.5": 107512,
-    "Gemma 4": 63002
+    "Gemma 4": 63002,
+    "Claude Opus 5.5": 110151,
+    "Claude Haiku 4.5": 110083
    }
   },
   {
@@ -1146,7 +1331,9 @@
     "DeepSeek-V4.1": 0.9391,
     "GLM-5.3": 0.9461,
     "Mistral Medium 3.5": 1.4031,
-    "Gemma 4": 1.0784
+    "Gemma 4": 1.0784,
+    "Claude Opus 5.5": 1.138,
+    "Claude Haiku 4.5": 1.6702
    },
    "tokens": {
     "GPT-5 / GPT-4o": 33552,
@@ -1155,7 +1342,9 @@
     "DeepSeek-V4.1": 25393,
     "GLM-5.3": 25720,
     "Mistral Medium 3.5": 39043,
-    "Gemma 4": 29240
+    "Gemma 4": 29240,
+    "Claude Opus 5.5": 47699,
+    "Claude Haiku 4.5": 48243
    }
   },
   {
@@ -1171,7 +1360,9 @@
     "DeepSeek-V4.1": 1.0616,
     "GLM-5.3": 1.3382,
     "Mistral Medium 3.5": 1.4718,
-    "Gemma 4": 1.1224
+    "Gemma 4": 1.1224,
+    "Claude Opus 5.5": 1.1374,
+    "Claude Haiku 4.5": 1.6788
    },
    "tokens": {
     "GPT-5 / GPT-4o": 38071,
@@ -1180,7 +1371,9 @@
     "DeepSeek-V4.1": 28707,
     "GLM-5.3": 36378,
     "Mistral Medium 3.5": 40956,
-    "Gemma 4": 30433
+    "Gemma 4": 30433,
+    "Claude Opus 5.5": 47676,
+    "Claude Haiku 4.5": 48491
    }
   },
   {
@@ -1196,7 +1389,9 @@
     "DeepSeek-V4.1": 2.1416,
     "GLM-5.3": 1.9218,
     "Mistral Medium 3.5": 1.7849,
-    "Gemma 4": 1.746
+    "Gemma 4": 1.746,
+    "Claude Opus 5.5": 1.79,
+    "Claude Haiku 4.5": 2.1146
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45999,
@@ -1205,7 +1400,9 @@
     "DeepSeek-V4.1": 57911,
     "GLM-5.3": 52243,
     "Mistral Medium 3.5": 49668,
-    "Gemma 4": 47340
+    "Gemma 4": 47340,
+    "Claude Opus 5.5": 75030,
+    "Claude Haiku 4.5": 61079
    }
   },
   {
@@ -1221,7 +1418,9 @@
     "DeepSeek-V4.1": 2.0996,
     "GLM-5.3": 2.1101,
     "Mistral Medium 3.5": 1.9975,
-    "Gemma 4": 1.9795
+    "Gemma 4": 1.9795,
+    "Claude Opus 5.5": 1.9513,
+    "Claude Haiku 4.5": 2.1047
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46723,
@@ -1230,7 +1429,9 @@
     "DeepSeek-V4.1": 56775,
     "GLM-5.3": 57363,
     "Mistral Medium 3.5": 55585,
-    "Gemma 4": 53673
+    "Gemma 4": 53673,
+    "Claude Opus 5.5": 81789,
+    "Claude Haiku 4.5": 60795
    }
   },
   {
@@ -1246,7 +1447,9 @@
     "DeepSeek-V4.1": 1.6175,
     "GLM-5.3": 1.5515,
     "Mistral Medium 3.5": 1.4669,
-    "Gemma 4": 1.4308
+    "Gemma 4": 1.4308,
+    "Claude Opus 5.5": 1.3856,
+    "Claude Haiku 4.5": 1.4696
    },
    "tokens": {
     "GPT-5 / GPT-4o": 37169,
@@ -1255,7 +1458,9 @@
     "DeepSeek-V4.1": 43738,
     "GLM-5.3": 42177,
     "Mistral Medium 3.5": 40820,
-    "Gemma 4": 38795
+    "Gemma 4": 38795,
+    "Claude Opus 5.5": 58078,
+    "Claude Haiku 4.5": 42450
    }
   },
   {
@@ -1271,7 +1476,9 @@
     "DeepSeek-V4.1": 1.5146,
     "GLM-5.3": 1.4497,
     "Mistral Medium 3.5": 1.3044,
-    "Gemma 4": 1.3285
+    "Gemma 4": 1.3285,
+    "Claude Opus 5.5": 1.7357,
+    "Claude Haiku 4.5": 1.7648
    },
    "tokens": {
     "GPT-5 / GPT-4o": 35224,
@@ -1280,7 +1487,9 @@
     "DeepSeek-V4.1": 40957,
     "GLM-5.3": 39410,
     "Mistral Medium 3.5": 36297,
-    "Gemma 4": 36020
+    "Gemma 4": 36020,
+    "Claude Opus 5.5": 72753,
+    "Claude Haiku 4.5": 50976
    }
   },
   {
@@ -1296,7 +1505,9 @@
     "DeepSeek-V4.1": 1.9448,
     "GLM-5.3": 1.9457,
     "Mistral Medium 3.5": 2.0515,
-    "Gemma 4": 1.8763
+    "Gemma 4": 1.8763,
+    "Claude Opus 5.5": 1.8494,
+    "Claude Haiku 4.5": 2.3128
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49821,
@@ -1305,7 +1516,9 @@
     "DeepSeek-V4.1": 52588,
     "GLM-5.3": 52894,
     "Mistral Medium 3.5": 57086,
-    "Gemma 4": 50874
+    "Gemma 4": 50874,
+    "Claude Opus 5.5": 77520,
+    "Claude Haiku 4.5": 66806
    }
   },
   {
@@ -1321,7 +1534,9 @@
     "DeepSeek-V4.1": 2.0378,
     "GLM-5.3": 2.0028,
     "Mistral Medium 3.5": 1.9312,
-    "Gemma 4": 1.8491
+    "Gemma 4": 1.8491,
+    "Claude Opus 5.5": 1.733,
+    "Claude Haiku 4.5": 2.0086
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49953,
@@ -1330,7 +1545,9 @@
     "DeepSeek-V4.1": 55103,
     "GLM-5.3": 54447,
     "Mistral Medium 3.5": 53739,
-    "Gemma 4": 50136
+    "Gemma 4": 50136,
+    "Claude Opus 5.5": 72641,
+    "Claude Haiku 4.5": 58018
    }
   },
   {
@@ -1346,7 +1563,9 @@
     "DeepSeek-V4.1": 6.8059,
     "GLM-5.3": 6.2001,
     "Mistral Medium 3.5": 13.3758,
-    "Gemma 4": 4.2072
+    "Gemma 4": 4.2072,
+    "Claude Opus 5.5": 5.3342,
+    "Claude Haiku 4.5": 7.699
    },
    "tokens": {
     "GPT-5 / GPT-4o": 241706,
@@ -1355,7 +1574,9 @@
     "DeepSeek-V4.1": 184037,
     "GLM-5.3": 168550,
     "Mistral Medium 3.5": 372208,
-    "Gemma 4": 114074
+    "Gemma 4": 114074,
+    "Claude Opus 5.5": 223587,
+    "Claude Haiku 4.5": 222385
    }
   },
   {
@@ -1371,7 +1592,9 @@
     "DeepSeek-V4.1": 1.851,
     "GLM-5.3": 1.8315,
     "Mistral Medium 3.5": 1.6029,
-    "Gemma 4": 1.5751
+    "Gemma 4": 1.5751,
+    "Claude Opus 5.5": 1.5658,
+    "Claude Haiku 4.5": 1.8041
    },
    "tokens": {
     "GPT-5 / GPT-4o": 40184,
@@ -1380,7 +1603,9 @@
     "DeepSeek-V4.1": 50054,
     "GLM-5.3": 49790,
     "Mistral Medium 3.5": 44604,
-    "Gemma 4": 42708
+    "Gemma 4": 42708,
+    "Claude Opus 5.5": 65630,
+    "Claude Haiku 4.5": 52112
    }
   },
   {
@@ -1396,7 +1621,9 @@
     "DeepSeek-V4.1": 2.6806,
     "GLM-5.3": 2.3902,
     "Mistral Medium 3.5": 2.0956,
-    "Gemma 4": 2.1792
+    "Gemma 4": 2.1792,
+    "Claude Opus 5.5": 2.4812,
+    "Claude Haiku 4.5": 3.5899
    },
    "tokens": {
     "GPT-5 / GPT-4o": 57277,
@@ -1405,7 +1632,9 @@
     "DeepSeek-V4.1": 72486,
     "GLM-5.3": 64978,
     "Mistral Medium 3.5": 58314,
-    "Gemma 4": 59088
+    "Gemma 4": 59088,
+    "Claude Opus 5.5": 104004,
+    "Claude Haiku 4.5": 103695
    }
   },
   {
@@ -1421,7 +1650,9 @@
     "DeepSeek-V4.1": 1.0,
     "GLM-5.3": 1.0,
     "Mistral Medium 3.5": 1.0,
-    "Gemma 4": 1.0
+    "Gemma 4": 1.0,
+    "Claude Opus 5.5": 1.0,
+    "Claude Haiku 4.5": 1.0
    },
    "tokens": {
     "GPT-5 / GPT-4o": 26873,
@@ -1430,7 +1661,9 @@
     "DeepSeek-V4.1": 27041,
     "GLM-5.3": 27185,
     "Mistral Medium 3.5": 27827,
-    "Gemma 4": 27114
+    "Gemma 4": 27114,
+    "Claude Opus 5.5": 41916,
+    "Claude Haiku 4.5": 28885
    }
   },
   {
@@ -1446,7 +1679,9 @@
     "DeepSeek-V4.1": 1.7564,
     "GLM-5.3": 1.7662,
     "Mistral Medium 3.5": 1.5066,
-    "Gemma 4": 1.5633
+    "Gemma 4": 1.5633,
+    "Claude Opus 5.5": 1.632,
+    "Claude Haiku 4.5": 1.8151
    },
    "tokens": {
     "GPT-5 / GPT-4o": 41007,
@@ -1455,7 +1690,9 @@
     "DeepSeek-V4.1": 47494,
     "GLM-5.3": 48014,
     "Mistral Medium 3.5": 41923,
-    "Gemma 4": 42388
+    "Gemma 4": 42388,
+    "Claude Opus 5.5": 68405,
+    "Claude Haiku 4.5": 52430
    }
   },
   {
@@ -1471,7 +1708,9 @@
     "DeepSeek-V4.1": 1.7363,
     "GLM-5.3": 1.8392,
     "Mistral Medium 3.5": 1.5279,
-    "Gemma 4": 1.6774
+    "Gemma 4": 1.6774,
+    "Claude Opus 5.5": 1.6616,
+    "Claude Haiku 4.5": 1.8089
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43077,
@@ -1480,7 +1719,9 @@
     "DeepSeek-V4.1": 46950,
     "GLM-5.3": 50000,
     "Mistral Medium 3.5": 42517,
-    "Gemma 4": 45481
+    "Gemma 4": 45481,
+    "Claude Opus 5.5": 69649,
+    "Claude Haiku 4.5": 52249
    }
   },
   {
@@ -1496,7 +1737,9 @@
     "DeepSeek-V4.1": 2.4851,
     "GLM-5.3": 2.3144,
     "Mistral Medium 3.5": 2.6152,
-    "Gemma 4": 2.1861
+    "Gemma 4": 2.1861,
+    "Claude Opus 5.5": 2.2145,
+    "Claude Haiku 4.5": 2.7781
    },
    "tokens": {
     "GPT-5 / GPT-4o": 62863,
@@ -1505,7 +1748,9 @@
     "DeepSeek-V4.1": 67200,
     "GLM-5.3": 62916,
     "Mistral Medium 3.5": 72772,
-    "Gemma 4": 59275
+    "Gemma 4": 59275,
+    "Claude Opus 5.5": 92822,
+    "Claude Haiku 4.5": 80246
    }
   },
   {
@@ -1521,7 +1766,9 @@
     "DeepSeek-V4.1": 2.052,
     "GLM-5.3": 2.0301,
     "Mistral Medium 3.5": 1.8756,
-    "Gemma 4": 1.8615
+    "Gemma 4": 1.8615,
+    "Claude Opus 5.5": 1.6357,
+    "Claude Haiku 4.5": 1.9401
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44447,
@@ -1530,7 +1777,9 @@
     "DeepSeek-V4.1": 55488,
     "GLM-5.3": 55188,
     "Mistral Medium 3.5": 52191,
-    "Gemma 4": 50472
+    "Gemma 4": 50472,
+    "Claude Opus 5.5": 68562,
+    "Claude Haiku 4.5": 56041
    }
   },
   {
@@ -1546,7 +1795,9 @@
     "DeepSeek-V4.1": 2.1248,
     "GLM-5.3": 2.1385,
     "Mistral Medium 3.5": 2.0591,
-    "Gemma 4": 1.9306
+    "Gemma 4": 1.9306,
+    "Claude Opus 5.5": 1.8819,
+    "Claude Haiku 4.5": 2.0622
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49776,
@@ -1555,7 +1806,9 @@
     "DeepSeek-V4.1": 57456,
     "GLM-5.3": 58135,
     "Mistral Medium 3.5": 57298,
-    "Gemma 4": 52346
+    "Gemma 4": 52346,
+    "Claude Opus 5.5": 78883,
+    "Claude Haiku 4.5": 59568
    }
   },
   {
@@ -1571,7 +1824,9 @@
     "DeepSeek-V4.1": 1.996,
     "GLM-5.3": 2.0177,
     "Mistral Medium 3.5": 1.9159,
-    "Gemma 4": 1.8162
+    "Gemma 4": 1.8162,
+    "Claude Opus 5.5": 1.9772,
+    "Claude Haiku 4.5": 2.0364
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45239,
@@ -1580,7 +1835,9 @@
     "DeepSeek-V4.1": 53973,
     "GLM-5.3": 54852,
     "Mistral Medium 3.5": 53314,
-    "Gemma 4": 49245
+    "Gemma 4": 49245,
+    "Claude Opus 5.5": 82875,
+    "Claude Haiku 4.5": 58822
    }
   },
   {
@@ -1596,7 +1853,9 @@
     "DeepSeek-V4.1": 1.8673,
     "GLM-5.3": 1.8342,
     "Mistral Medium 3.5": 1.6495,
-    "Gemma 4": 1.6662
+    "Gemma 4": 1.6662,
+    "Claude Opus 5.5": 1.7629,
+    "Claude Haiku 4.5": 1.9497
    },
    "tokens": {
     "GPT-5 / GPT-4o": 41945,
@@ -1605,7 +1864,9 @@
     "DeepSeek-V4.1": 50494,
     "GLM-5.3": 49863,
     "Mistral Medium 3.5": 45902,
-    "Gemma 4": 45177
+    "Gemma 4": 45177,
+    "Claude Opus 5.5": 73895,
+    "Claude Haiku 4.5": 56316
    }
   },
   {
@@ -1621,7 +1882,9 @@
     "DeepSeek-V4.1": 3.1829,
     "GLM-5.3": 2.9493,
     "Mistral Medium 3.5": 3.5826,
-    "Gemma 4": 2.6478
+    "Gemma 4": 2.6478,
+    "Claude Opus 5.5": 2.9629,
+    "Claude Haiku 4.5": 3.945
    },
    "tokens": {
     "GPT-5 / GPT-4o": 77528,
@@ -1630,7 +1893,9 @@
     "DeepSeek-V4.1": 86068,
     "GLM-5.3": 80177,
     "Mistral Medium 3.5": 99694,
-    "Gemma 4": 71792
+    "Gemma 4": 71792,
+    "Claude Opus 5.5": 124194,
+    "Claude Haiku 4.5": 113950
    }
   },
   {
@@ -1646,7 +1911,9 @@
     "DeepSeek-V4.1": 1.5452,
     "GLM-5.3": 1.5103,
     "Mistral Medium 3.5": 1.3188,
-    "Gemma 4": 1.4081
+    "Gemma 4": 1.4081,
+    "Claude Opus 5.5": 1.4909,
+    "Claude Haiku 4.5": 1.6257
    },
    "tokens": {
     "GPT-5 / GPT-4o": 36760,
@@ -1655,7 +1922,9 @@
     "DeepSeek-V4.1": 41785,
     "GLM-5.3": 41057,
     "Mistral Medium 3.5": 36698,
-    "Gemma 4": 38180
+    "Gemma 4": 38180,
+    "Claude Opus 5.5": 62494,
+    "Claude Haiku 4.5": 46957
    }
   },
   {
@@ -1671,7 +1940,9 @@
     "DeepSeek-V4.1": 1.8343,
     "GLM-5.3": 1.8075,
     "Mistral Medium 3.5": 1.7169,
-    "Gemma 4": 1.7081
+    "Gemma 4": 1.7081,
+    "Claude Opus 5.5": 1.5434,
+    "Claude Haiku 4.5": 1.8418
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46539,
@@ -1680,7 +1951,9 @@
     "DeepSeek-V4.1": 49600,
     "GLM-5.3": 49138,
     "Mistral Medium 3.5": 47775,
-    "Gemma 4": 46314
+    "Gemma 4": 46314,
+    "Claude Opus 5.5": 64692,
+    "Claude Haiku 4.5": 53201
    }
   },
   {
@@ -1696,7 +1969,9 @@
     "DeepSeek-V4.1": 1.8366,
     "GLM-5.3": 1.7437,
     "Mistral Medium 3.5": 1.7357,
-    "Gemma 4": 1.6486
+    "Gemma 4": 1.6486,
+    "Claude Opus 5.5": 1.5667,
+    "Claude Haiku 4.5": 1.8017
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43017,
@@ -1705,7 +1980,9 @@
     "DeepSeek-V4.1": 49663,
     "GLM-5.3": 47402,
     "Mistral Medium 3.5": 48298,
-    "Gemma 4": 44700
+    "Gemma 4": 44700,
+    "Claude Opus 5.5": 65668,
+    "Claude Haiku 4.5": 52041
    }
   },
   {
@@ -1721,7 +1998,9 @@
     "DeepSeek-V4.1": 2.3214,
     "GLM-5.3": 2.2735,
     "Mistral Medium 3.5": 2.2168,
-    "Gemma 4": 2.1256
+    "Gemma 4": 2.1256,
+    "Claude Opus 5.5": 2.0964,
+    "Claude Haiku 4.5": 2.293
    },
    "tokens": {
     "GPT-5 / GPT-4o": 50501,
@@ -1730,7 +2009,9 @@
     "DeepSeek-V4.1": 62774,
     "GLM-5.3": 61806,
     "Mistral Medium 3.5": 61687,
-    "Gemma 4": 57633
+    "Gemma 4": 57633,
+    "Claude Opus 5.5": 87873,
+    "Claude Haiku 4.5": 66234
    }
   },
   {
@@ -1746,7 +2027,9 @@
     "DeepSeek-V4.1": 2.4231,
     "GLM-5.3": 2.3902,
     "Mistral Medium 3.5": 2.308,
-    "Gemma 4": 2.1986
+    "Gemma 4": 2.1986,
+    "Claude Opus 5.5": 2.0619,
+    "Claude Haiku 4.5": 2.524
    },
    "tokens": {
     "GPT-5 / GPT-4o": 53444,
@@ -1755,7 +2038,9 @@
     "DeepSeek-V4.1": 65523,
     "GLM-5.3": 64978,
     "Mistral Medium 3.5": 64224,
-    "Gemma 4": 59614
+    "Gemma 4": 59614,
+    "Claude Opus 5.5": 86427,
+    "Claude Haiku 4.5": 72907
    }
   },
   {
@@ -1771,7 +2056,9 @@
     "DeepSeek-V4.1": 2.3059,
     "GLM-5.3": 2.2629,
     "Mistral Medium 3.5": 2.169,
-    "Gemma 4": 2.069
+    "Gemma 4": 2.069,
+    "Claude Opus 5.5": 1.9273,
+    "Claude Haiku 4.5": 2.3761
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49671,
@@ -1780,7 +2067,9 @@
     "DeepSeek-V4.1": 62353,
     "GLM-5.3": 61518,
     "Mistral Medium 3.5": 60358,
-    "Gemma 4": 56099
+    "Gemma 4": 56099,
+    "Claude Opus 5.5": 80785,
+    "Claude Haiku 4.5": 68635
    }
   },
   {
@@ -1796,7 +2085,9 @@
     "DeepSeek-V4.1": 1.5244,
     "GLM-5.3": 1.4864,
     "Mistral Medium 3.5": 1.3223,
-    "Gemma 4": 1.354
+    "Gemma 4": 1.354,
+    "Claude Opus 5.5": 1.416,
+    "Claude Haiku 4.5": 1.5351
    },
    "tokens": {
     "GPT-5 / GPT-4o": 35880,
@@ -1805,7 +2096,9 @@
     "DeepSeek-V4.1": 41220,
     "GLM-5.3": 40408,
     "Mistral Medium 3.5": 36797,
-    "Gemma 4": 36712
+    "Gemma 4": 36712,
+    "Claude Opus 5.5": 59355,
+    "Claude Haiku 4.5": 44342
    }
   },
   {
@@ -1821,7 +2114,9 @@
     "DeepSeek-V4.1": 2.056,
     "GLM-5.3": 2.0348,
     "Mistral Medium 3.5": 1.9464,
-    "Gemma 4": 1.9299
+    "Gemma 4": 1.9299,
+    "Claude Opus 5.5": 1.8594,
+    "Claude Haiku 4.5": 2.1817
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47621,
@@ -1830,7 +2125,9 @@
     "DeepSeek-V4.1": 55595,
     "GLM-5.3": 55317,
     "Mistral Medium 3.5": 54162,
-    "Gemma 4": 52328
+    "Gemma 4": 52328,
+    "Claude Opus 5.5": 77939,
+    "Claude Haiku 4.5": 63017
    }
   },
   {
@@ -1846,7 +2143,9 @@
     "DeepSeek-V4.1": 3.8615,
     "GLM-5.3": 7.6624,
     "Mistral Medium 3.5": 2.7234,
-    "Gemma 4": 1.8604
+    "Gemma 4": 1.8604,
+    "Claude Opus 5.5": 2.7735,
+    "Claude Haiku 4.5": 4.0176
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48135,
@@ -1855,7 +2154,9 @@
     "DeepSeek-V4.1": 104419,
     "GLM-5.3": 208302,
     "Mistral Medium 3.5": 75785,
-    "Gemma 4": 50443
+    "Gemma 4": 50443,
+    "Claude Opus 5.5": 116254,
+    "Claude Haiku 4.5": 116048
    }
   },
   {
@@ -1871,7 +2172,9 @@
     "DeepSeek-V4.1": 1.683,
     "GLM-5.3": 1.6813,
     "Mistral Medium 3.5": 1.5968,
-    "Gemma 4": 1.5325
+    "Gemma 4": 1.5325,
+    "Claude Opus 5.5": 1.5251,
+    "Claude Haiku 4.5": 1.7106
    },
    "tokens": {
     "GPT-5 / GPT-4o": 37931,
@@ -1880,7 +2183,9 @@
     "DeepSeek-V4.1": 45511,
     "GLM-5.3": 45706,
     "Mistral Medium 3.5": 44434,
-    "Gemma 4": 41552
+    "Gemma 4": 41552,
+    "Claude Opus 5.5": 63925,
+    "Claude Haiku 4.5": 49410
    }
   },
   {
@@ -1896,7 +2201,9 @@
     "DeepSeek-V4.1": 1.941,
     "GLM-5.3": 1.9381,
     "Mistral Medium 3.5": 1.8953,
-    "Gemma 4": 1.7274
+    "Gemma 4": 1.7274,
+    "Claude Opus 5.5": 1.7585,
+    "Claude Haiku 4.5": 1.9174
    },
    "tokens": {
     "GPT-5 / GPT-4o": 41615,
@@ -1905,7 +2212,9 @@
     "DeepSeek-V4.1": 52486,
     "GLM-5.3": 52688,
     "Mistral Medium 3.5": 52741,
-    "Gemma 4": 46837
+    "Gemma 4": 46837,
+    "Claude Opus 5.5": 73710,
+    "Claude Haiku 4.5": 55385
    }
   },
   {
@@ -1921,7 +2230,9 @@
     "DeepSeek-V4.1": 1.7694,
     "GLM-5.3": 3.6437,
     "Mistral Medium 3.5": 1.6318,
-    "Gemma 4": 1.7332
+    "Gemma 4": 1.7332,
+    "Claude Opus 5.5": 1.682,
+    "Claude Haiku 4.5": 2.4362
    },
    "tokens": {
     "GPT-5 / GPT-4o": 39861,
@@ -1930,7 +2241,9 @@
     "DeepSeek-V4.1": 47847,
     "GLM-5.3": 99055,
     "Mistral Medium 3.5": 45409,
-    "Gemma 4": 46995
+    "Gemma 4": 46995,
+    "Claude Opus 5.5": 70503,
+    "Claude Haiku 4.5": 70370
    }
   },
   {
@@ -1946,7 +2259,9 @@
     "DeepSeek-V4.1": 2.7948,
     "GLM-5.3": 4.3147,
     "Mistral Medium 3.5": 1.7963,
-    "Gemma 4": 1.3101
+    "Gemma 4": 1.3101,
+    "Claude Opus 5.5": 2.188,
+    "Claude Haiku 4.5": 3.1739
    },
    "tokens": {
     "GPT-5 / GPT-4o": 42276,
@@ -1955,7 +2270,9 @@
     "DeepSeek-V4.1": 75573,
     "GLM-5.3": 117294,
     "Mistral Medium 3.5": 49985,
-    "Gemma 4": 35521
+    "Gemma 4": 35521,
+    "Claude Opus 5.5": 91714,
+    "Claude Haiku 4.5": 91679
    }
   },
   {
@@ -1971,7 +2288,9 @@
     "DeepSeek-V4.1": 2.9099,
     "GLM-5.3": 4.1818,
     "Mistral Medium 3.5": 2.0297,
-    "Gemma 4": 1.4881
+    "Gemma 4": 1.4881,
+    "Claude Opus 5.5": 2.2616,
+    "Claude Haiku 4.5": 3.2777
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46477,
@@ -1980,7 +2299,9 @@
     "DeepSeek-V4.1": 78686,
     "GLM-5.3": 113682,
     "Mistral Medium 3.5": 56480,
-    "Gemma 4": 40349
+    "Gemma 4": 40349,
+    "Claude Opus 5.5": 94799,
+    "Claude Haiku 4.5": 94677
    }
   },
   {
@@ -1996,7 +2317,9 @@
     "DeepSeek-V4.1": 1.7834,
     "GLM-5.3": 1.7827,
     "Mistral Medium 3.5": 1.4904,
-    "Gemma 4": 1.4661
+    "Gemma 4": 1.4661,
+    "Claude Opus 5.5": 1.4482,
+    "Claude Haiku 4.5": 1.5138
    },
    "tokens": {
     "GPT-5 / GPT-4o": 39643,
@@ -2005,7 +2328,9 @@
     "DeepSeek-V4.1": 48224,
     "GLM-5.3": 48462,
     "Mistral Medium 3.5": 41472,
-    "Gemma 4": 39752
+    "Gemma 4": 39752,
+    "Claude Opus 5.5": 60702,
+    "Claude Haiku 4.5": 43726
    }
   },
   {
@@ -2021,7 +2346,9 @@
     "DeepSeek-V4.1": 1.9876,
     "GLM-5.3": 1.8865,
     "Mistral Medium 3.5": 1.6106,
-    "Gemma 4": 1.6793
+    "Gemma 4": 1.6793,
+    "Claude Opus 5.5": 1.5651,
+    "Claude Haiku 4.5": 1.7758
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48205,
@@ -2030,7 +2357,9 @@
     "DeepSeek-V4.1": 53746,
     "GLM-5.3": 51284,
     "Mistral Medium 3.5": 44818,
-    "Gemma 4": 45533
+    "Gemma 4": 45533,
+    "Claude Opus 5.5": 65603,
+    "Claude Haiku 4.5": 51295
    }
   },
   {
@@ -2046,7 +2375,9 @@
     "DeepSeek-V4.1": 3.013,
     "GLM-5.3": 5.3377,
     "Mistral Medium 3.5": 1.9139,
-    "Gemma 4": 2.8405
+    "Gemma 4": 2.8405,
+    "Claude Opus 5.5": 2.2709,
+    "Claude Haiku 4.5": 3.2918
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48032,
@@ -2055,7 +2386,9 @@
     "DeepSeek-V4.1": 81475,
     "GLM-5.3": 145106,
     "Mistral Medium 3.5": 53258,
-    "Gemma 4": 77018
+    "Gemma 4": 77018,
+    "Claude Opus 5.5": 95185,
+    "Claude Haiku 4.5": 95084
    }
   },
   {
@@ -2071,7 +2404,9 @@
     "DeepSeek-V4.1": 2.4198,
     "GLM-5.3": 2.4094,
     "Mistral Medium 3.5": 2.393,
-    "Gemma 4": 2.1667
+    "Gemma 4": 2.1667,
+    "Claude Opus 5.5": 2.1459,
+    "Claude Haiku 4.5": 2.6448
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44757,
@@ -2080,7 +2415,9 @@
     "DeepSeek-V4.1": 65434,
     "GLM-5.3": 65499,
     "Mistral Medium 3.5": 66589,
-    "Gemma 4": 58748
+    "Gemma 4": 58748,
+    "Claude Opus 5.5": 89947,
+    "Claude Haiku 4.5": 76396
    }
   },
   {
@@ -2096,7 +2433,9 @@
     "DeepSeek-V4.1": 2.03,
     "GLM-5.3": 1.9699,
     "Mistral Medium 3.5": 1.9611,
-    "Gemma 4": 1.8599
+    "Gemma 4": 1.8599,
+    "Claude Opus 5.5": 1.9218,
+    "Claude Haiku 4.5": 2.0526
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49533,
@@ -2105,7 +2444,9 @@
     "DeepSeek-V4.1": 54892,
     "GLM-5.3": 53551,
     "Mistral Medium 3.5": 54571,
-    "Gemma 4": 50428
+    "Gemma 4": 50428,
+    "Claude Opus 5.5": 80553,
+    "Claude Haiku 4.5": 59288
    }
   },
   {
@@ -2121,7 +2462,9 @@
     "DeepSeek-V4.1": 1.3455,
     "GLM-5.3": 1.536,
     "Mistral Medium 3.5": 1.3161,
-    "Gemma 4": 1.1505
+    "Gemma 4": 1.1505,
+    "Claude Opus 5.5": 1.616,
+    "Claude Haiku 4.5": 1.6899
    },
    "tokens": {
     "GPT-5 / GPT-4o": 33486,
@@ -2130,7 +2473,9 @@
     "DeepSeek-V4.1": 36385,
     "GLM-5.3": 41755,
     "Mistral Medium 3.5": 36623,
-    "Gemma 4": 31196
+    "Gemma 4": 31196,
+    "Claude Opus 5.5": 67738,
+    "Claude Haiku 4.5": 48813
    }
   },
   {
@@ -2146,7 +2491,9 @@
     "DeepSeek-V4.1": 2.1033,
     "GLM-5.3": 2.0853,
     "Mistral Medium 3.5": 1.8831,
-    "Gemma 4": 1.8597
+    "Gemma 4": 1.8597,
+    "Claude Opus 5.5": 1.6088,
+    "Claude Haiku 4.5": 1.9345
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43225,
@@ -2155,7 +2502,9 @@
     "DeepSeek-V4.1": 56875,
     "GLM-5.3": 56690,
     "Mistral Medium 3.5": 52402,
-    "Gemma 4": 50423
+    "Gemma 4": 50423,
+    "Claude Opus 5.5": 67435,
+    "Claude Haiku 4.5": 55878
    }
   },
   {
@@ -2171,7 +2520,9 @@
     "DeepSeek-V4.1": 1.5436,
     "GLM-5.3": 1.5297,
     "Mistral Medium 3.5": 1.3944,
-    "Gemma 4": 1.3762
+    "Gemma 4": 1.3762,
+    "Claude Opus 5.5": 1.5348,
+    "Claude Haiku 4.5": 1.5724
    },
    "tokens": {
     "GPT-5 / GPT-4o": 39479,
@@ -2180,7 +2531,9 @@
     "DeepSeek-V4.1": 41740,
     "GLM-5.3": 41586,
     "Mistral Medium 3.5": 38801,
-    "Gemma 4": 37313
+    "Gemma 4": 37313,
+    "Claude Opus 5.5": 64332,
+    "Claude Haiku 4.5": 45419
    }
   },
   {
@@ -2196,7 +2549,9 @@
     "DeepSeek-V4.1": 1.6652,
     "GLM-5.3": 1.7083,
     "Mistral Medium 3.5": 1.6299,
-    "Gemma 4": 1.4768
+    "Gemma 4": 1.4768,
+    "Claude Opus 5.5": 1.6231,
+    "Claude Haiku 4.5": 1.7232
    },
    "tokens": {
     "GPT-5 / GPT-4o": 36826,
@@ -2205,7 +2560,9 @@
     "DeepSeek-V4.1": 45030,
     "GLM-5.3": 46440,
     "Mistral Medium 3.5": 45354,
-    "Gemma 4": 40042
+    "Gemma 4": 40042,
+    "Claude Opus 5.5": 68035,
+    "Claude Haiku 4.5": 49774
    }
   },
   {
@@ -2221,7 +2578,9 @@
     "DeepSeek-V4.1": 1.4216,
     "GLM-5.3": 1.4968,
     "Mistral Medium 3.5": 1.5692,
-    "Gemma 4": 1.2133
+    "Gemma 4": 1.2133,
+    "Claude Opus 5.5": 1.2698,
+    "Claude Haiku 4.5": 1.8595
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44559,
@@ -2230,7 +2589,9 @@
     "DeepSeek-V4.1": 38441,
     "GLM-5.3": 40691,
     "Mistral Medium 3.5": 43666,
-    "Gemma 4": 32897
+    "Gemma 4": 32897,
+    "Claude Opus 5.5": 53223,
+    "Claude Haiku 4.5": 53713
    }
   },
   {
@@ -2246,7 +2607,9 @@
     "DeepSeek-V4.1": 2.3518,
     "GLM-5.3": 2.1956,
     "Mistral Medium 3.5": 2.1133,
-    "Gemma 4": 2.0566
+    "Gemma 4": 2.0566,
+    "Claude Opus 5.5": 1.9375,
+    "Claude Haiku 4.5": 2.3221
    },
    "tokens": {
     "GPT-5 / GPT-4o": 55707,
@@ -2255,7 +2618,9 @@
     "DeepSeek-V4.1": 63596,
     "GLM-5.3": 59687,
     "Mistral Medium 3.5": 58806,
-    "Gemma 4": 55763
+    "Gemma 4": 55763,
+    "Claude Opus 5.5": 81213,
+    "Claude Haiku 4.5": 67073
    }
   },
   {
@@ -2271,7 +2636,9 @@
     "DeepSeek-V4.1": 2.1514,
     "GLM-5.3": 2.3425,
     "Mistral Medium 3.5": 2.2991,
-    "Gemma 4": 2.0798
+    "Gemma 4": 2.0798,
+    "Claude Opus 5.5": 1.9796,
+    "Claude Haiku 4.5": 2.4079
    },
    "tokens": {
     "GPT-5 / GPT-4o": 57463,
@@ -2280,7 +2647,9 @@
     "DeepSeek-V4.1": 58175,
     "GLM-5.3": 63680,
     "Mistral Medium 3.5": 63978,
-    "Gemma 4": 56393
+    "Gemma 4": 56393,
+    "Claude Opus 5.5": 82977,
+    "Claude Haiku 4.5": 69552
    }
   },
   {
@@ -2296,7 +2665,9 @@
     "DeepSeek-V4.1": 2.3607,
     "GLM-5.3": 2.3222,
     "Mistral Medium 3.5": 2.2488,
-    "Gemma 4": 2.1173
+    "Gemma 4": 2.1173,
+    "Claude Opus 5.5": 2.1835,
+    "Claude Haiku 4.5": 2.3484
    },
    "tokens": {
     "GPT-5 / GPT-4o": 56929,
@@ -2305,7 +2676,9 @@
     "DeepSeek-V4.1": 63837,
     "GLM-5.3": 63128,
     "Mistral Medium 3.5": 62578,
-    "Gemma 4": 57409
+    "Gemma 4": 57409,
+    "Claude Opus 5.5": 91524,
+    "Claude Haiku 4.5": 67833
    }
   },
   {
@@ -2321,7 +2694,9 @@
     "DeepSeek-V4.1": 2.0202,
     "GLM-5.3": 1.9929,
     "Mistral Medium 3.5": 1.9308,
-    "Gemma 4": 1.8592
+    "Gemma 4": 1.8592,
+    "Claude Opus 5.5": 1.8548,
+    "Claude Haiku 4.5": 2.125
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48944,
@@ -2330,7 +2705,9 @@
     "DeepSeek-V4.1": 54628,
     "GLM-5.3": 54178,
     "Mistral Medium 3.5": 53728,
-    "Gemma 4": 50411
+    "Gemma 4": 50411,
+    "Claude Opus 5.5": 77744,
+    "Claude Haiku 4.5": 61380
    }
   },
   {
@@ -2346,7 +2723,9 @@
     "DeepSeek-V4.1": 3.6851,
     "GLM-5.3": 8.8541,
     "Mistral Medium 3.5": 2.2074,
-    "Gemma 4": 1.9245
+    "Gemma 4": 1.9245,
+    "Claude Opus 5.5": 5.8148,
+    "Claude Haiku 4.5": 8.4361
    },
    "tokens": {
     "GPT-5 / GPT-4o": 52904,
@@ -2355,7 +2734,9 @@
     "DeepSeek-V4.1": 99649,
     "GLM-5.3": 240698,
     "Mistral Medium 3.5": 61425,
-    "Gemma 4": 52180
+    "Gemma 4": 52180,
+    "Claude Opus 5.5": 243733,
+    "Claude Haiku 4.5": 243677
    }
   },
   {
@@ -2371,7 +2752,9 @@
     "DeepSeek-V4.1": 3.0487,
     "GLM-5.3": 2.9057,
     "Mistral Medium 3.5": 2.6094,
-    "Gemma 4": 2.3563
+    "Gemma 4": 2.3563,
+    "Claude Opus 5.5": 2.7582,
+    "Claude Haiku 4.5": 3.9988
    },
    "tokens": {
     "GPT-5 / GPT-4o": 70050,
@@ -2380,7 +2763,9 @@
     "DeepSeek-V4.1": 82439,
     "GLM-5.3": 78992,
     "Mistral Medium 3.5": 72612,
-    "Gemma 4": 63890
+    "Gemma 4": 63890,
+    "Claude Opus 5.5": 115613,
+    "Claude Haiku 4.5": 115505
    }
   },
   {
@@ -2396,7 +2781,9 @@
     "DeepSeek-V4.1": 3.2033,
     "GLM-5.3": 4.1608,
     "Mistral Medium 3.5": 2.4479,
-    "Gemma 4": 1.9354
+    "Gemma 4": 1.9354,
+    "Claude Opus 5.5": 2.4382,
+    "Claude Haiku 4.5": 3.4987
    },
    "tokens": {
     "GPT-5 / GPT-4o": 59931,
@@ -2405,7 +2792,9 @@
     "DeepSeek-V4.1": 86621,
     "GLM-5.3": 113111,
     "Mistral Medium 3.5": 68118,
-    "Gemma 4": 52476
+    "Gemma 4": 52476,
+    "Claude Opus 5.5": 102198,
+    "Claude Haiku 4.5": 101060
    }
   },
   {
@@ -2421,7 +2810,9 @@
     "DeepSeek-V4.1": 3.9133,
     "GLM-5.3": 5.2494,
     "Mistral Medium 3.5": 2.3918,
-    "Gemma 4": 2.2947
+    "Gemma 4": 2.2947,
+    "Claude Opus 5.5": 2.4264,
+    "Claude Haiku 4.5": 3.511
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47979,
@@ -2430,7 +2821,9 @@
     "DeepSeek-V4.1": 105820,
     "GLM-5.3": 142705,
     "Mistral Medium 3.5": 66557,
-    "Gemma 4": 62219
+    "Gemma 4": 62219,
+    "Claude Opus 5.5": 101705,
+    "Claude Haiku 4.5": 101415
    }
   },
   {
@@ -2446,7 +2839,9 @@
     "DeepSeek-V4.1": 2.6557,
     "GLM-5.3": 2.7146,
     "Mistral Medium 3.5": 2.0501,
-    "Gemma 4": 2.0381
+    "Gemma 4": 2.0381,
+    "Claude Opus 5.5": 1.7392,
+    "Claude Haiku 4.5": 2.5176
    },
    "tokens": {
     "GPT-5 / GPT-4o": 42606,
@@ -2455,7 +2850,9 @@
     "DeepSeek-V4.1": 71814,
     "GLM-5.3": 73797,
     "Mistral Medium 3.5": 57048,
-    "Gemma 4": 55260
+    "Gemma 4": 55260,
+    "Claude Opus 5.5": 72902,
+    "Claude Haiku 4.5": 72722
    }
   },
   {
@@ -2471,7 +2868,9 @@
     "DeepSeek-V4.1": 4.0212,
     "GLM-5.3": 3.3484,
     "Mistral Medium 3.5": 4.5099,
-    "Gemma 4": 3.1961
+    "Gemma 4": 3.1961,
+    "Claude Opus 5.5": 3.7819,
+    "Claude Haiku 4.5": 5.1645
    },
    "tokens": {
     "GPT-5 / GPT-4o": 104774,
@@ -2480,7 +2879,9 @@
     "DeepSeek-V4.1": 108737,
     "GLM-5.3": 91026,
     "Mistral Medium 3.5": 125497,
-    "Gemma 4": 86658
+    "Gemma 4": 86658,
+    "Claude Opus 5.5": 158524,
+    "Claude Haiku 4.5": 149176
    }
   },
   {
@@ -2496,7 +2897,9 @@
     "DeepSeek-V4.1": 1.6578,
     "GLM-5.3": 1.6532,
     "Mistral Medium 3.5": 1.5611,
-    "Gemma 4": 1.5654
+    "Gemma 4": 1.5654,
+    "Claude Opus 5.5": 1.5287,
+    "Claude Haiku 4.5": 1.6617
    },
    "tokens": {
     "GPT-5 / GPT-4o": 41576,
@@ -2505,7 +2908,9 @@
     "DeepSeek-V4.1": 44829,
     "GLM-5.3": 44943,
     "Mistral Medium 3.5": 43440,
-    "Gemma 4": 42445
+    "Gemma 4": 42445,
+    "Claude Opus 5.5": 64078,
+    "Claude Haiku 4.5": 47998
    }
   },
   {
@@ -2521,7 +2926,9 @@
     "DeepSeek-V4.1": 2.9386,
     "GLM-5.3": 2.9374,
     "Mistral Medium 3.5": 2.3682,
-    "Gemma 4": 2.3256
+    "Gemma 4": 2.3256,
+    "Claude Opus 5.5": 2.0847,
+    "Claude Haiku 4.5": 3.0227
    },
    "tokens": {
     "GPT-5 / GPT-4o": 50792,
@@ -2530,7 +2937,9 @@
     "DeepSeek-V4.1": 79464,
     "GLM-5.3": 79853,
     "Mistral Medium 3.5": 65900,
-    "Gemma 4": 63057
+    "Gemma 4": 63057,
+    "Claude Opus 5.5": 87384,
+    "Claude Haiku 4.5": 87311
    }
   },
   {
@@ -2546,7 +2955,9 @@
     "DeepSeek-V4.1": 11.3814,
     "GLM-5.3": 15.3558,
     "Mistral Medium 3.5": 15.0179,
-    "Gemma 4": 11.3512
+    "Gemma 4": 11.3512,
+    "Claude Opus 5.5": 11.281,
+    "Claude Haiku 4.5": 16.3629
    },
    "tokens": {
     "GPT-5 / GPT-4o": 435456,
@@ -2555,7 +2966,9 @@
     "DeepSeek-V4.1": 307765,
     "GLM-5.3": 417448,
     "Mistral Medium 3.5": 417904,
-    "Gemma 4": 307777
+    "Gemma 4": 307777,
+    "Claude Opus 5.5": 472855,
+    "Claude Haiku 4.5": 472641
    }
   },
   {
@@ -2571,7 +2984,9 @@
     "DeepSeek-V4.1": 6.7897,
     "GLM-5.3": 5.4384,
     "Mistral Medium 3.5": 14.704,
-    "Gemma 4": 2.7338
+    "Gemma 4": 2.7338,
+    "Claude Opus 5.5": 4.0401,
+    "Claude Haiku 4.5": 5.8184
    },
    "tokens": {
     "GPT-5 / GPT-4o": 89641,
@@ -2580,7 +2995,9 @@
     "DeepSeek-V4.1": 183599,
     "GLM-5.3": 147842,
     "Mistral Medium 3.5": 409169,
-    "Gemma 4": 74124
+    "Gemma 4": 74124,
+    "Claude Opus 5.5": 169343,
+    "Claude Haiku 4.5": 168064
    }
   },
   {
@@ -2596,7 +3013,9 @@
     "DeepSeek-V4.1": 2.7008,
     "GLM-5.3": 2.6551,
     "Mistral Medium 3.5": 2.5852,
-    "Gemma 4": 2.5156
+    "Gemma 4": 2.5156,
+    "Claude Opus 5.5": 2.5204,
+    "Claude Haiku 4.5": 3.1444
    },
    "tokens": {
     "GPT-5 / GPT-4o": 69560,
@@ -2605,7 +3024,9 @@
     "DeepSeek-V4.1": 73031,
     "GLM-5.3": 72180,
     "Mistral Medium 3.5": 71939,
-    "Gemma 4": 68209
+    "Gemma 4": 68209,
+    "Claude Opus 5.5": 105643,
+    "Claude Haiku 4.5": 90827
    }
   },
   {
@@ -2621,7 +3042,9 @@
     "DeepSeek-V4.1": 2.1245,
     "GLM-5.3": 2.1047,
     "Mistral Medium 3.5": 2.0252,
-    "Gemma 4": 1.9658
+    "Gemma 4": 1.9658,
+    "Claude Opus 5.5": 1.9457,
+    "Claude Haiku 4.5": 2.1225
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46011,
@@ -2630,7 +3053,9 @@
     "DeepSeek-V4.1": 57448,
     "GLM-5.3": 57217,
     "Mistral Medium 3.5": 56355,
-    "Gemma 4": 53301
+    "Gemma 4": 53301,
+    "Claude Opus 5.5": 81554,
+    "Claude Haiku 4.5": 61309
    }
   },
   {
@@ -2646,7 +3071,9 @@
     "DeepSeek-V4.1": 2.5821,
     "GLM-5.3": 2.5697,
     "Mistral Medium 3.5": 2.1785,
-    "Gemma 4": 1.9417
+    "Gemma 4": 1.9417,
+    "Claude Opus 5.5": 1.7697,
+    "Claude Haiku 4.5": 2.5634
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44957,
@@ -2655,7 +3082,9 @@
     "DeepSeek-V4.1": 69823,
     "GLM-5.3": 69856,
     "Mistral Medium 3.5": 60620,
-    "Gemma 4": 52647
+    "Gemma 4": 52647,
+    "Claude Opus 5.5": 74177,
+    "Claude Haiku 4.5": 74045
    }
   },
   {
@@ -2671,7 +3100,9 @@
     "DeepSeek-V4.1": 2.7272,
     "GLM-5.3": 2.6399,
     "Mistral Medium 3.5": 2.4,
-    "Gemma 4": 2.3095
+    "Gemma 4": 2.3095,
+    "Claude Opus 5.5": 1.8967,
+    "Claude Haiku 4.5": 2.7473
    },
    "tokens": {
     "GPT-5 / GPT-4o": 59989,
@@ -2680,7 +3111,9 @@
     "DeepSeek-V4.1": 73745,
     "GLM-5.3": 71767,
     "Mistral Medium 3.5": 66785,
-    "Gemma 4": 62619
+    "Gemma 4": 62619,
+    "Claude Opus 5.5": 79501,
+    "Claude Haiku 4.5": 79356
    }
   },
   {
@@ -2696,7 +3129,9 @@
     "DeepSeek-V4.1": 2.0933,
     "GLM-5.3": 2.0953,
     "Mistral Medium 3.5": 1.9859,
-    "Gemma 4": 1.8836
+    "Gemma 4": 1.8836,
+    "Claude Opus 5.5": 1.9414,
+    "Claude Haiku 4.5": 2.0186
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49272,
@@ -2705,7 +3140,9 @@
     "DeepSeek-V4.1": 56604,
     "GLM-5.3": 56961,
     "Mistral Medium 3.5": 55262,
-    "Gemma 4": 51073
+    "Gemma 4": 51073,
+    "Claude Opus 5.5": 81376,
+    "Claude Haiku 4.5": 58307
    }
   },
   {
@@ -2721,7 +3158,9 @@
     "DeepSeek-V4.1": 2.1656,
     "GLM-5.3": 2.1426,
     "Mistral Medium 3.5": 2.0256,
-    "Gemma 4": 1.9721
+    "Gemma 4": 1.9721,
+    "Claude Opus 5.5": 1.7868,
+    "Claude Haiku 4.5": 2.1409
    },
    "tokens": {
     "GPT-5 / GPT-4o": 54197,
@@ -2730,7 +3169,9 @@
     "DeepSeek-V4.1": 58560,
     "GLM-5.3": 58246,
     "Mistral Medium 3.5": 56366,
-    "Gemma 4": 53472
+    "Gemma 4": 53472,
+    "Claude Opus 5.5": 74895,
+    "Claude Haiku 4.5": 61841
    }
   },
   {
@@ -2746,7 +3187,9 @@
     "DeepSeek-V4.1": 2.7055,
     "GLM-5.3": 3.0959,
     "Mistral Medium 3.5": 2.4902,
-    "Gemma 4": 2.4275
+    "Gemma 4": 2.4275,
+    "Claude Opus 5.5": 2.501,
+    "Claude Haiku 4.5": 3.6145
    },
    "tokens": {
     "GPT-5 / GPT-4o": 74221,
@@ -2755,7 +3198,9 @@
     "DeepSeek-V4.1": 73160,
     "GLM-5.3": 84161,
     "Mistral Medium 3.5": 69296,
-    "Gemma 4": 65819
+    "Gemma 4": 65819,
+    "Claude Opus 5.5": 104832,
+    "Claude Haiku 4.5": 104404
    }
   },
   {
@@ -2771,7 +3216,9 @@
     "DeepSeek-V4.1": 2.3073,
     "GLM-5.3": 2.1552,
     "Mistral Medium 3.5": 2.2032,
-    "Gemma 4": 2.0021
+    "Gemma 4": 2.0021,
+    "Claude Opus 5.5": 1.9709,
+    "Claude Haiku 4.5": 2.2814
    },
    "tokens": {
     "GPT-5 / GPT-4o": 57092,
@@ -2780,7 +3227,9 @@
     "DeepSeek-V4.1": 62391,
     "GLM-5.3": 58590,
     "Mistral Medium 3.5": 61308,
-    "Gemma 4": 54286
+    "Gemma 4": 54286,
+    "Claude Opus 5.5": 82613,
+    "Claude Haiku 4.5": 65898
    }
   },
   {
@@ -2796,7 +3245,9 @@
     "DeepSeek-V4.1": 1.6429,
     "GLM-5.3": 1.9189,
     "Mistral Medium 3.5": 1.2778,
-    "Gemma 4": 1.3745
+    "Gemma 4": 1.3745,
+    "Claude Opus 5.5": 1.627,
+    "Claude Haiku 4.5": 2.3774
    },
    "tokens": {
     "GPT-5 / GPT-4o": 39566,
@@ -2805,7 +3256,9 @@
     "DeepSeek-V4.1": 44426,
     "GLM-5.3": 52166,
     "Mistral Medium 3.5": 35558,
-    "Gemma 4": 37268
+    "Gemma 4": 37268,
+    "Claude Opus 5.5": 68196,
+    "Claude Haiku 4.5": 68672
    }
   },
   {
@@ -2821,7 +3274,9 @@
     "DeepSeek-V4.1": 2.0024,
     "GLM-5.3": 1.9527,
     "Mistral Medium 3.5": 1.8956,
-    "Gemma 4": 1.8372
+    "Gemma 4": 1.8372,
+    "Claude Opus 5.5": 1.9226,
+    "Claude Haiku 4.5": 1.9225
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47234,
@@ -2830,7 +3285,9 @@
     "DeepSeek-V4.1": 54148,
     "GLM-5.3": 53085,
     "Mistral Medium 3.5": 52750,
-    "Gemma 4": 49813
+    "Gemma 4": 49813,
+    "Claude Opus 5.5": 80589,
+    "Claude Haiku 4.5": 55532
    }
   },
   {
@@ -2846,7 +3303,9 @@
     "DeepSeek-V4.1": 7.9734,
     "GLM-5.3": 9.5431,
     "Mistral Medium 3.5": 12.6569,
-    "Gemma 4": 2.6187
+    "Gemma 4": 2.6187,
+    "Claude Opus 5.5": 4.0433,
+    "Claude Haiku 4.5": 5.8144
    },
    "tokens": {
     "GPT-5 / GPT-4o": 221138,
@@ -2855,7 +3314,9 @@
     "DeepSeek-V4.1": 215609,
     "GLM-5.3": 259428,
     "Mistral Medium 3.5": 352204,
-    "Gemma 4": 71003
+    "Gemma 4": 71003,
+    "Claude Opus 5.5": 169479,
+    "Claude Haiku 4.5": 167949
    }
   },
   {
@@ -2871,7 +3332,9 @@
     "DeepSeek-V4.1": 1.9744,
     "GLM-5.3": 1.916,
     "Mistral Medium 3.5": 1.8211,
-    "Gemma 4": 1.8755
+    "Gemma 4": 1.8755,
+    "Claude Opus 5.5": 1.7004,
+    "Claude Haiku 4.5": 2.0016
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48606,
@@ -2880,7 +3343,9 @@
     "DeepSeek-V4.1": 53390,
     "GLM-5.3": 52086,
     "Mistral Medium 3.5": 50676,
-    "Gemma 4": 50853
+    "Gemma 4": 50853,
+    "Claude Opus 5.5": 71275,
+    "Claude Haiku 4.5": 57816
    }
   },
   {
@@ -2896,7 +3361,9 @@
     "DeepSeek-V4.1": 1.7743,
     "GLM-5.3": 1.7667,
     "Mistral Medium 3.5": 1.6915,
-    "Gemma 4": 1.6594
+    "Gemma 4": 1.6594,
+    "Claude Opus 5.5": 1.6076,
+    "Claude Haiku 4.5": 1.7997
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43122,
@@ -2905,7 +3372,9 @@
     "DeepSeek-V4.1": 47978,
     "GLM-5.3": 48028,
     "Mistral Medium 3.5": 47068,
-    "Gemma 4": 44994
+    "Gemma 4": 44994,
+    "Claude Opus 5.5": 67384,
+    "Claude Haiku 4.5": 51983
    }
   },
   {
@@ -2921,7 +3390,9 @@
     "DeepSeek-V4.1": 1.8656,
     "GLM-5.3": 1.8587,
     "Mistral Medium 3.5": 1.792,
-    "Gemma 4": 1.7246
+    "Gemma 4": 1.7246,
+    "Claude Opus 5.5": 1.7244,
+    "Claude Haiku 4.5": 1.8212
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43452,
@@ -2930,7 +3401,9 @@
     "DeepSeek-V4.1": 50449,
     "GLM-5.3": 50529,
     "Mistral Medium 3.5": 49867,
-    "Gemma 4": 46762
+    "Gemma 4": 46762,
+    "Claude Opus 5.5": 72282,
+    "Claude Haiku 4.5": 52606
    }
   },
   {
@@ -2946,7 +3419,9 @@
     "DeepSeek-V4.1": 1.9574,
     "GLM-5.3": 2.0113,
     "Mistral Medium 3.5": 1.7279,
-    "Gemma 4": 1.6722
+    "Gemma 4": 1.6722,
+    "Claude Opus 5.5": 1.6413,
+    "Claude Haiku 4.5": 1.9015
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45014,
@@ -2955,7 +3430,9 @@
     "DeepSeek-V4.1": 52930,
     "GLM-5.3": 54678,
     "Mistral Medium 3.5": 48081,
-    "Gemma 4": 45340
+    "Gemma 4": 45340,
+    "Claude Opus 5.5": 68796,
+    "Claude Haiku 4.5": 54924
    }
   },
   {
@@ -2971,7 +3448,9 @@
     "DeepSeek-V4.1": 1.8538,
     "GLM-5.3": 1.8289,
     "Mistral Medium 3.5": 1.74,
-    "Gemma 4": 1.72
+    "Gemma 4": 1.72,
+    "Claude Opus 5.5": 1.5382,
+    "Claude Haiku 4.5": 1.8624
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45886,
@@ -2980,7 +3459,9 @@
     "DeepSeek-V4.1": 50129,
     "GLM-5.3": 49718,
     "Mistral Medium 3.5": 48420,
-    "Gemma 4": 46635
+    "Gemma 4": 46635,
+    "Claude Opus 5.5": 64476,
+    "Claude Haiku 4.5": 53796
    }
   },
   {
@@ -2996,7 +3477,9 @@
     "DeepSeek-V4.1": 1.8963,
     "GLM-5.3": 1.8656,
     "Mistral Medium 3.5": 1.774,
-    "Gemma 4": 1.7493
+    "Gemma 4": 1.7493,
+    "Claude Opus 5.5": 1.5766,
+    "Claude Haiku 4.5": 1.8588
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47298,
@@ -3005,7 +3488,9 @@
     "DeepSeek-V4.1": 51279,
     "GLM-5.3": 50715,
     "Mistral Medium 3.5": 49364,
-    "Gemma 4": 47431
+    "Gemma 4": 47431,
+    "Claude Opus 5.5": 66086,
+    "Claude Haiku 4.5": 53692
    }
   },
   {
@@ -3021,7 +3506,9 @@
     "DeepSeek-V4.1": 2.0212,
     "GLM-5.3": 1.9904,
     "Mistral Medium 3.5": 1.8811,
-    "Gemma 4": 1.9029
+    "Gemma 4": 1.9029,
+    "Claude Opus 5.5": 1.6711,
+    "Claude Haiku 4.5": 2.0242
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49539,
@@ -3030,7 +3517,9 @@
     "DeepSeek-V4.1": 54655,
     "GLM-5.3": 54109,
     "Mistral Medium 3.5": 52344,
-    "Gemma 4": 51595
+    "Gemma 4": 51595,
+    "Claude Opus 5.5": 70045,
+    "Claude Haiku 4.5": 58469
    }
   },
   {
@@ -3046,7 +3535,9 @@
     "DeepSeek-V4.1": 2.1124,
     "GLM-5.3": 2.108,
     "Mistral Medium 3.5": 1.9246,
-    "Gemma 4": 1.8979
+    "Gemma 4": 1.8979,
+    "Claude Opus 5.5": 1.7419,
+    "Claude Haiku 4.5": 2.0665
    },
    "tokens": {
     "GPT-5 / GPT-4o": 50628,
@@ -3055,7 +3546,9 @@
     "DeepSeek-V4.1": 57121,
     "GLM-5.3": 57306,
     "Mistral Medium 3.5": 53557,
-    "Gemma 4": 51460
+    "Gemma 4": 51460,
+    "Claude Opus 5.5": 73015,
+    "Claude Haiku 4.5": 59692
    }
   },
   {
@@ -3071,7 +3564,9 @@
     "DeepSeek-V4.1": 1.95,
     "GLM-5.3": 1.9281,
     "Mistral Medium 3.5": 1.8377,
-    "Gemma 4": 1.8128
+    "Gemma 4": 1.8128,
+    "Claude Opus 5.5": 1.8206,
+    "Claude Haiku 4.5": 2.0921
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44822,
@@ -3080,7 +3575,9 @@
     "DeepSeek-V4.1": 52731,
     "GLM-5.3": 52415,
     "Mistral Medium 3.5": 51138,
-    "Gemma 4": 49151
+    "Gemma 4": 49151,
+    "Claude Opus 5.5": 76312,
+    "Claude Haiku 4.5": 60430
    }
   },
   {
@@ -3096,7 +3593,9 @@
     "DeepSeek-V4.1": 1.9215,
     "GLM-5.3": 1.9185,
     "Mistral Medium 3.5": 1.8453,
-    "Gemma 4": 1.7457
+    "Gemma 4": 1.7457,
+    "Claude Opus 5.5": 1.807,
+    "Claude Haiku 4.5": 1.8819
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45685,
@@ -3105,7 +3604,9 @@
     "DeepSeek-V4.1": 51960,
     "GLM-5.3": 52154,
     "Mistral Medium 3.5": 51349,
-    "Gemma 4": 47332
+    "Gemma 4": 47332,
+    "Claude Opus 5.5": 75743,
+    "Claude Haiku 4.5": 54360
    }
   },
   {
@@ -3121,7 +3622,9 @@
     "DeepSeek-V4.1": 1.945,
     "GLM-5.3": 1.9443,
     "Mistral Medium 3.5": 1.8696,
-    "Gemma 4": 1.8231
+    "Gemma 4": 1.8231,
+    "Claude Opus 5.5": 1.7864,
+    "Claude Haiku 4.5": 1.9478
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44654,
@@ -3130,7 +3633,9 @@
     "DeepSeek-V4.1": 52596,
     "GLM-5.3": 52855,
     "Mistral Medium 3.5": 52026,
-    "Gemma 4": 49431
+    "Gemma 4": 49431,
+    "Claude Opus 5.5": 74880,
+    "Claude Haiku 4.5": 56263
    }
   },
   {
@@ -3146,7 +3651,9 @@
     "DeepSeek-V4.1": 1.8248,
     "GLM-5.3": 1.8035,
     "Mistral Medium 3.5": 1.7629,
-    "Gemma 4": 1.716
+    "Gemma 4": 1.716,
+    "Claude Opus 5.5": 1.7211,
+    "Claude Haiku 4.5": 1.8005
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45035,
@@ -3155,7 +3662,9 @@
     "DeepSeek-V4.1": 49344,
     "GLM-5.3": 49027,
     "Mistral Medium 3.5": 49057,
-    "Gemma 4": 46528
+    "Gemma 4": 46528,
+    "Claude Opus 5.5": 72142,
+    "Claude Haiku 4.5": 52007
    }
   },
   {
@@ -3171,7 +3680,9 @@
     "DeepSeek-V4.1": 1.9679,
     "GLM-5.3": 1.952,
     "Mistral Medium 3.5": 1.8855,
-    "Gemma 4": 1.8018
+    "Gemma 4": 1.8018,
+    "Claude Opus 5.5": 1.7713,
+    "Claude Haiku 4.5": 1.9463
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49040,
@@ -3180,7 +3691,9 @@
     "DeepSeek-V4.1": 53213,
     "GLM-5.3": 53065,
     "Mistral Medium 3.5": 52469,
-    "Gemma 4": 48853
+    "Gemma 4": 48853,
+    "Claude Opus 5.5": 74247,
+    "Claude Haiku 4.5": 56219
    }
   },
   {
@@ -3196,7 +3709,9 @@
     "DeepSeek-V4.1": 2.2236,
     "GLM-5.3": 2.2528,
     "Mistral Medium 3.5": 1.9125,
-    "Gemma 4": 1.8852
+    "Gemma 4": 1.8852,
+    "Claude Opus 5.5": 1.7366,
+    "Claude Haiku 4.5": 2.0653
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48725,
@@ -3205,7 +3720,9 @@
     "DeepSeek-V4.1": 60128,
     "GLM-5.3": 61243,
     "Mistral Medium 3.5": 53218,
-    "Gemma 4": 51114
+    "Gemma 4": 51114,
+    "Claude Opus 5.5": 72791,
+    "Claude Haiku 4.5": 59657
    }
   },
   {
@@ -3221,7 +3738,9 @@
     "DeepSeek-V4.1": 2.884,
     "GLM-5.3": 4.1554,
     "Mistral Medium 3.5": 2.0428,
-    "Gemma 4": 1.4772
+    "Gemma 4": 1.4772,
+    "Claude Opus 5.5": 2.2091,
+    "Claude Haiku 4.5": 3.2054
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46142,
@@ -3230,7 +3749,9 @@
     "DeepSeek-V4.1": 77986,
     "GLM-5.3": 112965,
     "Mistral Medium 3.5": 56845,
-    "Gemma 4": 40053
+    "Gemma 4": 40053,
+    "Claude Opus 5.5": 92596,
+    "Claude Haiku 4.5": 92588
    }
   },
   {
@@ -3246,7 +3767,9 @@
     "DeepSeek-V4.1": 3.1213,
     "GLM-5.3": 4.3151,
     "Mistral Medium 3.5": 2.2608,
-    "Gemma 4": 1.6392
+    "Gemma 4": 1.6392,
+    "Claude Opus 5.5": 2.3782,
+    "Claude Haiku 4.5": 3.4477
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47256,
@@ -3255,7 +3778,9 @@
     "DeepSeek-V4.1": 84404,
     "GLM-5.3": 117305,
     "Mistral Medium 3.5": 62910,
-    "Gemma 4": 44446
+    "Gemma 4": 44446,
+    "Claude Opus 5.5": 99684,
+    "Claude Haiku 4.5": 99587
    }
   },
   {
@@ -3271,7 +3796,9 @@
     "DeepSeek-V4.1": 4.4158,
     "GLM-5.3": 8.9318,
     "Mistral Medium 3.5": 2.5628,
-    "Gemma 4": 1.8482
+    "Gemma 4": 1.8482,
+    "Claude Opus 5.5": 4.0395,
+    "Claude Haiku 4.5": 5.8573
    },
    "tokens": {
     "GPT-5 / GPT-4o": 52584,
@@ -3280,7 +3807,9 @@
     "DeepSeek-V4.1": 119408,
     "GLM-5.3": 242811,
     "Mistral Medium 3.5": 71316,
-    "Gemma 4": 50113
+    "Gemma 4": 50113,
+    "Claude Opus 5.5": 169318,
+    "Claude Haiku 4.5": 169188
    }
   },
   {
@@ -3296,7 +3825,9 @@
     "DeepSeek-V4.1": 2.9954,
     "GLM-5.3": 4.5803,
     "Mistral Medium 3.5": 2.1428,
-    "Gemma 4": 1.3954
+    "Gemma 4": 1.3954,
+    "Claude Opus 5.5": 2.4187,
+    "Claude Haiku 4.5": 3.5054
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48783,
@@ -3305,7 +3836,9 @@
     "DeepSeek-V4.1": 80999,
     "GLM-5.3": 124515,
     "Mistral Medium 3.5": 59629,
-    "Gemma 4": 37835
+    "Gemma 4": 37835,
+    "Claude Opus 5.5": 101381,
+    "Claude Haiku 4.5": 101253
    }
   },
   {
@@ -3321,7 +3854,9 @@
     "DeepSeek-V4.1": 1.5294,
     "GLM-5.3": 1.5143,
     "Mistral Medium 3.5": 1.4392,
-    "Gemma 4": 1.4193
+    "Gemma 4": 1.4193,
+    "Claude Opus 5.5": 1.4383,
+    "Claude Haiku 4.5": 1.5805
    },
    "tokens": {
     "GPT-5 / GPT-4o": 36017,
@@ -3330,7 +3865,9 @@
     "DeepSeek-V4.1": 41356,
     "GLM-5.3": 41165,
     "Mistral Medium 3.5": 40050,
-    "Gemma 4": 38483
+    "Gemma 4": 38483,
+    "Claude Opus 5.5": 60286,
+    "Claude Haiku 4.5": 45654
    }
   },
   {
@@ -3346,7 +3883,9 @@
     "DeepSeek-V4.1": 2.5369,
     "GLM-5.3": 2.4092,
     "Mistral Medium 3.5": 2.294,
-    "Gemma 4": 2.1484
+    "Gemma 4": 2.1484,
+    "Claude Opus 5.5": 1.8367,
+    "Claude Haiku 4.5": 2.6606
    },
    "tokens": {
     "GPT-5 / GPT-4o": 59231,
@@ -3355,7 +3894,9 @@
     "DeepSeek-V4.1": 68599,
     "GLM-5.3": 65495,
     "Mistral Medium 3.5": 63836,
-    "Gemma 4": 58253
+    "Gemma 4": 58253,
+    "Claude Opus 5.5": 76987,
+    "Claude Haiku 4.5": 76850
    }
   },
   {
@@ -3371,7 +3912,9 @@
     "DeepSeek-V4.1": 2.8307,
     "GLM-5.3": 2.7571,
     "Mistral Medium 3.5": 2.5662,
-    "Gemma 4": 2.358
+    "Gemma 4": 2.358,
+    "Claude Opus 5.5": 2.4772,
+    "Claude Haiku 4.5": 3.5941
    },
    "tokens": {
     "GPT-5 / GPT-4o": 71474,
@@ -3380,7 +3923,9 @@
     "DeepSeek-V4.1": 76544,
     "GLM-5.3": 74952,
     "Mistral Medium 3.5": 71411,
-    "Gemma 4": 63935
+    "Gemma 4": 63935,
+    "Claude Opus 5.5": 103833,
+    "Claude Haiku 4.5": 103817
    }
   },
   {
@@ -3396,7 +3941,9 @@
     "DeepSeek-V4.1": 1.6789,
     "GLM-5.3": 1.7639,
     "Mistral Medium 3.5": 1.6167,
-    "Gemma 4": 1.5502
+    "Gemma 4": 1.5502,
+    "Claude Opus 5.5": 1.6671,
+    "Claude Haiku 4.5": 1.7924
    },
    "tokens": {
     "GPT-5 / GPT-4o": 41919,
@@ -3405,7 +3952,9 @@
     "DeepSeek-V4.1": 45400,
     "GLM-5.3": 47952,
     "Mistral Medium 3.5": 44987,
-    "Gemma 4": 42033
+    "Gemma 4": 42033,
+    "Claude Opus 5.5": 69879,
+    "Claude Haiku 4.5": 51774
    }
   },
   {
@@ -3421,7 +3970,9 @@
     "DeepSeek-V4.1": 1.9995,
     "GLM-5.3": 1.9715,
     "Mistral Medium 3.5": 1.6414,
-    "Gemma 4": 1.7816
+    "Gemma 4": 1.7816,
+    "Claude Opus 5.5": 1.3453,
+    "Claude Haiku 4.5": 1.9403
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47955,
@@ -3430,7 +3981,9 @@
     "DeepSeek-V4.1": 54069,
     "GLM-5.3": 53595,
     "Mistral Medium 3.5": 45676,
-    "Gemma 4": 48307
+    "Gemma 4": 48307,
+    "Claude Opus 5.5": 56388,
+    "Claude Haiku 4.5": 56047
    }
   },
   {
@@ -3446,7 +3999,9 @@
     "DeepSeek-V4.1": 2.3197,
     "GLM-5.3": 2.2266,
     "Mistral Medium 3.5": 2.3143,
-    "Gemma 4": 2.1658
+    "Gemma 4": 2.1658,
+    "Claude Opus 5.5": 1.9934,
+    "Claude Haiku 4.5": 2.2691
    },
    "tokens": {
     "GPT-5 / GPT-4o": 50208,
@@ -3455,7 +4010,9 @@
     "DeepSeek-V4.1": 62727,
     "GLM-5.3": 60529,
     "Mistral Medium 3.5": 64400,
-    "Gemma 4": 58723
+    "Gemma 4": 58723,
+    "Claude Opus 5.5": 83554,
+    "Claude Haiku 4.5": 65542
    }
   },
   {
@@ -3471,7 +4028,9 @@
     "DeepSeek-V4.1": 3.2779,
     "GLM-5.3": 4.9951,
     "Mistral Medium 3.5": 3.3862,
-    "Gemma 4": 2.5095
+    "Gemma 4": 2.5095,
+    "Claude Opus 5.5": 3.0228,
+    "Claude Haiku 4.5": 4.3828
    },
    "tokens": {
     "GPT-5 / GPT-4o": 82559,
@@ -3480,7 +4039,9 @@
     "DeepSeek-V4.1": 88638,
     "GLM-5.3": 135792,
     "Mistral Medium 3.5": 94229,
-    "Gemma 4": 68043
+    "Gemma 4": 68043,
+    "Claude Opus 5.5": 126702,
+    "Claude Haiku 4.5": 126597
    }
   },
   {
@@ -3496,7 +4057,9 @@
     "DeepSeek-V4.1": 2.1606,
     "GLM-5.3": 2.044,
     "Mistral Medium 3.5": 2.0841,
-    "Gemma 4": 1.995
+    "Gemma 4": 1.995,
+    "Claude Opus 5.5": 1.8737,
+    "Claude Haiku 4.5": 2.3101
    },
    "tokens": {
     "GPT-5 / GPT-4o": 54693,
@@ -3505,7 +4068,9 @@
     "DeepSeek-V4.1": 58424,
     "GLM-5.3": 55565,
     "Mistral Medium 3.5": 57995,
-    "Gemma 4": 54093
+    "Gemma 4": 54093,
+    "Claude Opus 5.5": 78539,
+    "Claude Haiku 4.5": 66728
    }
   },
   {
@@ -3521,7 +4086,9 @@
     "DeepSeek-V4.1": 2.2903,
     "GLM-5.3": 2.312,
     "Mistral Medium 3.5": 2.1819,
-    "Gemma 4": 2.0415
+    "Gemma 4": 2.0415,
+    "Claude Opus 5.5": 1.8953,
+    "Claude Haiku 4.5": 2.2316
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49065,
@@ -3530,7 +4097,9 @@
     "DeepSeek-V4.1": 61932,
     "GLM-5.3": 62852,
     "Mistral Medium 3.5": 60717,
-    "Gemma 4": 55352
+    "Gemma 4": 55352,
+    "Claude Opus 5.5": 79442,
+    "Claude Haiku 4.5": 64460
    }
   },
   {
@@ -3546,7 +4115,9 @@
     "DeepSeek-V4.1": 5.2997,
     "GLM-5.3": 5.9503,
     "Mistral Medium 3.5": 3.2153,
-    "Gemma 4": 2.4082
+    "Gemma 4": 2.4082,
+    "Claude Opus 5.5": 4.1015,
+    "Claude Haiku 4.5": 5.9281
    },
    "tokens": {
     "GPT-5 / GPT-4o": 85029,
@@ -3555,7 +4126,9 @@
     "DeepSeek-V4.1": 143308,
     "GLM-5.3": 161758,
     "Mistral Medium 3.5": 89471,
-    "Gemma 4": 65295
+    "Gemma 4": 65295,
+    "Claude Opus 5.5": 171918,
+    "Claude Haiku 4.5": 171233
    }
   },
   {
@@ -3571,7 +4144,9 @@
     "DeepSeek-V4.1": 2.4068,
     "GLM-5.3": 2.2349,
     "Mistral Medium 3.5": 2.1857,
-    "Gemma 4": 2.1293
+    "Gemma 4": 2.1293,
+    "Claude Opus 5.5": 1.738,
+    "Claude Haiku 4.5": 2.5167
    },
    "tokens": {
     "GPT-5 / GPT-4o": 56972,
@@ -3580,7 +4155,9 @@
     "DeepSeek-V4.1": 65083,
     "GLM-5.3": 60755,
     "Mistral Medium 3.5": 60822,
-    "Gemma 4": 57734
+    "Gemma 4": 57734,
+    "Claude Opus 5.5": 72850,
+    "Claude Haiku 4.5": 72696
    }
   },
   {
@@ -3596,7 +4173,9 @@
     "DeepSeek-V4.1": 1.4962,
     "GLM-5.3": 1.5161,
     "Mistral Medium 3.5": 1.4106,
-    "Gemma 4": 1.3827
+    "Gemma 4": 1.3827,
+    "Claude Opus 5.5": 1.5533,
+    "Claude Haiku 4.5": 1.5291
    },
    "tokens": {
     "GPT-5 / GPT-4o": 33495,
@@ -3605,7 +4184,9 @@
     "DeepSeek-V4.1": 40458,
     "GLM-5.3": 41214,
     "Mistral Medium 3.5": 39253,
-    "Gemma 4": 37490
+    "Gemma 4": 37490,
+    "Claude Opus 5.5": 65107,
+    "Claude Haiku 4.5": 44167
    }
   },
   {
@@ -3621,7 +4202,9 @@
     "DeepSeek-V4.1": 1.6227,
     "GLM-5.3": 1.5884,
     "Mistral Medium 3.5": 1.4722,
-    "Gemma 4": 1.4756
+    "Gemma 4": 1.4756,
+    "Claude Opus 5.5": 1.4237,
+    "Claude Haiku 4.5": 1.5554
    },
    "tokens": {
     "GPT-5 / GPT-4o": 37792,
@@ -3630,7 +4213,9 @@
     "DeepSeek-V4.1": 43879,
     "GLM-5.3": 43181,
     "Mistral Medium 3.5": 40968,
-    "Gemma 4": 40010
+    "Gemma 4": 40010,
+    "Claude Opus 5.5": 59677,
+    "Claude Haiku 4.5": 44929
    }
   },
   {
@@ -3646,7 +4231,9 @@
     "DeepSeek-V4.1": 1.5311,
     "GLM-5.3": 1.4912,
     "Mistral Medium 3.5": 1.3971,
-    "Gemma 4": 1.3761
+    "Gemma 4": 1.3761,
+    "Claude Opus 5.5": 1.3632,
+    "Claude Haiku 4.5": 1.4719
    },
    "tokens": {
     "GPT-5 / GPT-4o": 35746,
@@ -3655,7 +4242,9 @@
     "DeepSeek-V4.1": 41403,
     "GLM-5.3": 40538,
     "Mistral Medium 3.5": 38876,
-    "Gemma 4": 37312
+    "Gemma 4": 37312,
+    "Claude Opus 5.5": 57141,
+    "Claude Haiku 4.5": 42517
    }
   },
   {
@@ -3671,7 +4260,9 @@
     "DeepSeek-V4.1": 1.5406,
     "GLM-5.3": 1.5019,
     "Mistral Medium 3.5": 1.4067,
-    "Gemma 4": 1.3895
+    "Gemma 4": 1.3895,
+    "Claude Opus 5.5": 1.3666,
+    "Claude Haiku 4.5": 1.4812
    },
    "tokens": {
     "GPT-5 / GPT-4o": 36049,
@@ -3680,7 +4271,9 @@
     "DeepSeek-V4.1": 41660,
     "GLM-5.3": 40828,
     "Mistral Medium 3.5": 39143,
-    "Gemma 4": 37675
+    "Gemma 4": 37675,
+    "Claude Opus 5.5": 57281,
+    "Claude Haiku 4.5": 42784
    }
   },
   {
@@ -3696,7 +4289,9 @@
     "DeepSeek-V4.1": 2.9673,
     "GLM-5.3": 4.3475,
     "Mistral Medium 3.5": 2.1292,
-    "Gemma 4": 1.5287
+    "Gemma 4": 1.5287,
+    "Claude Opus 5.5": 2.3964,
+    "Claude Haiku 4.5": 3.4697
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43377,
@@ -3705,7 +4300,9 @@
     "DeepSeek-V4.1": 80239,
     "GLM-5.3": 118188,
     "Mistral Medium 3.5": 59248,
-    "Gemma 4": 41449
+    "Gemma 4": 41449,
+    "Claude Opus 5.5": 100446,
+    "Claude Haiku 4.5": 100223
    }
   },
   {
@@ -3721,7 +4318,9 @@
     "DeepSeek-V4.1": 11.2507,
     "GLM-5.3": 11.1911,
     "Mistral Medium 3.5": 10.9329,
-    "Gemma 4": 11.076
+    "Gemma 4": 11.076,
+    "Claude Opus 5.5": 9.0096,
+    "Claude Haiku 4.5": 13.0704
    },
    "tokens": {
     "GPT-5 / GPT-4o": 304218,
@@ -3730,7 +4329,9 @@
     "DeepSeek-V4.1": 304231,
     "GLM-5.3": 304231,
     "Mistral Medium 3.5": 304231,
-    "Gemma 4": 300315
+    "Gemma 4": 300315,
+    "Claude Opus 5.5": 377646,
+    "Claude Haiku 4.5": 377539
    }
   },
   {
@@ -3746,7 +4347,9 @@
     "DeepSeek-V4.1": 2.1267,
     "GLM-5.3": 2.141,
     "Mistral Medium 3.5": 2.06,
-    "Gemma 4": 1.9947
+    "Gemma 4": 1.9947,
+    "Claude Opus 5.5": 1.884,
+    "Claude Haiku 4.5": 2.061
    },
    "tokens": {
     "GPT-5 / GPT-4o": 50090,
@@ -3755,7 +4358,9 @@
     "DeepSeek-V4.1": 57509,
     "GLM-5.3": 58202,
     "Mistral Medium 3.5": 57323,
-    "Gemma 4": 54085
+    "Gemma 4": 54085,
+    "Claude Opus 5.5": 78969,
+    "Claude Haiku 4.5": 59533
    }
   },
   {
@@ -3771,7 +4376,9 @@
     "DeepSeek-V4.1": 3.4204,
     "GLM-5.3": 3.0335,
     "Mistral Medium 3.5": 3.7722,
-    "Gemma 4": 2.9279
+    "Gemma 4": 2.9279,
+    "Claude Opus 5.5": 3.274,
+    "Claude Haiku 4.5": 4.3595
    },
    "tokens": {
     "GPT-5 / GPT-4o": 87101,
@@ -3780,7 +4387,9 @@
     "DeepSeek-V4.1": 92490,
     "GLM-5.3": 82465,
     "Mistral Medium 3.5": 104970,
-    "Gemma 4": 79387
+    "Gemma 4": 79387,
+    "Claude Opus 5.5": 137231,
+    "Claude Haiku 4.5": 125923
    }
   },
   {
@@ -3796,7 +4405,9 @@
     "DeepSeek-V4.1": 2.0676,
     "GLM-5.3": 2.0543,
     "Mistral Medium 3.5": 1.98,
-    "Gemma 4": 1.8638
+    "Gemma 4": 1.8638,
+    "Claude Opus 5.5": 1.8789,
+    "Claude Haiku 4.5": 2.0063
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43300,
@@ -3805,7 +4416,9 @@
     "DeepSeek-V4.1": 55909,
     "GLM-5.3": 55846,
     "Mistral Medium 3.5": 55098,
-    "Gemma 4": 50535
+    "Gemma 4": 50535,
+    "Claude Opus 5.5": 78756,
+    "Claude Haiku 4.5": 57953
    }
   },
   {
@@ -3821,7 +4434,9 @@
     "DeepSeek-V4.1": 1.7863,
     "GLM-5.3": 1.7901,
     "Mistral Medium 3.5": 1.6448,
-    "Gemma 4": 1.6794
+    "Gemma 4": 1.6794,
+    "Claude Opus 5.5": 1.5529,
+    "Claude Haiku 4.5": 1.7574
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43030,
@@ -3830,7 +4445,9 @@
     "DeepSeek-V4.1": 48303,
     "GLM-5.3": 48664,
     "Mistral Medium 3.5": 45770,
-    "Gemma 4": 45535
+    "Gemma 4": 45535,
+    "Claude Opus 5.5": 65092,
+    "Claude Haiku 4.5": 50763
    }
   },
   {
@@ -3846,7 +4463,9 @@
     "DeepSeek-V4.1": 1.8481,
     "GLM-5.3": 1.8317,
     "Mistral Medium 3.5": 1.7232,
-    "Gemma 4": 1.7272
+    "Gemma 4": 1.7272,
+    "Claude Opus 5.5": 1.5924,
+    "Claude Haiku 4.5": 1.8181
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44185,
@@ -3855,7 +4474,9 @@
     "DeepSeek-V4.1": 49975,
     "GLM-5.3": 49796,
     "Mistral Medium 3.5": 47951,
-    "Gemma 4": 46831
+    "Gemma 4": 46831,
+    "Claude Opus 5.5": 66748,
+    "Claude Haiku 4.5": 52517
    }
   },
   {
@@ -3871,7 +4492,9 @@
     "DeepSeek-V4.1": 5.5455,
     "GLM-5.3": 12.3587,
     "Mistral Medium 3.5": 12.8666,
-    "Gemma 4": 3.5111
+    "Gemma 4": 3.5111,
+    "Claude Opus 5.5": 5.0977,
+    "Claude Haiku 4.5": 7.3912
    },
    "tokens": {
     "GPT-5 / GPT-4o": 133961,
@@ -3880,7 +4503,9 @@
     "DeepSeek-V4.1": 149957,
     "GLM-5.3": 335972,
     "Mistral Medium 3.5": 358040,
-    "Gemma 4": 95199
+    "Gemma 4": 95199,
+    "Claude Opus 5.5": 213676,
+    "Claude Haiku 4.5": 213494
    }
   },
   {
@@ -3896,7 +4521,9 @@
     "DeepSeek-V4.1": 1.5179,
     "GLM-5.3": 1.5322,
     "Mistral Medium 3.5": 1.4822,
-    "Gemma 4": 1.4494
+    "Gemma 4": 1.4494,
+    "Claude Opus 5.5": 1.4489,
+    "Claude Haiku 4.5": 1.5418
    },
    "tokens": {
     "GPT-5 / GPT-4o": 38362,
@@ -3905,7 +4532,9 @@
     "DeepSeek-V4.1": 41046,
     "GLM-5.3": 41654,
     "Mistral Medium 3.5": 41246,
-    "Gemma 4": 39299
+    "Gemma 4": 39299,
+    "Claude Opus 5.5": 60730,
+    "Claude Haiku 4.5": 44534
    }
   },
   {
@@ -3921,7 +4550,9 @@
     "DeepSeek-V4.1": 4.4754,
     "GLM-5.3": 7.8096,
     "Mistral Medium 3.5": 2.9672,
-    "Gemma 4": 2.694
+    "Gemma 4": 2.694,
+    "Claude Opus 5.5": 6.4752,
+    "Claude Haiku 4.5": 9.39
    },
    "tokens": {
     "GPT-5 / GPT-4o": 70345,
@@ -3930,7 +4561,9 @@
     "DeepSeek-V4.1": 121018,
     "GLM-5.3": 212303,
     "Mistral Medium 3.5": 82569,
-    "Gemma 4": 73045
+    "Gemma 4": 73045,
+    "Claude Opus 5.5": 271413,
+    "Claude Haiku 4.5": 271231
    }
   },
   {
@@ -3946,7 +4579,9 @@
     "DeepSeek-V4.1": 1.7158,
     "GLM-5.3": 1.6985,
     "Mistral Medium 3.5": 1.61,
-    "Gemma 4": 1.5967
+    "Gemma 4": 1.5967,
+    "Claude Opus 5.5": 1.5493,
+    "Claude Haiku 4.5": 1.6961
    },
    "tokens": {
     "GPT-5 / GPT-4o": 42554,
@@ -3955,7 +4590,9 @@
     "DeepSeek-V4.1": 46396,
     "GLM-5.3": 46173,
     "Mistral Medium 3.5": 44802,
-    "Gemma 4": 43292
+    "Gemma 4": 43292,
+    "Claude Opus 5.5": 64941,
+    "Claude Haiku 4.5": 48991
    }
   },
   {
@@ -3971,7 +4608,9 @@
     "DeepSeek-V4.1": 2.5222,
     "GLM-5.3": 2.486,
     "Mistral Medium 3.5": 1.9793,
-    "Gemma 4": 1.8438
+    "Gemma 4": 1.8438,
+    "Claude Opus 5.5": 2.0389,
+    "Claude Haiku 4.5": 2.9362
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46063,
@@ -3980,7 +4619,9 @@
     "DeepSeek-V4.1": 68202,
     "GLM-5.3": 67583,
     "Mistral Medium 3.5": 55077,
-    "Gemma 4": 49992
+    "Gemma 4": 49992,
+    "Claude Opus 5.5": 85464,
+    "Claude Haiku 4.5": 84812
    }
   },
   {
@@ -3996,7 +4637,9 @@
     "DeepSeek-V4.1": 1.7877,
     "GLM-5.3": 1.8109,
     "Mistral Medium 3.5": 1.4381,
-    "Gemma 4": 1.457
+    "Gemma 4": 1.457,
+    "Claude Opus 5.5": 1.9174,
+    "Claude Haiku 4.5": 2.775
    },
    "tokens": {
     "GPT-5 / GPT-4o": 41116,
@@ -4005,7 +4648,9 @@
     "DeepSeek-V4.1": 48342,
     "GLM-5.3": 49230,
     "Mistral Medium 3.5": 40017,
-    "Gemma 4": 39504
+    "Gemma 4": 39504,
+    "Claude Opus 5.5": 80371,
+    "Claude Haiku 4.5": 80155
    }
   },
   {
@@ -4021,7 +4666,9 @@
     "DeepSeek-V4.1": 2.1734,
     "GLM-5.3": 2.2299,
     "Mistral Medium 3.5": 2.1165,
-    "Gemma 4": 2.0619
+    "Gemma 4": 2.0619,
+    "Claude Opus 5.5": 2.0047,
+    "Claude Haiku 4.5": 2.2222
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48172,
@@ -4030,7 +4677,9 @@
     "DeepSeek-V4.1": 58772,
     "GLM-5.3": 60621,
     "Mistral Medium 3.5": 58895,
-    "Gemma 4": 55907
+    "Gemma 4": 55907,
+    "Claude Opus 5.5": 84027,
+    "Claude Haiku 4.5": 64189
    }
   },
   {
@@ -4046,7 +4695,9 @@
     "DeepSeek-V4.1": 1.6842,
     "GLM-5.3": 1.6914,
     "Mistral Medium 3.5": 1.5754,
-    "Gemma 4": 1.5066
+    "Gemma 4": 1.5066,
+    "Claude Opus 5.5": 1.6028,
+    "Claude Haiku 4.5": 1.7198
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44030,
@@ -4055,7 +4706,9 @@
     "DeepSeek-V4.1": 45542,
     "GLM-5.3": 45981,
     "Mistral Medium 3.5": 43840,
-    "Gemma 4": 40850
+    "Gemma 4": 40850,
+    "Claude Opus 5.5": 67181,
+    "Claude Haiku 4.5": 49677
    }
   },
   {
@@ -4071,7 +4724,9 @@
     "DeepSeek-V4.1": 1.4201,
     "GLM-5.3": 1.4017,
     "Mistral Medium 3.5": 1.2709,
-    "Gemma 4": 1.2548
+    "Gemma 4": 1.2548,
+    "Claude Opus 5.5": 1.375,
+    "Claude Haiku 4.5": 1.4585
    },
    "tokens": {
     "GPT-5 / GPT-4o": 32852,
@@ -4080,7 +4735,9 @@
     "DeepSeek-V4.1": 38401,
     "GLM-5.3": 38106,
     "Mistral Medium 3.5": 35366,
-    "Gemma 4": 34022
+    "Gemma 4": 34022,
+    "Claude Opus 5.5": 57636,
+    "Claude Haiku 4.5": 42130
    }
   },
   {
@@ -4096,7 +4753,9 @@
     "DeepSeek-V4.1": 1.6237,
     "GLM-5.3": 1.7224,
     "Mistral Medium 3.5": 1.4208,
-    "Gemma 4": 1.427
+    "Gemma 4": 1.427,
+    "Claude Opus 5.5": 1.8028,
+    "Claude Haiku 4.5": 2.6112
    },
    "tokens": {
     "GPT-5 / GPT-4o": 39651,
@@ -4105,7 +4764,9 @@
     "DeepSeek-V4.1": 43907,
     "GLM-5.3": 46824,
     "Mistral Medium 3.5": 39536,
-    "Gemma 4": 38693
+    "Gemma 4": 38693,
+    "Claude Opus 5.5": 75565,
+    "Claude Haiku 4.5": 75424
    }
   },
   {
@@ -4121,7 +4782,9 @@
     "DeepSeek-V4.1": 2.0497,
     "GLM-5.3": 2.0432,
     "Mistral Medium 3.5": 1.9479,
-    "Gemma 4": 1.8506
+    "Gemma 4": 1.8506,
+    "Claude Opus 5.5": 1.8297,
+    "Claude Haiku 4.5": 2.0196
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49166,
@@ -4130,7 +4793,9 @@
     "DeepSeek-V4.1": 55425,
     "GLM-5.3": 55545,
     "Mistral Medium 3.5": 54204,
-    "Gemma 4": 50177
+    "Gemma 4": 50177,
+    "Claude Opus 5.5": 76693,
+    "Claude Haiku 4.5": 58336
    }
   },
   {
@@ -4146,7 +4811,9 @@
     "DeepSeek-V4.1": 1.8598,
     "GLM-5.3": 1.725,
     "Mistral Medium 3.5": 1.6066,
-    "Gemma 4": 1.5749
+    "Gemma 4": 1.5749,
+    "Claude Opus 5.5": 1.5147,
+    "Claude Haiku 4.5": 1.6605
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43832,
@@ -4155,7 +4822,9 @@
     "DeepSeek-V4.1": 50292,
     "GLM-5.3": 46895,
     "Mistral Medium 3.5": 44706,
-    "Gemma 4": 42702
+    "Gemma 4": 42702,
+    "Claude Opus 5.5": 63489,
+    "Claude Haiku 4.5": 47963
    }
   },
   {
@@ -4171,7 +4840,9 @@
     "DeepSeek-V4.1": 2.1271,
     "GLM-5.3": 2.1165,
     "Mistral Medium 3.5": 2.0302,
-    "Gemma 4": 1.9762
+    "Gemma 4": 1.9762,
+    "Claude Opus 5.5": 1.9523,
+    "Claude Haiku 4.5": 2.1393
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47862,
@@ -4180,7 +4851,9 @@
     "DeepSeek-V4.1": 57520,
     "GLM-5.3": 57536,
     "Mistral Medium 3.5": 56495,
-    "Gemma 4": 53584
+    "Gemma 4": 53584,
+    "Claude Opus 5.5": 81833,
+    "Claude Haiku 4.5": 61794
    }
   },
   {
@@ -4196,7 +4869,9 @@
     "DeepSeek-V4.1": 1.5824,
     "GLM-5.3": 1.4239,
     "Mistral Medium 3.5": 1.5042,
-    "Gemma 4": 1.3655
+    "Gemma 4": 1.3655,
+    "Claude Opus 5.5": 1.3253,
+    "Claude Haiku 4.5": 1.9174
    },
    "tokens": {
     "GPT-5 / GPT-4o": 38188,
@@ -4205,7 +4880,9 @@
     "DeepSeek-V4.1": 42789,
     "GLM-5.3": 38710,
     "Mistral Medium 3.5": 41857,
-    "Gemma 4": 37023
+    "Gemma 4": 37023,
+    "Claude Opus 5.5": 55551,
+    "Claude Haiku 4.5": 55384
    }
   },
   {
@@ -4221,7 +4898,9 @@
     "DeepSeek-V4.1": 2.053,
     "GLM-5.3": 2.0166,
     "Mistral Medium 3.5": 1.9523,
-    "Gemma 4": 1.868
+    "Gemma 4": 1.868,
+    "Claude Opus 5.5": 1.8398,
+    "Claude Haiku 4.5": 1.9881
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48937,
@@ -4230,7 +4909,9 @@
     "DeepSeek-V4.1": 55515,
     "GLM-5.3": 54822,
     "Mistral Medium 3.5": 54328,
-    "Gemma 4": 50649
+    "Gemma 4": 50649,
+    "Claude Opus 5.5": 77115,
+    "Claude Haiku 4.5": 57425
    }
   },
   {
@@ -4246,7 +4927,9 @@
     "DeepSeek-V4.1": 2.8566,
     "GLM-5.3": 4.405,
     "Mistral Medium 3.5": 2.2836,
-    "Gemma 4": 1.7701
+    "Gemma 4": 1.7701,
+    "Claude Opus 5.5": 2.4608,
+    "Claude Haiku 4.5": 3.5647
    },
    "tokens": {
     "GPT-5 / GPT-4o": 56042,
@@ -4255,7 +4938,9 @@
     "DeepSeek-V4.1": 77244,
     "GLM-5.3": 119750,
     "Mistral Medium 3.5": 63545,
-    "Gemma 4": 47995
+    "Gemma 4": 47995,
+    "Claude Opus 5.5": 103146,
+    "Claude Haiku 4.5": 102965
    }
   },
   {
@@ -4271,7 +4956,9 @@
     "DeepSeek-V4.1": 6.4185,
     "GLM-5.3": 12.7363,
     "Mistral Medium 3.5": 12.4428,
-    "Gemma 4": 5.2515
+    "Gemma 4": 5.2515,
+    "Claude Opus 5.5": 9.4136,
+    "Claude Haiku 4.5": 13.66
    },
    "tokens": {
     "GPT-5 / GPT-4o": 368158,
@@ -4280,7 +4967,9 @@
     "DeepSeek-V4.1": 173564,
     "GLM-5.3": 346237,
     "Mistral Medium 3.5": 346246,
-    "Gemma 4": 142388
+    "Gemma 4": 142388,
+    "Claude Opus 5.5": 394580,
+    "Claude Haiku 4.5": 394569
    }
   },
   {
@@ -4296,7 +4985,9 @@
     "DeepSeek-V4.1": 1.9398,
     "GLM-5.3": 1.9336,
     "Mistral Medium 3.5": 1.8386,
-    "Gemma 4": 1.8008
+    "Gemma 4": 1.8008,
+    "Claude Opus 5.5": 1.724,
+    "Claude Haiku 4.5": 1.9054
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48721,
@@ -4305,7 +4996,9 @@
     "DeepSeek-V4.1": 52453,
     "GLM-5.3": 52566,
     "Mistral Medium 3.5": 51162,
-    "Gemma 4": 48828
+    "Gemma 4": 48828,
+    "Claude Opus 5.5": 72262,
+    "Claude Haiku 4.5": 55037
    }
   },
   {
@@ -4321,7 +5014,9 @@
     "DeepSeek-V4.1": 7.9673,
     "GLM-5.3": 6.6722,
     "Mistral Medium 3.5": 9.2535,
-    "Gemma 4": 5.1379
+    "Gemma 4": 5.1379,
+    "Claude Opus 5.5": 7.118,
+    "Claude Haiku 4.5": 10.2464
    },
    "tokens": {
     "GPT-5 / GPT-4o": 213080,
@@ -4330,7 +5025,9 @@
     "DeepSeek-V4.1": 215445,
     "GLM-5.3": 181385,
     "Mistral Medium 3.5": 257497,
-    "Gemma 4": 139309
+    "Gemma 4": 139309,
+    "Claude Opus 5.5": 298356,
+    "Claude Haiku 4.5": 295966
    }
   },
   {
@@ -4346,7 +5043,9 @@
     "DeepSeek-V4.1": 4.5725,
     "GLM-5.3": 8.6271,
     "Mistral Medium 3.5": 12.318,
-    "Gemma 4": 2.2891
+    "Gemma 4": 2.2891,
+    "Claude Opus 5.5": 3.0296,
+    "Claude Haiku 4.5": 4.3883
    },
    "tokens": {
     "GPT-5 / GPT-4o": 72432,
@@ -4355,7 +5054,9 @@
     "DeepSeek-V4.1": 123646,
     "GLM-5.3": 234528,
     "Mistral Medium 3.5": 342773,
-    "Gemma 4": 62066
+    "Gemma 4": 62066,
+    "Claude Opus 5.5": 126990,
+    "Claude Haiku 4.5": 126756
    }
   },
   {
@@ -4371,7 +5072,9 @@
     "DeepSeek-V4.1": 1.9049,
     "GLM-5.3": 1.9296,
     "Mistral Medium 3.5": 1.6698,
-    "Gemma 4": 1.6166
+    "Gemma 4": 1.6166,
+    "Claude Opus 5.5": 1.5759,
+    "Claude Haiku 4.5": 1.8044
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45067,
@@ -4380,7 +5083,9 @@
     "DeepSeek-V4.1": 51511,
     "GLM-5.3": 52455,
     "Mistral Medium 3.5": 46466,
-    "Gemma 4": 43833
+    "Gemma 4": 43833,
+    "Claude Opus 5.5": 66054,
+    "Claude Haiku 4.5": 52119
    }
   },
   {
@@ -4396,7 +5101,9 @@
     "DeepSeek-V4.1": 1.814,
     "GLM-5.3": 1.8292,
     "Mistral Medium 3.5": 1.5597,
-    "Gemma 4": 1.569
+    "Gemma 4": 1.569,
+    "Claude Opus 5.5": 1.4899,
+    "Claude Haiku 4.5": 1.5515
    },
    "tokens": {
     "GPT-5 / GPT-4o": 40617,
@@ -4405,7 +5112,9 @@
     "DeepSeek-V4.1": 49053,
     "GLM-5.3": 49727,
     "Mistral Medium 3.5": 43401,
-    "Gemma 4": 42542
+    "Gemma 4": 42542,
+    "Claude Opus 5.5": 62450,
+    "Claude Haiku 4.5": 44815
    }
   },
   {
@@ -4421,7 +5130,9 @@
     "DeepSeek-V4.1": 2.2751,
     "GLM-5.3": 2.239,
     "Mistral Medium 3.5": 2.1568,
-    "Gemma 4": 2.1375
+    "Gemma 4": 2.1375,
+    "Claude Opus 5.5": 1.9495,
+    "Claude Haiku 4.5": 2.2499
    },
    "tokens": {
     "GPT-5 / GPT-4o": 51703,
@@ -4430,7 +5141,9 @@
     "DeepSeek-V4.1": 61521,
     "GLM-5.3": 60868,
     "Mistral Medium 3.5": 60017,
-    "Gemma 4": 57957
+    "Gemma 4": 57957,
+    "Claude Opus 5.5": 81717,
+    "Claude Haiku 4.5": 64988
    }
   },
   {
@@ -4446,7 +5159,9 @@
     "DeepSeek-V4.1": 2.0873,
     "GLM-5.3": 2.0829,
     "Mistral Medium 3.5": 1.985,
-    "Gemma 4": 1.8728
+    "Gemma 4": 1.8728,
+    "Claude Opus 5.5": 1.914,
+    "Claude Haiku 4.5": 2.051
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45686,
@@ -4455,7 +5170,9 @@
     "DeepSeek-V4.1": 56442,
     "GLM-5.3": 56623,
     "Mistral Medium 3.5": 55236,
-    "Gemma 4": 50778
+    "Gemma 4": 50778,
+    "Claude Opus 5.5": 80228,
+    "Claude Haiku 4.5": 59244
    }
   },
   {
@@ -4471,7 +5188,9 @@
     "DeepSeek-V4.1": 2.8894,
     "GLM-5.3": 2.6998,
     "Mistral Medium 3.5": 2.4967,
-    "Gemma 4": 2.0254
+    "Gemma 4": 2.0254,
+    "Claude Opus 5.5": 2.51,
+    "Claude Haiku 4.5": 3.6387
    },
    "tokens": {
     "GPT-5 / GPT-4o": 45957,
@@ -4480,7 +5199,9 @@
     "DeepSeek-V4.1": 78131,
     "GLM-5.3": 73394,
     "Mistral Medium 3.5": 69477,
-    "Gemma 4": 54916
+    "Gemma 4": 54916,
+    "Claude Opus 5.5": 105209,
+    "Claude Haiku 4.5": 105105
    }
   },
   {
@@ -4496,7 +5217,9 @@
     "DeepSeek-V4.1": 2.2289,
     "GLM-5.3": 2.1914,
     "Mistral Medium 3.5": 2.1523,
-    "Gemma 4": 1.9316
+    "Gemma 4": 1.9316,
+    "Claude Opus 5.5": 2.0217,
+    "Claude Haiku 4.5": 2.208
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46309,
@@ -4505,7 +5228,9 @@
     "DeepSeek-V4.1": 60273,
     "GLM-5.3": 59573,
     "Mistral Medium 3.5": 59891,
-    "Gemma 4": 52374
+    "Gemma 4": 52374,
+    "Claude Opus 5.5": 84741,
+    "Claude Haiku 4.5": 63777
    }
   },
   {
@@ -4521,7 +5246,9 @@
     "DeepSeek-V4.1": 2.1916,
     "GLM-5.3": 2.1808,
     "Mistral Medium 3.5": 2.1286,
-    "Gemma 4": 2.0117
+    "Gemma 4": 2.0117,
+    "Claude Opus 5.5": 2.0118,
+    "Claude Haiku 4.5": 2.158
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49316,
@@ -4530,7 +5257,9 @@
     "DeepSeek-V4.1": 59263,
     "GLM-5.3": 59286,
     "Mistral Medium 3.5": 59232,
-    "Gemma 4": 54546
+    "Gemma 4": 54546,
+    "Claude Opus 5.5": 84327,
+    "Claude Haiku 4.5": 62335
    }
   },
   {
@@ -4546,7 +5275,9 @@
     "DeepSeek-V4.1": 1.494,
     "GLM-5.3": 1.4403,
     "Mistral Medium 3.5": 1.316,
-    "Gemma 4": 1.2957
+    "Gemma 4": 1.2957,
+    "Claude Opus 5.5": 1.4639,
+    "Claude Haiku 4.5": 1.5553
    },
    "tokens": {
     "GPT-5 / GPT-4o": 35379,
@@ -4555,7 +5286,9 @@
     "DeepSeek-V4.1": 40400,
     "GLM-5.3": 39155,
     "Mistral Medium 3.5": 36620,
-    "Gemma 4": 35131
+    "Gemma 4": 35131,
+    "Claude Opus 5.5": 61361,
+    "Claude Haiku 4.5": 44925
    }
   },
   {
@@ -4571,7 +5304,9 @@
     "DeepSeek-V4.1": 1.9541,
     "GLM-5.3": 1.9251,
     "Mistral Medium 3.5": 1.8083,
-    "Gemma 4": 1.8036
+    "Gemma 4": 1.8036,
+    "Claude Opus 5.5": 1.6763,
+    "Claude Haiku 4.5": 1.9213
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47949,
@@ -4580,7 +5315,9 @@
     "DeepSeek-V4.1": 52841,
     "GLM-5.3": 52333,
     "Mistral Medium 3.5": 50319,
-    "Gemma 4": 48902
+    "Gemma 4": 48902,
+    "Claude Opus 5.5": 70263,
+    "Claude Haiku 4.5": 55498
    }
   },
   {
@@ -4596,7 +5333,9 @@
     "DeepSeek-V4.1": 1.8977,
     "GLM-5.3": 2.0627,
     "Mistral Medium 3.5": 1.6399,
-    "Gemma 4": 1.7307
+    "Gemma 4": 1.7307,
+    "Claude Opus 5.5": 1.2642,
+    "Claude Haiku 4.5": 1.8198
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47818,
@@ -4605,7 +5344,9 @@
     "DeepSeek-V4.1": 51317,
     "GLM-5.3": 56075,
     "Mistral Medium 3.5": 45634,
-    "Gemma 4": 46925
+    "Gemma 4": 46925,
+    "Claude Opus 5.5": 52991,
+    "Claude Haiku 4.5": 52565
    }
   },
   {
@@ -4621,7 +5362,9 @@
     "DeepSeek-V4.1": 2.1204,
     "GLM-5.3": 2.1363,
     "Mistral Medium 3.5": 2.0372,
-    "Gemma 4": 1.9399
+    "Gemma 4": 1.9399,
+    "Claude Opus 5.5": 1.9243,
+    "Claude Haiku 4.5": 2.0839
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48534,
@@ -4630,7 +5373,9 @@
     "DeepSeek-V4.1": 57339,
     "GLM-5.3": 58074,
     "Mistral Medium 3.5": 56689,
-    "Gemma 4": 52598
+    "Gemma 4": 52598,
+    "Claude Opus 5.5": 80661,
+    "Claude Haiku 4.5": 60193
    }
   },
   {
@@ -4646,7 +5391,9 @@
     "DeepSeek-V4.1": 1.7307,
     "GLM-5.3": 1.7823,
     "Mistral Medium 3.5": 1.6782,
-    "Gemma 4": 1.5035
+    "Gemma 4": 1.5035,
+    "Claude Opus 5.5": 1.6551,
+    "Claude Haiku 4.5": 1.8237
    },
    "tokens": {
     "GPT-5 / GPT-4o": 37218,
@@ -4655,7 +5402,9 @@
     "DeepSeek-V4.1": 46801,
     "GLM-5.3": 48451,
     "Mistral Medium 3.5": 46699,
-    "Gemma 4": 40765
+    "Gemma 4": 40765,
+    "Claude Opus 5.5": 69376,
+    "Claude Haiku 4.5": 52677
    }
   },
   {
@@ -4671,7 +5420,9 @@
     "DeepSeek-V4.1": 1.5506,
     "GLM-5.3": 1.4956,
     "Mistral Medium 3.5": 1.4062,
-    "Gemma 4": 1.3758
+    "Gemma 4": 1.3758,
+    "Claude Opus 5.5": 1.3246,
+    "Claude Haiku 4.5": 1.4336
    },
    "tokens": {
     "GPT-5 / GPT-4o": 36287,
@@ -4680,7 +5431,9 @@
     "DeepSeek-V4.1": 41930,
     "GLM-5.3": 40659,
     "Mistral Medium 3.5": 39130,
-    "Gemma 4": 37303
+    "Gemma 4": 37303,
+    "Claude Opus 5.5": 55520,
+    "Claude Haiku 4.5": 41410
    }
   },
   {
@@ -4696,7 +5449,9 @@
     "DeepSeek-V4.1": 1.9404,
     "GLM-5.3": 1.9317,
     "Mistral Medium 3.5": 1.8168,
-    "Gemma 4": 1.6387
+    "Gemma 4": 1.6387,
+    "Claude Opus 5.5": 1.7816,
+    "Claude Haiku 4.5": 1.9043
    },
    "tokens": {
     "GPT-5 / GPT-4o": 39922,
@@ -4705,7 +5460,9 @@
     "DeepSeek-V4.1": 52470,
     "GLM-5.3": 52513,
     "Mistral Medium 3.5": 50557,
-    "Gemma 4": 44433
+    "Gemma 4": 44433,
+    "Claude Opus 5.5": 74677,
+    "Claude Haiku 4.5": 55006
    }
   },
   {
@@ -4721,7 +5478,9 @@
     "DeepSeek-V4.1": 2.0255,
     "GLM-5.3": 2.0301,
     "Mistral Medium 3.5": 1.9483,
-    "Gemma 4": 1.8855
+    "Gemma 4": 1.8855,
+    "Claude Opus 5.5": 1.7932,
+    "Claude Haiku 4.5": 2.046
    },
    "tokens": {
     "GPT-5 / GPT-4o": 52752,
@@ -4730,7 +5489,9 @@
     "DeepSeek-V4.1": 54772,
     "GLM-5.3": 55188,
     "Mistral Medium 3.5": 54216,
-    "Gemma 4": 51124
+    "Gemma 4": 51124,
+    "Claude Opus 5.5": 75162,
+    "Claude Haiku 4.5": 59098
    }
   },
   {
@@ -4746,7 +5507,9 @@
     "DeepSeek-V4.1": 3.0702,
     "GLM-5.3": 7.6438,
     "Mistral Medium 3.5": 2.1784,
-    "Gemma 4": 1.469
+    "Gemma 4": 1.469,
+    "Claude Opus 5.5": 3.0684,
+    "Claude Haiku 4.5": 4.447
    },
    "tokens": {
     "GPT-5 / GPT-4o": 53199,
@@ -4755,7 +5518,9 @@
     "DeepSeek-V4.1": 83021,
     "GLM-5.3": 207796,
     "Mistral Medium 3.5": 60618,
-    "Gemma 4": 39830
+    "Gemma 4": 39830,
+    "Claude Opus 5.5": 128613,
+    "Claude Haiku 4.5": 128451
    }
   },
   {
@@ -4771,7 +5536,9 @@
     "DeepSeek-V4.1": 2.0736,
     "GLM-5.3": 2.0127,
     "Mistral Medium 3.5": 2.0898,
-    "Gemma 4": 1.897
+    "Gemma 4": 1.897,
+    "Claude Opus 5.5": 1.8293,
+    "Claude Haiku 4.5": 2.225
    },
    "tokens": {
     "GPT-5 / GPT-4o": 55784,
@@ -4780,7 +5547,9 @@
     "DeepSeek-V4.1": 56071,
     "GLM-5.3": 54716,
     "Mistral Medium 3.5": 58152,
-    "Gemma 4": 51434
+    "Gemma 4": 51434,
+    "Claude Opus 5.5": 76679,
+    "Claude Haiku 4.5": 64269
    }
   },
   {
@@ -4796,7 +5565,9 @@
     "DeepSeek-V4.1": 10.1481,
     "GLM-5.3": 10.0942,
     "Mistral Medium 3.5": 9.7898,
-    "Gemma 4": 5.1774
+    "Gemma 4": 5.1774,
+    "Claude Opus 5.5": 8.092,
+    "Claude Haiku 4.5": 11.7299
    },
    "tokens": {
     "GPT-5 / GPT-4o": 274399,
@@ -4805,7 +5576,9 @@
     "DeepSeek-V4.1": 274416,
     "GLM-5.3": 274411,
     "Mistral Medium 3.5": 272420,
-    "Gemma 4": 140379
+    "Gemma 4": 140379,
+    "Claude Opus 5.5": 339184,
+    "Claude Haiku 4.5": 338819
    }
   },
   {
@@ -4821,7 +5594,9 @@
     "DeepSeek-V4.1": 2.4894,
     "GLM-5.3": 2.6565,
     "Mistral Medium 3.5": 2.1105,
-    "Gemma 4": 1.9973
+    "Gemma 4": 1.9973,
+    "Claude Opus 5.5": 1.7598,
+    "Claude Haiku 4.5": 2.5444
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46981,
@@ -4830,7 +5605,9 @@
     "DeepSeek-V4.1": 67317,
     "GLM-5.3": 72217,
     "Mistral Medium 3.5": 58730,
-    "Gemma 4": 54154
+    "Gemma 4": 54154,
+    "Claude Opus 5.5": 73765,
+    "Claude Haiku 4.5": 73496
    }
   },
   {
@@ -4846,7 +5623,9 @@
     "DeepSeek-V4.1": 3.7417,
     "GLM-5.3": 8.2871,
     "Mistral Medium 3.5": 2.2603,
-    "Gemma 4": 1.7758
+    "Gemma 4": 1.7758,
+    "Claude Opus 5.5": 2.8301,
+    "Claude Haiku 4.5": 4.088
    },
    "tokens": {
     "GPT-5 / GPT-4o": 51849,
@@ -4855,7 +5634,9 @@
     "DeepSeek-V4.1": 101180,
     "GLM-5.3": 225285,
     "Mistral Medium 3.5": 62896,
-    "Gemma 4": 48148
+    "Gemma 4": 48148,
+    "Claude Opus 5.5": 118628,
+    "Claude Haiku 4.5": 118083
    }
   },
   {
@@ -4871,7 +5652,9 @@
     "DeepSeek-V4.1": 2.7803,
     "GLM-5.3": 2.6248,
     "Mistral Medium 3.5": 2.6844,
-    "Gemma 4": 2.296
+    "Gemma 4": 2.296,
+    "Claude Opus 5.5": 2.1512,
+    "Claude Haiku 4.5": 3.1143
    },
    "tokens": {
     "GPT-5 / GPT-4o": 50879,
@@ -4880,7 +5663,9 @@
     "DeepSeek-V4.1": 75181,
     "GLM-5.3": 71355,
     "Mistral Medium 3.5": 74699,
-    "Gemma 4": 62254
+    "Gemma 4": 62254,
+    "Claude Opus 5.5": 90168,
+    "Claude Haiku 4.5": 89957
    }
   },
   {
@@ -4896,7 +5681,9 @@
     "DeepSeek-V4.1": 1.77,
     "GLM-5.3": 4.1679,
     "Mistral Medium 3.5": 2.3647,
-    "Gemma 4": 1.6004
+    "Gemma 4": 1.6004,
+    "Claude Opus 5.5": 2.6763,
+    "Claude Haiku 4.5": 3.8704
    },
    "tokens": {
     "GPT-5 / GPT-4o": 52528,
@@ -4905,7 +5692,9 @@
     "DeepSeek-V4.1": 47862,
     "GLM-5.3": 113305,
     "Mistral Medium 3.5": 65802,
-    "Gemma 4": 43393
+    "Gemma 4": 43393,
+    "Claude Opus 5.5": 112180,
+    "Claude Haiku 4.5": 111796
    }
   },
   {
@@ -4921,7 +5710,9 @@
     "DeepSeek-V4.1": 6.1199,
     "GLM-5.3": 7.7583,
     "Mistral Medium 3.5": 7.6043,
-    "Gemma 4": 2.4759
+    "Gemma 4": 2.4759,
+    "Claude Opus 5.5": 3.1088,
+    "Claude Haiku 4.5": 4.5087
    },
    "tokens": {
     "GPT-5 / GPT-4o": 160329,
@@ -4930,7 +5721,9 @@
     "DeepSeek-V4.1": 165487,
     "GLM-5.3": 210910,
     "Mistral Medium 3.5": 211604,
-    "Gemma 4": 67131
+    "Gemma 4": 67131,
+    "Claude Opus 5.5": 130310,
+    "Claude Haiku 4.5": 130234
    }
   },
   {
@@ -4946,7 +5739,9 @@
     "DeepSeek-V4.1": 2.0459,
     "GLM-5.3": 2.0234,
     "Mistral Medium 3.5": 1.9789,
-    "Gemma 4": 1.9198
+    "Gemma 4": 1.9198,
+    "Claude Opus 5.5": 1.8013,
+    "Claude Haiku 4.5": 2.0637
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48170,
@@ -4955,7 +5750,9 @@
     "DeepSeek-V4.1": 55322,
     "GLM-5.3": 55005,
     "Mistral Medium 3.5": 55066,
-    "Gemma 4": 52053
+    "Gemma 4": 52053,
+    "Claude Opus 5.5": 75505,
+    "Claude Haiku 4.5": 59610
    }
   },
   {
@@ -4971,7 +5768,9 @@
     "DeepSeek-V4.1": 2.2528,
     "GLM-5.3": 2.2497,
     "Mistral Medium 3.5": 2.1749,
-    "Gemma 4": 2.0878
+    "Gemma 4": 2.0878,
+    "Claude Opus 5.5": 2.0485,
+    "Claude Haiku 4.5": 2.2014
    },
    "tokens": {
     "GPT-5 / GPT-4o": 51296,
@@ -4980,7 +5779,9 @@
     "DeepSeek-V4.1": 60919,
     "GLM-5.3": 61158,
     "Mistral Medium 3.5": 60522,
-    "Gemma 4": 56608
+    "Gemma 4": 56608,
+    "Claude Opus 5.5": 85867,
+    "Claude Haiku 4.5": 63587
    }
   },
   {
@@ -4996,7 +5797,9 @@
     "DeepSeek-V4.1": 2.2214,
     "GLM-5.3": 2.242,
     "Mistral Medium 3.5": 2.1647,
-    "Gemma 4": 2.0946
+    "Gemma 4": 2.0946,
+    "Claude Opus 5.5": 2.0792,
+    "Claude Haiku 4.5": 2.1839
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46982,
@@ -5005,7 +5808,9 @@
     "DeepSeek-V4.1": 60070,
     "GLM-5.3": 60948,
     "Mistral Medium 3.5": 60236,
-    "Gemma 4": 56792
+    "Gemma 4": 56792,
+    "Claude Opus 5.5": 87153,
+    "Claude Haiku 4.5": 63081
    }
   },
   {
@@ -5021,7 +5826,9 @@
     "DeepSeek-V4.1": 2.3282,
     "GLM-5.3": 2.1701,
     "Mistral Medium 3.5": 2.0832,
-    "Gemma 4": 2.0596
+    "Gemma 4": 2.0596,
+    "Claude Opus 5.5": 1.9264,
+    "Claude Haiku 4.5": 2.302
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44819,
@@ -5030,7 +5837,9 @@
     "DeepSeek-V4.1": 62958,
     "GLM-5.3": 58993,
     "Mistral Medium 3.5": 57970,
-    "Gemma 4": 55843
+    "Gemma 4": 55843,
+    "Claude Opus 5.5": 80748,
+    "Claude Haiku 4.5": 66493
    }
   },
   {
@@ -5046,7 +5855,9 @@
     "DeepSeek-V4.1": 2.556,
     "GLM-5.3": 2.5099,
     "Mistral Medium 3.5": 2.44,
-    "Gemma 4": 2.2965
+    "Gemma 4": 2.2965,
+    "Claude Opus 5.5": 2.3093,
+    "Claude Haiku 4.5": 2.5049
    },
    "tokens": {
     "GPT-5 / GPT-4o": 56600,
@@ -5055,7 +5866,9 @@
     "DeepSeek-V4.1": 69118,
     "GLM-5.3": 68232,
     "Mistral Medium 3.5": 67899,
-    "Gemma 4": 62268
+    "Gemma 4": 62268,
+    "Claude Opus 5.5": 96797,
+    "Claude Haiku 4.5": 72354
    }
   },
   {
@@ -5071,7 +5884,9 @@
     "DeepSeek-V4.1": 2.0401,
     "GLM-5.3": 1.6448,
     "Mistral Medium 3.5": 1.4911,
-    "Gemma 4": 1.3698
+    "Gemma 4": 1.3698,
+    "Claude Opus 5.5": 1.7163,
+    "Claude Haiku 4.5": 1.9753
    },
    "tokens": {
     "GPT-5 / GPT-4o": 38441,
@@ -5080,7 +5895,9 @@
     "DeepSeek-V4.1": 55167,
     "GLM-5.3": 44714,
     "Mistral Medium 3.5": 41492,
-    "Gemma 4": 37141
+    "Gemma 4": 37141,
+    "Claude Opus 5.5": 71939,
+    "Claude Haiku 4.5": 57056
    }
   },
   {
@@ -5096,7 +5913,9 @@
     "DeepSeek-V4.1": 2.1656,
     "GLM-5.3": 2.1319,
     "Mistral Medium 3.5": 2.3915,
-    "Gemma 4": 1.9449
+    "Gemma 4": 1.9449,
+    "Claude Opus 5.5": 2.1268,
+    "Claude Haiku 4.5": 2.6132
    },
    "tokens": {
     "GPT-5 / GPT-4o": 49873,
@@ -5105,7 +5924,9 @@
     "DeepSeek-V4.1": 58559,
     "GLM-5.3": 57955,
     "Mistral Medium 3.5": 66547,
-    "Gemma 4": 52735
+    "Gemma 4": 52735,
+    "Claude Opus 5.5": 89147,
+    "Claude Haiku 4.5": 75483
    }
   },
   {
@@ -5121,7 +5942,9 @@
     "DeepSeek-V4.1": 2.3626,
     "GLM-5.3": 2.3475,
     "Mistral Medium 3.5": 2.5967,
-    "Gemma 4": 2.203
+    "Gemma 4": 2.203,
+    "Claude Opus 5.5": 2.3181,
+    "Claude Haiku 4.5": 2.8517
    },
    "tokens": {
     "GPT-5 / GPT-4o": 56050,
@@ -5130,7 +5953,9 @@
     "DeepSeek-V4.1": 63886,
     "GLM-5.3": 63817,
     "Mistral Medium 3.5": 72257,
-    "Gemma 4": 59731
+    "Gemma 4": 59731,
+    "Claude Opus 5.5": 97164,
+    "Claude Haiku 4.5": 82372
    }
   },
   {
@@ -5146,7 +5971,9 @@
     "DeepSeek-V4.1": 2.7488,
     "GLM-5.3": 2.737,
     "Mistral Medium 3.5": 2.4125,
-    "Gemma 4": 2.3335
+    "Gemma 4": 2.3335,
+    "Claude Opus 5.5": 1.917,
+    "Claude Haiku 4.5": 2.777
    },
    "tokens": {
     "GPT-5 / GPT-4o": 57743,
@@ -5155,7 +5982,9 @@
     "DeepSeek-V4.1": 74329,
     "GLM-5.3": 74405,
     "Mistral Medium 3.5": 67133,
-    "Gemma 4": 63271
+    "Gemma 4": 63271,
+    "Claude Opus 5.5": 80354,
+    "Claude Haiku 4.5": 80214
    }
   },
   {
@@ -5171,7 +6000,9 @@
     "DeepSeek-V4.1": 3.7604,
     "GLM-5.3": 3.8199,
     "Mistral Medium 3.5": 4.104,
-    "Gemma 4": 2.8939
+    "Gemma 4": 2.8939,
+    "Claude Opus 5.5": 3.1291,
+    "Claude Haiku 4.5": 4.5382
    },
    "tokens": {
     "GPT-5 / GPT-4o": 67711,
@@ -5180,7 +6011,9 @@
     "DeepSeek-V4.1": 101684,
     "GLM-5.3": 103845,
     "Mistral Medium 3.5": 114201,
-    "Gemma 4": 78466
+    "Gemma 4": 78466,
+    "Claude Opus 5.5": 131160,
+    "Claude Haiku 4.5": 131085
    }
   },
   {
@@ -5196,7 +6029,9 @@
     "DeepSeek-V4.1": 2.1592,
     "GLM-5.3": 1.8259,
     "Mistral Medium 3.5": 1.7276,
-    "Gemma 4": 1.6082
+    "Gemma 4": 1.6082,
+    "Claude Opus 5.5": 1.3537,
+    "Claude Haiku 4.5": 1.9614
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46951,
@@ -5205,7 +6040,9 @@
     "DeepSeek-V4.1": 58387,
     "GLM-5.3": 49637,
     "Mistral Medium 3.5": 48074,
-    "Gemma 4": 43605
+    "Gemma 4": 43605,
+    "Claude Opus 5.5": 56743,
+    "Claude Haiku 4.5": 56656
    }
   },
   {
@@ -5221,7 +6058,9 @@
     "DeepSeek-V4.1": 2.0138,
     "GLM-5.3": 1.9891,
     "Mistral Medium 3.5": 1.9228,
-    "Gemma 4": 1.8826
+    "Gemma 4": 1.8826,
+    "Claude Opus 5.5": 1.809,
+    "Claude Haiku 4.5": 1.9796
    },
    "tokens": {
     "GPT-5 / GPT-4o": 48073,
@@ -5230,7 +6069,9 @@
     "DeepSeek-V4.1": 54454,
     "GLM-5.3": 54073,
     "Mistral Medium 3.5": 53506,
-    "Gemma 4": 51046
+    "Gemma 4": 51046,
+    "Claude Opus 5.5": 75824,
+    "Claude Haiku 4.5": 57181
    }
   },
   {
@@ -5246,7 +6087,9 @@
     "DeepSeek-V4.1": 2.3647,
     "GLM-5.3": 2.7413,
     "Mistral Medium 3.5": 1.7544,
-    "Gemma 4": 1.5181
+    "Gemma 4": 1.5181,
+    "Claude Opus 5.5": 2.3948,
+    "Claude Haiku 4.5": 3.4732
    },
    "tokens": {
     "GPT-5 / GPT-4o": 44412,
@@ -5255,7 +6098,9 @@
     "DeepSeek-V4.1": 63945,
     "GLM-5.3": 74523,
     "Mistral Medium 3.5": 48821,
-    "Gemma 4": 41163
+    "Gemma 4": 41163,
+    "Claude Opus 5.5": 100382,
+    "Claude Haiku 4.5": 100324
    }
   },
   {
@@ -5271,7 +6116,9 @@
     "DeepSeek-V4.1": 2.1295,
     "GLM-5.3": 2.1355,
     "Mistral Medium 3.5": 1.819,
-    "Gemma 4": 1.9069
+    "Gemma 4": 1.9069,
+    "Claude Opus 5.5": 1.925,
+    "Claude Haiku 4.5": 2.1435
    },
    "tokens": {
     "GPT-5 / GPT-4o": 47712,
@@ -5280,7 +6127,9 @@
     "DeepSeek-V4.1": 57584,
     "GLM-5.3": 58054,
     "Mistral Medium 3.5": 50618,
-    "Gemma 4": 51704
+    "Gemma 4": 51704,
+    "Claude Opus 5.5": 80688,
+    "Claude Haiku 4.5": 61916
    }
   },
   {
@@ -5296,7 +6145,9 @@
     "DeepSeek-V4.1": 1.6646,
     "GLM-5.3": 1.6439,
     "Mistral Medium 3.5": 1.5678,
-    "Gemma 4": 1.5477
+    "Gemma 4": 1.5477,
+    "Claude Opus 5.5": 1.4755,
+    "Claude Haiku 4.5": 1.6682
    },
    "tokens": {
     "GPT-5 / GPT-4o": 41797,
@@ -5305,7 +6156,9 @@
     "DeepSeek-V4.1": 45013,
     "GLM-5.3": 44690,
     "Mistral Medium 3.5": 43627,
-    "Gemma 4": 41964
+    "Gemma 4": 41964,
+    "Claude Opus 5.5": 61846,
+    "Claude Haiku 4.5": 48185
    }
   },
   {
@@ -5321,7 +6174,9 @@
     "DeepSeek-V4.1": 2.1184,
     "GLM-5.3": 1.4605,
     "Mistral Medium 3.5": 1.4304,
-    "Gemma 4": 1.3716
+    "Gemma 4": 1.3716,
+    "Claude Opus 5.5": 1.8371,
+    "Claude Haiku 4.5": 2.4275
    },
    "tokens": {
     "GPT-5 / GPT-4o": 40030,
@@ -5330,7 +6185,9 @@
     "DeepSeek-V4.1": 57285,
     "GLM-5.3": 39704,
     "Mistral Medium 3.5": 39803,
-    "Gemma 4": 37189
+    "Gemma 4": 37189,
+    "Claude Opus 5.5": 77004,
+    "Claude Haiku 4.5": 70118
    }
   },
   {
@@ -5346,7 +6203,9 @@
     "DeepSeek-V4.1": 2.398,
     "GLM-5.3": 2.4195,
     "Mistral Medium 3.5": 2.3348,
-    "Gemma 4": 2.2415
+    "Gemma 4": 2.2415,
+    "Claude Opus 5.5": 2.2032,
+    "Claude Haiku 4.5": 2.3814
    },
    "tokens": {
     "GPT-5 / GPT-4o": 58895,
@@ -5355,7 +6214,9 @@
     "DeepSeek-V4.1": 64843,
     "GLM-5.3": 65774,
     "Mistral Medium 3.5": 64970,
-    "Gemma 4": 60776
+    "Gemma 4": 60776,
+    "Claude Opus 5.5": 92349,
+    "Claude Haiku 4.5": 68788
    }
   },
   {
@@ -5371,7 +6232,9 @@
     "DeepSeek-V4.1": 1.8514,
     "GLM-5.3": 1.9235,
     "Mistral Medium 3.5": 1.8481,
-    "Gemma 4": 1.7875
+    "Gemma 4": 1.7875,
+    "Claude Opus 5.5": 1.9063,
+    "Claude Haiku 4.5": 1.9474
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46208,
@@ -5380,7 +6243,9 @@
     "DeepSeek-V4.1": 50063,
     "GLM-5.3": 52291,
     "Mistral Medium 3.5": 51428,
-    "Gemma 4": 48466
+    "Gemma 4": 48466,
+    "Claude Opus 5.5": 79905,
+    "Claude Haiku 4.5": 56250
    }
   },
   {
@@ -5396,7 +6261,9 @@
     "DeepSeek-V4.1": 1.8822,
     "GLM-5.3": 1.9045,
     "Mistral Medium 3.5": 1.8637,
-    "Gemma 4": 1.7745
+    "Gemma 4": 1.7745,
+    "Claude Opus 5.5": 1.7316,
+    "Claude Haiku 4.5": 1.8998
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46548,
@@ -5405,7 +6272,9 @@
     "DeepSeek-V4.1": 50896,
     "GLM-5.3": 51773,
     "Mistral Medium 3.5": 51862,
-    "Gemma 4": 48114
+    "Gemma 4": 48114,
+    "Claude Opus 5.5": 72582,
+    "Claude Haiku 4.5": 54875
    }
   },
   {
@@ -5421,7 +6290,9 @@
     "DeepSeek-V4.1": 2.0443,
     "GLM-5.3": 2.0323,
     "Mistral Medium 3.5": 1.9742,
-    "Gemma 4": 1.8885
+    "Gemma 4": 1.8885,
+    "Claude Opus 5.5": 1.8606,
+    "Claude Haiku 4.5": 2.0147
    },
    "tokens": {
     "GPT-5 / GPT-4o": 43993,
@@ -5430,7 +6301,9 @@
     "DeepSeek-V4.1": 55280,
     "GLM-5.3": 55248,
     "Mistral Medium 3.5": 54936,
-    "Gemma 4": 51204
+    "Gemma 4": 51204,
+    "Claude Opus 5.5": 77988,
+    "Claude Haiku 4.5": 58196
    }
   },
   {
@@ -5446,7 +6319,9 @@
     "DeepSeek-V4.1": 3.3889,
     "GLM-5.3": 5.5318,
     "Mistral Medium 3.5": 2.9489,
-    "Gemma 4": 2.6386
+    "Gemma 4": 2.6386,
+    "Claude Opus 5.5": 2.2787,
+    "Claude Haiku 4.5": 3.3008
    },
    "tokens": {
     "GPT-5 / GPT-4o": 54227,
@@ -5455,7 +6330,9 @@
     "DeepSeek-V4.1": 91639,
     "GLM-5.3": 150383,
     "Mistral Medium 3.5": 82059,
-    "Gemma 4": 71543
+    "Gemma 4": 71543,
+    "Claude Opus 5.5": 95515,
+    "Claude Haiku 4.5": 95345
    }
   },
   {
@@ -5471,7 +6348,9 @@
     "DeepSeek-V4.1": 2.83,
     "GLM-5.3": 2.7157,
     "Mistral Medium 3.5": 2.8136,
-    "Gemma 4": 2.4059
+    "Gemma 4": 2.4059,
+    "Claude Opus 5.5": 2.3962,
+    "Claude Haiku 4.5": 3.2032
    },
    "tokens": {
     "GPT-5 / GPT-4o": 58238,
@@ -5480,7 +6359,9 @@
     "DeepSeek-V4.1": 76526,
     "GLM-5.3": 73826,
     "Mistral Medium 3.5": 78294,
-    "Gemma 4": 65233
+    "Gemma 4": 65233,
+    "Claude Opus 5.5": 100439,
+    "Claude Haiku 4.5": 92524
    }
   },
   {
@@ -5496,7 +6377,9 @@
     "DeepSeek-V4.1": 1.1687,
     "GLM-5.3": 1.4781,
     "Mistral Medium 3.5": 1.5753,
-    "Gemma 4": 1.161
+    "Gemma 4": 1.161,
+    "Claude Opus 5.5": 1.2368,
+    "Claude Haiku 4.5": 1.8222
    },
    "tokens": {
     "GPT-5 / GPT-4o": 41288,
@@ -5505,7 +6388,9 @@
     "DeepSeek-V4.1": 31603,
     "GLM-5.3": 40182,
     "Mistral Medium 3.5": 43836,
-    "Gemma 4": 31479
+    "Gemma 4": 31479,
+    "Claude Opus 5.5": 51842,
+    "Claude Haiku 4.5": 52633
    }
   },
   {
@@ -5521,7 +6406,9 @@
     "DeepSeek-V4.1": 10.0968,
     "GLM-5.3": 10.0416,
     "Mistral Medium 3.5": 9.8278,
-    "Gemma 4": 4.464
+    "Gemma 4": 4.464,
+    "Claude Opus 5.5": 7.7832,
+    "Claude Haiku 4.5": 11.2912
    },
    "tokens": {
     "GPT-5 / GPT-4o": 273025,
@@ -5530,7 +6417,9 @@
     "DeepSeek-V4.1": 273028,
     "GLM-5.3": 272980,
     "Mistral Medium 3.5": 273478,
-    "Gemma 4": 121037
+    "Gemma 4": 121037,
+    "Claude Opus 5.5": 326241,
+    "Claude Haiku 4.5": 326146
    }
   },
   {
@@ -5546,7 +6435,9 @@
     "DeepSeek-V4.1": 1.4059,
     "GLM-5.3": 1.6039,
     "Mistral Medium 3.5": 1.3472,
-    "Gemma 4": 1.2154
+    "Gemma 4": 1.2154,
+    "Claude Opus 5.5": 1.6652,
+    "Claude Haiku 4.5": 1.725
    },
    "tokens": {
     "GPT-5 / GPT-4o": 34943,
@@ -5555,7 +6446,9 @@
     "DeepSeek-V4.1": 38018,
     "GLM-5.3": 43602,
     "Mistral Medium 3.5": 37488,
-    "Gemma 4": 32954
+    "Gemma 4": 32954,
+    "Claude Opus 5.5": 69797,
+    "Claude Haiku 4.5": 49826
    }
   },
   {
@@ -5571,7 +6464,9 @@
     "DeepSeek-V4.1": 2.1787,
     "GLM-5.3": 2.1687,
     "Mistral Medium 3.5": 2.0908,
-    "Gemma 4": 1.9651
+    "Gemma 4": 1.9651,
+    "Claude Opus 5.5": 1.9495,
+    "Claude Haiku 4.5": 2.1291
    },
    "tokens": {
     "GPT-5 / GPT-4o": 46007,
@@ -5580,7 +6475,9 @@
     "DeepSeek-V4.1": 58914,
     "GLM-5.3": 58956,
     "Mistral Medium 3.5": 58182,
-    "Gemma 4": 53281
+    "Gemma 4": 53281,
+    "Claude Opus 5.5": 81716,
+    "Claude Haiku 4.5": 61500
    }
   }
  ]

@@ -27,5 +27,6 @@ build-backend = "uv_build"
 
 [dependency-groups]
 data = [
+    "anthropic>=2.1.0",
     "pycountry>=26.2.16",
 ]

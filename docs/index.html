@@ -114,7 +114,8 @@ code { font-size: 13px; }
       <button id="loadall" type="button">Load all tokenizers</button>
     </div>
     <p class="note">Enter each model's input price (it changes too often to hard-code) to get a monthly cost.
-      Large tokenizers load on demand; their files come straight from Hugging Face.</p>
+      Large tokenizers load on demand; their files come straight from Hugging Face.
+      Claude's tokenizer only runs on Anthropic's servers, so it isn't here; its per-language numbers are below.</p>
     <div class="row" style="margin-top:16px">
       <label for="show">Show tokens for</label>
       <select id="show"></select>
@@ -162,6 +163,7 @@ code { font-size: 13px; }
       Prior work: Petrov et al., <a href="https://arxiv.org/abs/2305.15425">Language Model Tokenizers Introduce Unfairness Between Languages</a> (NeurIPS 2023);
       Ahia et al., <a href="https://arxiv.org/abs/2305.13707">Do All Languages Cost the Same?</a> (EMNLP 2023).</p>
     <p id="src"></p>
+    <p id="claude"></p>
     <p>Code, CLI and <code>tokentax eval</code> for your own tokenizer: <a href="https://github.com/Anri-Lombard/tokentax">github.com/Anri-Lombard/tokentax</a>.</p>
     <p>Samples: Universal Declaration of Human Rights, Article 1 (UN OHCHR translations via the Unicode UDHR project).
       In-browser tokenizers: <a href="https://github.com/dqbd/tiktoken">js-tiktoken</a> and
@@ -182,6 +184,11 @@ fetch("tax.json").then((r) => r.json()).then((D) => {
   let sel = byCode[params.get("lang")] ? params.get("lang") : "zul_Latn";
   let tok = toks.includes(params.get("tok")) ? params.get("tok") : toks[0];
   $("src").textContent = "Data: " + D.source + ".";
+  const api = toks.filter((t) => D.tokenizers[t][0] === "anthropic");
+  const day = new Date(D.api_measured).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric", timeZone: "UTC" });
+  $("claude").textContent = `Claude columns: measured through Anthropic's API on ${day}, with ${api.map((t) => D.tokenizers[t][1]).join(" and ")}. ` +
+    "Claude has two tokenizers: Opus 5.5, Sonnet 5.5, Haiku 5.5 and Fable 5.1 gave identical counts on 300 sampled sentences, " +
+    "as did Haiku 4.5 and Sonnet 4.6. Each count has the message wrapper's tokens taken off.";
 
   for (const l of langs) $("lang").append(new Option(`${l.name} (${l.script})`, l.code));
   for (const t of toks) $("tok").append(new Option(t, t));
@@ -297,7 +304,7 @@ const AUTO_MB = 10;  // tokenizers smaller than this load straight away; bigger 
 const hub = (repo, file) => `https://huggingface.co/${repo}/resolve/main/${file}`;
 
 const [data, samples] = await Promise.all([fetch("tax.json").then((r) => r.json()), fetch("samples.json").then((r) => r.json())]);
-const models = Object.entries(data.tokenizers).map(([label, [backend, id]]) => ({ label, backend, id, enc: null, state: "idle", mb: null }));
+const models = Object.entries(data.tokenizers).filter(([, [backend]]) => backend !== "anthropic").map(([label, [backend, id]]) => ({ label, backend, id, enc: null, state: "idle", mb: null }));
 
 for (const s of samples.samples) $("sample").append(new Option(s.name, s.text));
 $("sample").addEventListener("change", (e) => { if (e.target.value) { $("text").value = e.target.value; update(); } });
